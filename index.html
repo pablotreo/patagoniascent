@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>PatagoniAscent</title>
+	<meta name="author" content="PatagoniAscent"/>
+	<meta name="description" content="Una experiencia nueva en Patagónia"/>
+	<meta name="keywords" content="Argentina,Patagonia,Chalten,Calafate,Fitz Roy,Cerro Torres,Montaña,Escalada,Expediciones,Sky,Mountaineering,Climbing"/>
+	<meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
+    <!-- FullPage CSS -->
+	<link rel="stylesheet" type="text/css" href="fullpage/jquery.fullPage.css" />
+	<!-- PatagoniAscent CSS -->
+	<link rel="stylesheet" type="text/css" href="patagoniascent.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+</head>
+
+<!-- Modals -->
+    <div class="modal" id="primero" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <img class="img-responsive hidden-xs" src="img/loguito-azul-01.png">
+            <h3 class="modal-title" id="myModalLabel">Juan M. Raselli “Pipa”</h3>
+            <h4>GUÍA DE ALTA MONTAÑA</br>UIAGM</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img class="img-responsive hidden-xs" src="img/juan-01.jpg">
+              Juan Manuel Raselli “Pipa” es guía de trekking en cordillera  desde el año 2009 y guía de alta montaña UIAGM desde el año 2014. Realizó escaladas en varios lugares de  la cordillera de los Andes argentinos, también en Perú, Brasil, Francia, España, Italia y Austria.</br>
+              Trabajó en el Cerro Aconcagua desde el año 2002 y a partir del 2004 reside en Chaltén donde realizo varias escaladas y guiadas en las montañas del cordón del Fitz Roy y el Cerro Torre.
+            </p>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-primary"><a href="">CONTACTAR AQUÍ</a></button>
+          </div> -->
+        </div>
+      </div>
+    </div> 
+    <div class="modal" id="segundo" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <img class="img-responsive hidden-xs" src="img/loguito-azul-01.png">
+            <h3 class="modal-title" id="myModalLabel">Roberto “Indio” Treu</h3>
+            <h4>GUÍA DE ALTA MONTAÑA</br>UIAGM</h4>
+          </div>
+          <div class="modal-body"> 
+            <img class="img-responsive hidden-xs" src="img/roberto-01.jpg">
+            <p>
+              Oriundo de la provincia de San Juan, donde comenzó su pasión por la montaña. Ascendió distintas cumbres de los Andes centrales y norte. Desde el 2005 reside en Patagonia, donde realizo importantes escaladas y aperturas en el cordón del Cerro Torre y Fitz Roy. Algunos de los logros mas importantes travesía Standhardt - Herron - Egger, la apertura de la vía "Directa Huarpe" en la cara oeste del Cerro torre el cual ascendió en tres oportunidades y en cuatro ocasiones el cerro Fitz Roy.
+            </p>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-primary"><a href="">CONTACTAR AQUÍ</a></button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="tercero" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+              <img class="img-responsive hidden-xs" src="img/loguito-azul-01.png">
+              <h3 class="modal-title">Tomás Roy Aguiló</h3> 
+              <h4>GUÍA DE ALTA MONTAÑA</br>UIAGM</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+                <img class="img-responsive hidden-xs" src="img/tomas-01.jpg">
+                Nacido en Bariloche, Guia de Alta Montaña UIAGM, hace 10 años que vive en El Chalten. A los 5 años de edad comenzó a esquiar y desde ahí desarrollo su pasión por las Montañas. Trabajo y Escalo por Argentina, Chile, Peru, Bolivia, Nepal, España, Francia, Italia. En Argentina trabajo en Aconcagua en varias ocasiones, Patagonia Norte, y en Patagonia Sur “El Chalten” Ascendio 8 veces el Fitz Roy y 2 veces el Cerro Torre, sumado a numerosos ascensos en otras agujas.
+            </p>
+          </div> 
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-primary"><a href="">CONTACTAR AQUÍ</a></button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!--End Modals -->
+
+<body>
+
+<!-- Navigation data-target="navbar-fixed-top"-->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="#home">
+                        <img class="img-responsive" alt="patagoniascent" src="img/logo.png"></img>
+                    </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+                <ul id="menu" class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section 
+                    <li data-menuanchor="primera" >
+                        <a href="#primera" class="hidden"></a>
+                    </li>-->
+                    <li data-menuanchor="nosotros">
+                        <a href="#nosotros">NOSOTROS</a>
+                    </li>
+                    <li data-menuanchor="montana">
+                        <a href="#montana">MONTAÑA</a>
+                    </li>
+                    <li data-menuanchor="escalada">
+                        <a href="#escalada">ESCALADA</a>
+                    </li>
+                    <li data-menuanchor="ski">
+                        <a href="#ski">SKI</a>
+                    </li>
+                    <li data-menuanchor="cursos">
+                        <a href="#cursos">CURSOS</a>
+                    </li>
+                    <li data-menuanchor="contacto">
+                        <a href="#contacto">CONTACTO</a>
+                        <ul class="nav-logos">
+                            <a href="https://www.facebook.com/PatagoniAscent" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
+                            <a href="https://www.youtube.com/channel/UCMqFsAQ6I0cjByx82SaIQRg" target="_blank"><i class="fa fa-youtube fa-fw"></i></a>
+                            <a href="https://www.instagram.com/patagonia_ascent/" target="_blank"><i class="fa fa-instagram fa-fw"></i></a> 
+                        </ul>
+                    </li>
+                    <li>
+                      <a href="http://www.aagm.com.ar" target="_blank">  
+                        <img src="img/aagm.png" alt="AAGM" class="img-responsive hidden-xs hidden-sm">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.ivbv.info/en/home.html" target="_blank">
+                        <img src="img/uiagm.png" alt="UIAGM" class="img-responsive hidden-xs hidden-sm">
+                      </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+<div id="fullpage">
+
+	<div class="section" id="section">
+		<div class="slide" id="slide1">
+                <h3 class="hidden-xs">Te damos la bienvenida a</h3>
+                <h1>PATAGONIA ASCENT...</h1>
+                <h3>UNA EMPRESA JOVEN Y CON MUCHA MOTIVACIÓN</p> PARA AYUDARTE A CONQUISTAR TUS SUEÑOS!!!</h3> 
+        </div>
+		<div class="slide" id="slide2">
+                <h3>Esta temporada tus sueños son realidad...</h3>
+                <h1>PATAGONIA 2018</h1>
+                <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
+                <p class="link-slide">
+                    <a href="#nosotros">QUIENES SOMOS</a>
+                </p>
+        </div>
+        <div class="slide" id="slide3">
+                <h3>Escalada en la meca del alpinismo mundial...</h3>
+                <h1>"EL CHALTEN"</h1>
+                <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
+                    <p class="link-slide">
+                <a href="#montana" >VER PROPUESTAS</a>
+                </p>
+        </div>
+        <div class="slide" id="slide4">
+                <h3>Disfruta de la mejor nieve y paisajes...</h3>              
+                <h1>SKI EN PATAGONIA</h1>
+                <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
+                <p class="link-slide">
+                    <a href="#escalada" >VER PROPUESTAS</a>
+                </p>
+        </div>
+        <div class="slide" id="slide5">
+                <h3>Acá podrás ver nuestras ultimas expediciones realizadas.</h3>
+                <h1>FANPAGE</h1>
+                <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
+                <p class="link-slide">
+                    <a href="https://www.facebook.com/PatagoniAscent" target="_blank">MIRANOS EN FACEBOOK</a>
+                </p>
+        </div>
+	</div>
+
+	<div class="section" id="section1">
+              <h2>QUIENES SOMOS</h2>
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Juan Raselli</h4>
+                        <h5>GUÍA DE ALTA MONTAÑA UIAGM</h5>
+                        <button type="button" class="boton" data-toggle="modal" data-target="#primero">
+                           [ más info aquí ]
+                        </button>  
+                    </div>
+                    <img src="img/juan-01.jpg" alt="UIAGM" class="img-responsive img-thumbnail">
+                </div>
+                <div class="thumbnail">   
+                    <div class="caption">
+                      <h4>Roberto Treu</h4>
+                      <h5>GUÍA DE ALTA MONTAÑA UIAGM</h5>
+                      <button type="button" class="boton" data-toggle="modal" data-target="#segundo">
+                           [ más info aquí ]
+                      </button>
+                    </div>
+                    <img src="img/roberto-01.jpg" alt="UIAGM" class="img-responsive img-thumbnail">
+                </div>
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Tomás Aguiló</h4>
+                        <h5>GUÍA DE ALTA MONTAÑA UIAGM</h5>
+                        <button type="button" class="boton" data-toggle="modal" data-target="#tercero">
+                           [ más info aquí ]
+                        </button>
+                    </div>
+                    <img src="img/tomas-01.jpg" alt="UIAGM" class="img-responsive img-thumbnail">
+                </div>
+             <div> 
+                <p>Somos tres amigos Guías de Alta Montaña, con certificación internacional U.I.A.G.M.. Vivimos en el Chalten gran parte del año, donde ejercemos nuestra profesión y también donde desarrollamos nuestra pasión por la escalada y el ski. A lo largo de los años hemos ganado mucha experiencia en esta región, la cual queremos trasmitir abriendo las puertas a todos aquellos que quieran vivir su experiencia Patagonica de forma segura e inolvidable.</p>
+             </div> 
+    </div>
+	
+	<div class="section" id="section2">
+        <h2>MONTAÑA</h2>
+        <ul class="nav menu-section">
+          <li><a href="campodehielo.html">Expedición al Campo de Hielo Patagónico Sur.</a></li>
+          <li><a href="cerrosolo.html">Cº Solo.</a></li>
+          <li><a href="cerroelectrico.html">Cº Electrico.</a></li>
+          <li><a href="cerrogorrablanca.html">Gorra Blanca.</a></li>
+          <li><a href="marianomoreno.html">Mariano Moreno.</a></li>
+          <li><a href="vespignani.html">Vespignani.</a></li>
+          <li><a href="travesiapasosup.html">Travesía Paso Superior – Paso Guillaumet.</a></li>
+          <li><a href="vueltafitzroy.html">Vuelta al Fitz Roy y base Cerro Torre.</a></li>
+        </ul>
+    </div>
+	
+	<div class="section" id="section3">
+        <h2>ESCALADA</h2>
+        <ul class="nav menu-section">
+          <li><a href="escaladaroca.html">Escalada deportiva en roca.</a></li>
+          <li><a href="agujaguillaumet.html">Ag. Guillaumet.</a></li>
+          <li><a href="cerromocho.html">Cº Mocho.</a></li>
+          <li><a href="agujadelas.html">Ag. De la S.</a></li>
+          <li><a href="agujapoincenot.html">Ag. Poincenot.</a></li>
+          <li><a href="cerrofitzroy.html">Cº Fitz Roy.</a></li>
+          <li><a href="cerrotorre.html">Cº Torre.</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="section4">
+        <h2>ESQUÍ</h2>       
+        <ul class="nav menu-section">
+            <li><a href="patagonianorte.html">Patagonia Norte.</a></li>
+            <li><a href="patagoniasur.html">Patagonia Sur.</a></li>
+        </ul>  
+    </div>
+
+    <div class="section" id="section5">
+       <h2>CURSOS</h2>
+        <p> También estamos comprometidos con la formación en lo relacionado a la montaña.
+        Te damos las herramientas básicas para moverte en montaña con seguridad y fluidez.
+        Cursos y clínicas de todos los niveles según el terreno que quieras formarte.</p>            
+        <ul class="nav menu-section">
+            <li><a href="cursoescaladaroca.html">Escalada en roca.</a></li>
+            <li><a href="cursoescaladahielo.html">Escalada en hielo y transito en glaciar.</a></li>
+            <li><a href="cursoskimontana.html">Esquí de montaña.</a></li>
+        </ul> 
+    </div>
+
+    <div class="section" id="section6">
+        <h2>CONTACTO</h2>
+        <form name="sentMessage" class="contactForm">
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <input type="text" class="form-control" placeholder="Nombre:" id="name" required data-validation-required-message="Por favor ingrese el nombre.">
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <input type="email" class="form-control" placeholder="E-mail:" id="email" required data-validation-required-message="Por favor ingrese el e-mail.">
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <textarea rows="5" class="form-control" placeholder="Mensaje / Consulta / Presupuesto:" id="message" required data-validation-required-message="Por favor ingrese el mensaje."></textarea>
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                </div>
+            </div>  
+            <div class= "row">
+                <div class="footer col-xs-6">
+                    <h4><b>PATAGONIA</b>SCENT</h4>
+                </div>
+                <div class="footer col-xs-6">
+                    <p>
+                    <a href="mailto:#">patagoniascent@gmail.com</a><br>
+                    Tel: +54 264 4449633<br>
+                    El Chalten - Patagonia - Argentina<br>
+                    </p>
+                </div>
+            </div>
+        </form>          
+    </div>
+
+
+	<!-- jQuery JavaScript -->
+	<script src="jquery/dist/jquery.min.js"></script>
+	<!-- Bootstrap JavaScript -->
+    <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- FullPage JavaScript -->
+	<script type="text/javascript" src="fullpage/jquery.fullPage.js"></script>
+	<!-- PatagoniAscent JavaScript 
+	<script type="text/javascript" src="patagoniascent.js"></script>-->
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+                anchors: ['home', 'nosotros', 'montana', 'escalada', 'ski', 'cursos', 'contacto'],
+                menu: '#menu',
+                scrollingSpeed: 800,
+				verticalCentered: true,
+                navigation: false,
+                slidesNavigation: true,
+                slidesNavPosition: 'bottom',
+                controlArrows: false,
+            afterRender: function(){
+                    setInterval(function(){
+                    $.fn.fullpage.moveSlideRight();
+                }, 6000);
+            }
+
+			});
+		});
+        
+	</script>
+
+</body>
+</html>

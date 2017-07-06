@@ -1,0 +1,727 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.1.59
+3 info using node@v0.8.8
+4 verbose read json /Users/pablotreo/Sites/bower_components/bootstrap/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/pablotreo/Sites/bower_components/bootstrap',
+6 verbose install   [ 'btoa',
+6 verbose install     'glob',
+6 verbose install     'grunt',
+6 verbose install     'grunt-autoprefixer',
+6 verbose install     'grunt-banner',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-compress',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-csslint',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-jade',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-less',
+6 verbose install     'grunt-contrib-qunit',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-csscomb',
+6 verbose install     'grunt-exec',
+6 verbose install     'grunt-html',
+6 verbose install     'grunt-jekyll',
+6 verbose install     'grunt-jscs',
+6 verbose install     'grunt-saucelabs',
+6 verbose install     'grunt-sed',
+6 verbose install     'load-grunt-tasks',
+6 verbose install     'markdown-it',
+6 verbose install     'npm-shrinkwrap',
+6 verbose install     'time-grunt' ] ]
+7 verbose from cache /Users/pablotreo/Sites/bower_components/bootstrap/package.json
+8 info preinstall bootstrap@3.3.4
+9 verbose from cache /Users/pablotreo/Sites/bower_components/bootstrap/package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'btoa@~1.1.2', null ]
+12 silly cache add name=undefined spec="btoa@~1.1.2" args=["btoa@~1.1.2",null]
+13 verbose parsed url { pathname: 'btoa@~1.1.2',
+13 verbose parsed url   path: 'btoa@~1.1.2',
+13 verbose parsed url   href: 'btoa@~1.1.2' }
+14 silly cache add name="btoa" spec="~1.1.2" args=["btoa","~1.1.2"]
+15 verbose parsed url { pathname: '~1.1.2', path: '~1.1.2', href: '~1.1.2' }
+16 verbose addNamed [ 'btoa', '~1.1.2' ]
+17 verbose addNamed [ null, '>=1.1.2- <1.2.0-' ]
+18 verbose cache add [ 'glob@~5.0.3', null ]
+19 silly cache add name=undefined spec="glob@~5.0.3" args=["glob@~5.0.3",null]
+20 verbose parsed url { pathname: 'glob@~5.0.3',
+20 verbose parsed url   path: 'glob@~5.0.3',
+20 verbose parsed url   href: 'glob@~5.0.3' }
+21 silly cache add name="glob" spec="~5.0.3" args=["glob","~5.0.3"]
+22 verbose parsed url { pathname: '~5.0.3', path: '~5.0.3', href: '~5.0.3' }
+23 verbose addNamed [ 'glob', '~5.0.3' ]
+24 verbose addNamed [ null, '>=5.0.3- <5.1.0-' ]
+25 verbose cache add [ 'grunt@~0.4.5', null ]
+26 silly cache add name=undefined spec="grunt@~0.4.5" args=["grunt@~0.4.5",null]
+27 verbose parsed url { pathname: 'grunt@~0.4.5',
+27 verbose parsed url   path: 'grunt@~0.4.5',
+27 verbose parsed url   href: 'grunt@~0.4.5' }
+28 silly cache add name="grunt" spec="~0.4.5" args=["grunt","~0.4.5"]
+29 verbose parsed url { pathname: '~0.4.5', path: '~0.4.5', href: '~0.4.5' }
+30 verbose addNamed [ 'grunt', '~0.4.5' ]
+31 verbose addNamed [ null, '>=0.4.5- <0.5.0-' ]
+32 silly lockFile 7a8901a8-btoa-1-1-2 btoa@~1.1.2
+33 verbose lock btoa@~1.1.2 /Users/pablotreo/.npm/7a8901a8-btoa-1-1-2.lock
+34 silly lockFile f997d10b-glob-5-0-3 glob@~5.0.3
+35 verbose lock glob@~5.0.3 /Users/pablotreo/.npm/f997d10b-glob-5-0-3.lock
+36 silly lockFile 240974bb-grunt-0-4-5 grunt@~0.4.5
+37 verbose lock grunt@~0.4.5 /Users/pablotreo/.npm/240974bb-grunt-0-4-5.lock
+38 verbose cache add [ 'grunt-autoprefixer@~2.2.0', null ]
+39 silly cache add name=undefined spec="grunt-autoprefixer@~2.2.0" args=["grunt-autoprefixer@~2.2.0",null]
+40 verbose parsed url { pathname: 'grunt-autoprefixer@~2.2.0',
+40 verbose parsed url   path: 'grunt-autoprefixer@~2.2.0',
+40 verbose parsed url   href: 'grunt-autoprefixer@~2.2.0' }
+41 silly cache add name="grunt-autoprefixer" spec="~2.2.0" args=["grunt-autoprefixer","~2.2.0"]
+42 verbose parsed url { pathname: '~2.2.0', path: '~2.2.0', href: '~2.2.0' }
+43 verbose addNamed [ 'grunt-autoprefixer', '~2.2.0' ]
+44 verbose addNamed [ null, '>=2.2.0- <2.3.0-' ]
+45 silly lockFile 61c906b8-grunt-autoprefixer-2-2-0 grunt-autoprefixer@~2.2.0
+46 verbose lock grunt-autoprefixer@~2.2.0 /Users/pablotreo/.npm/61c906b8-grunt-autoprefixer-2-2-0.lock
+47 verbose cache add [ 'grunt-banner@~0.3.1', null ]
+48 silly cache add name=undefined spec="grunt-banner@~0.3.1" args=["grunt-banner@~0.3.1",null]
+49 verbose parsed url { pathname: 'grunt-banner@~0.3.1',
+49 verbose parsed url   path: 'grunt-banner@~0.3.1',
+49 verbose parsed url   href: 'grunt-banner@~0.3.1' }
+50 silly cache add name="grunt-banner" spec="~0.3.1" args=["grunt-banner","~0.3.1"]
+51 verbose parsed url { pathname: '~0.3.1', path: '~0.3.1', href: '~0.3.1' }
+52 verbose addNamed [ 'grunt-banner', '~0.3.1' ]
+53 verbose addNamed [ null, '>=0.3.1- <0.4.0-' ]
+54 silly lockFile fdfb7bcf-grunt-banner-0-3-1 grunt-banner@~0.3.1
+55 verbose lock grunt-banner@~0.3.1 /Users/pablotreo/.npm/fdfb7bcf-grunt-banner-0-3-1.lock
+56 verbose cache add [ 'grunt-contrib-clean@~0.6.0', null ]
+57 silly cache add name=undefined spec="grunt-contrib-clean@~0.6.0" args=["grunt-contrib-clean@~0.6.0",null]
+58 verbose parsed url { pathname: 'grunt-contrib-clean@~0.6.0',
+58 verbose parsed url   path: 'grunt-contrib-clean@~0.6.0',
+58 verbose parsed url   href: 'grunt-contrib-clean@~0.6.0' }
+59 silly cache add name="grunt-contrib-clean" spec="~0.6.0" args=["grunt-contrib-clean","~0.6.0"]
+60 verbose parsed url { pathname: '~0.6.0', path: '~0.6.0', href: '~0.6.0' }
+61 verbose addNamed [ 'grunt-contrib-clean', '~0.6.0' ]
+62 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+63 silly lockFile 944867a7-grunt-contrib-clean-0-6-0 grunt-contrib-clean@~0.6.0
+64 verbose lock grunt-contrib-clean@~0.6.0 /Users/pablotreo/.npm/944867a7-grunt-contrib-clean-0-6-0.lock
+65 verbose cache add [ 'grunt-contrib-compress@~0.13.0', null ]
+66 silly cache add name=undefined spec="grunt-contrib-compress@~0.13.0" args=["grunt-contrib-compress@~0.13.0",null]
+67 verbose parsed url { pathname: 'grunt-contrib-compress@~0.13.0',
+67 verbose parsed url   path: 'grunt-contrib-compress@~0.13.0',
+67 verbose parsed url   href: 'grunt-contrib-compress@~0.13.0' }
+68 silly cache add name="grunt-contrib-compress" spec="~0.13.0" args=["grunt-contrib-compress","~0.13.0"]
+69 verbose parsed url { pathname: '~0.13.0', path: '~0.13.0', href: '~0.13.0' }
+70 verbose addNamed [ 'grunt-contrib-compress', '~0.13.0' ]
+71 verbose addNamed [ null, '>=0.13.0- <0.14.0-' ]
+72 silly lockFile a701c92b-grunt-contrib-compress-0-13-0 grunt-contrib-compress@~0.13.0
+73 verbose lock grunt-contrib-compress@~0.13.0 /Users/pablotreo/.npm/a701c92b-grunt-contrib-compress-0-13-0.lock
+74 verbose cache add [ 'grunt-contrib-concat@~0.5.1', null ]
+75 silly cache add name=undefined spec="grunt-contrib-concat@~0.5.1" args=["grunt-contrib-concat@~0.5.1",null]
+76 verbose parsed url { pathname: 'grunt-contrib-concat@~0.5.1',
+76 verbose parsed url   path: 'grunt-contrib-concat@~0.5.1',
+76 verbose parsed url   href: 'grunt-contrib-concat@~0.5.1' }
+77 silly cache add name="grunt-contrib-concat" spec="~0.5.1" args=["grunt-contrib-concat","~0.5.1"]
+78 verbose parsed url { pathname: '~0.5.1', path: '~0.5.1', href: '~0.5.1' }
+79 verbose addNamed [ 'grunt-contrib-concat', '~0.5.1' ]
+80 verbose addNamed [ null, '>=0.5.1- <0.6.0-' ]
+81 silly lockFile 03406c1b-grunt-contrib-concat-0-5-1 grunt-contrib-concat@~0.5.1
+82 verbose lock grunt-contrib-concat@~0.5.1 /Users/pablotreo/.npm/03406c1b-grunt-contrib-concat-0-5-1.lock
+83 verbose cache add [ 'grunt-contrib-connect@~0.9.0', null ]
+84 silly cache add name=undefined spec="grunt-contrib-connect@~0.9.0" args=["grunt-contrib-connect@~0.9.0",null]
+85 verbose parsed url { pathname: 'grunt-contrib-connect@~0.9.0',
+85 verbose parsed url   path: 'grunt-contrib-connect@~0.9.0',
+85 verbose parsed url   href: 'grunt-contrib-connect@~0.9.0' }
+86 silly cache add name="grunt-contrib-connect" spec="~0.9.0" args=["grunt-contrib-connect","~0.9.0"]
+87 verbose parsed url { pathname: '~0.9.0', path: '~0.9.0', href: '~0.9.0' }
+88 verbose addNamed [ 'grunt-contrib-connect', '~0.9.0' ]
+89 verbose addNamed [ null, '>=0.9.0- <0.10.0-' ]
+90 silly lockFile d5dfeaa0-grunt-contrib-connect-0-9-0 grunt-contrib-connect@~0.9.0
+91 verbose lock grunt-contrib-connect@~0.9.0 /Users/pablotreo/.npm/d5dfeaa0-grunt-contrib-connect-0-9-0.lock
+92 verbose cache add [ 'grunt-contrib-copy@~0.8.0', null ]
+93 silly cache add name=undefined spec="grunt-contrib-copy@~0.8.0" args=["grunt-contrib-copy@~0.8.0",null]
+94 verbose parsed url { pathname: 'grunt-contrib-copy@~0.8.0',
+94 verbose parsed url   path: 'grunt-contrib-copy@~0.8.0',
+94 verbose parsed url   href: 'grunt-contrib-copy@~0.8.0' }
+95 silly cache add name="grunt-contrib-copy" spec="~0.8.0" args=["grunt-contrib-copy","~0.8.0"]
+96 verbose parsed url { pathname: '~0.8.0', path: '~0.8.0', href: '~0.8.0' }
+97 verbose addNamed [ 'grunt-contrib-copy', '~0.8.0' ]
+98 verbose addNamed [ null, '>=0.8.0- <0.9.0-' ]
+99 silly lockFile 0e8a5e90-grunt-contrib-copy-0-8-0 grunt-contrib-copy@~0.8.0
+100 verbose lock grunt-contrib-copy@~0.8.0 /Users/pablotreo/.npm/0e8a5e90-grunt-contrib-copy-0-8-0.lock
+101 verbose cache add [ 'grunt-contrib-csslint@~0.4.0', null ]
+102 silly cache add name=undefined spec="grunt-contrib-csslint@~0.4.0" args=["grunt-contrib-csslint@~0.4.0",null]
+103 verbose parsed url { pathname: 'grunt-contrib-csslint@~0.4.0',
+103 verbose parsed url   path: 'grunt-contrib-csslint@~0.4.0',
+103 verbose parsed url   href: 'grunt-contrib-csslint@~0.4.0' }
+104 silly cache add name="grunt-contrib-csslint" spec="~0.4.0" args=["grunt-contrib-csslint","~0.4.0"]
+105 verbose parsed url { pathname: '~0.4.0', path: '~0.4.0', href: '~0.4.0' }
+106 verbose addNamed [ 'grunt-contrib-csslint', '~0.4.0' ]
+107 verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+108 silly lockFile 81afa393-grunt-contrib-csslint-0-4-0 grunt-contrib-csslint@~0.4.0
+109 verbose lock grunt-contrib-csslint@~0.4.0 /Users/pablotreo/.npm/81afa393-grunt-contrib-csslint-0-4-0.lock
+110 verbose cache add [ 'grunt-contrib-cssmin@~0.12.2', null ]
+111 silly cache add name=undefined spec="grunt-contrib-cssmin@~0.12.2" args=["grunt-contrib-cssmin@~0.12.2",null]
+112 verbose parsed url { pathname: 'grunt-contrib-cssmin@~0.12.2',
+112 verbose parsed url   path: 'grunt-contrib-cssmin@~0.12.2',
+112 verbose parsed url   href: 'grunt-contrib-cssmin@~0.12.2' }
+113 silly cache add name="grunt-contrib-cssmin" spec="~0.12.2" args=["grunt-contrib-cssmin","~0.12.2"]
+114 verbose parsed url { pathname: '~0.12.2', path: '~0.12.2', href: '~0.12.2' }
+115 verbose addNamed [ 'grunt-contrib-cssmin', '~0.12.2' ]
+116 verbose addNamed [ null, '>=0.12.2- <0.13.0-' ]
+117 silly lockFile 722ac562-grunt-contrib-cssmin-0-12-2 grunt-contrib-cssmin@~0.12.2
+118 verbose lock grunt-contrib-cssmin@~0.12.2 /Users/pablotreo/.npm/722ac562-grunt-contrib-cssmin-0-12-2.lock
+119 verbose cache add [ 'grunt-contrib-jade@~0.14.1', null ]
+120 silly cache add name=undefined spec="grunt-contrib-jade@~0.14.1" args=["grunt-contrib-jade@~0.14.1",null]
+121 verbose parsed url { pathname: 'grunt-contrib-jade@~0.14.1',
+121 verbose parsed url   path: 'grunt-contrib-jade@~0.14.1',
+121 verbose parsed url   href: 'grunt-contrib-jade@~0.14.1' }
+122 silly cache add name="grunt-contrib-jade" spec="~0.14.1" args=["grunt-contrib-jade","~0.14.1"]
+123 verbose parsed url { pathname: '~0.14.1', path: '~0.14.1', href: '~0.14.1' }
+124 verbose addNamed [ 'grunt-contrib-jade', '~0.14.1' ]
+125 verbose addNamed [ null, '>=0.14.1- <0.15.0-' ]
+126 silly lockFile 0409faa7-grunt-contrib-jade-0-14-1 grunt-contrib-jade@~0.14.1
+127 verbose lock grunt-contrib-jade@~0.14.1 /Users/pablotreo/.npm/0409faa7-grunt-contrib-jade-0-14-1.lock
+128 verbose cache add [ 'grunt-contrib-jshint@~0.11.0', null ]
+129 silly cache add name=undefined spec="grunt-contrib-jshint@~0.11.0" args=["grunt-contrib-jshint@~0.11.0",null]
+130 verbose parsed url { pathname: 'grunt-contrib-jshint@~0.11.0',
+130 verbose parsed url   path: 'grunt-contrib-jshint@~0.11.0',
+130 verbose parsed url   href: 'grunt-contrib-jshint@~0.11.0' }
+131 silly cache add name="grunt-contrib-jshint" spec="~0.11.0" args=["grunt-contrib-jshint","~0.11.0"]
+132 verbose parsed url { pathname: '~0.11.0', path: '~0.11.0', href: '~0.11.0' }
+133 verbose addNamed [ 'grunt-contrib-jshint', '~0.11.0' ]
+134 verbose addNamed [ null, '>=0.11.0- <0.12.0-' ]
+135 silly lockFile 2c757c63-grunt-contrib-jshint-0-11-0 grunt-contrib-jshint@~0.11.0
+136 verbose lock grunt-contrib-jshint@~0.11.0 /Users/pablotreo/.npm/2c757c63-grunt-contrib-jshint-0-11-0.lock
+137 verbose cache add [ 'grunt-contrib-less@~1.0.0', null ]
+138 silly cache add name=undefined spec="grunt-contrib-less@~1.0.0" args=["grunt-contrib-less@~1.0.0",null]
+139 verbose parsed url { pathname: 'grunt-contrib-less@~1.0.0',
+139 verbose parsed url   path: 'grunt-contrib-less@~1.0.0',
+139 verbose parsed url   href: 'grunt-contrib-less@~1.0.0' }
+140 silly cache add name="grunt-contrib-less" spec="~1.0.0" args=["grunt-contrib-less","~1.0.0"]
+141 verbose parsed url { pathname: '~1.0.0', path: '~1.0.0', href: '~1.0.0' }
+142 verbose addNamed [ 'grunt-contrib-less', '~1.0.0' ]
+143 verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+144 silly lockFile 12a27045-grunt-contrib-less-1-0-0 grunt-contrib-less@~1.0.0
+145 verbose lock grunt-contrib-less@~1.0.0 /Users/pablotreo/.npm/12a27045-grunt-contrib-less-1-0-0.lock
+146 verbose cache add [ 'grunt-contrib-qunit@~0.5.2', null ]
+147 silly cache add name=undefined spec="grunt-contrib-qunit@~0.5.2" args=["grunt-contrib-qunit@~0.5.2",null]
+148 verbose parsed url { pathname: 'grunt-contrib-qunit@~0.5.2',
+148 verbose parsed url   path: 'grunt-contrib-qunit@~0.5.2',
+148 verbose parsed url   href: 'grunt-contrib-qunit@~0.5.2' }
+149 silly cache add name="grunt-contrib-qunit" spec="~0.5.2" args=["grunt-contrib-qunit","~0.5.2"]
+150 verbose parsed url { pathname: '~0.5.2', path: '~0.5.2', href: '~0.5.2' }
+151 verbose addNamed [ 'grunt-contrib-qunit', '~0.5.2' ]
+152 verbose addNamed [ null, '>=0.5.2- <0.6.0-' ]
+153 silly lockFile a537bb75-grunt-contrib-qunit-0-5-2 grunt-contrib-qunit@~0.5.2
+154 verbose lock grunt-contrib-qunit@~0.5.2 /Users/pablotreo/.npm/a537bb75-grunt-contrib-qunit-0-5-2.lock
+155 verbose cache add [ 'grunt-contrib-uglify@~0.8.0', null ]
+156 silly cache add name=undefined spec="grunt-contrib-uglify@~0.8.0" args=["grunt-contrib-uglify@~0.8.0",null]
+157 verbose parsed url { pathname: 'grunt-contrib-uglify@~0.8.0',
+157 verbose parsed url   path: 'grunt-contrib-uglify@~0.8.0',
+157 verbose parsed url   href: 'grunt-contrib-uglify@~0.8.0' }
+158 silly cache add name="grunt-contrib-uglify" spec="~0.8.0" args=["grunt-contrib-uglify","~0.8.0"]
+159 verbose parsed url { pathname: '~0.8.0', path: '~0.8.0', href: '~0.8.0' }
+160 verbose addNamed [ 'grunt-contrib-uglify', '~0.8.0' ]
+161 verbose addNamed [ null, '>=0.8.0- <0.9.0-' ]
+162 silly lockFile 8389ff3e-grunt-contrib-uglify-0-8-0 grunt-contrib-uglify@~0.8.0
+163 verbose lock grunt-contrib-uglify@~0.8.0 /Users/pablotreo/.npm/8389ff3e-grunt-contrib-uglify-0-8-0.lock
+164 verbose cache add [ 'grunt-contrib-watch@~0.6.1', null ]
+165 silly cache add name=undefined spec="grunt-contrib-watch@~0.6.1" args=["grunt-contrib-watch@~0.6.1",null]
+166 verbose parsed url { pathname: 'grunt-contrib-watch@~0.6.1',
+166 verbose parsed url   path: 'grunt-contrib-watch@~0.6.1',
+166 verbose parsed url   href: 'grunt-contrib-watch@~0.6.1' }
+167 silly cache add name="grunt-contrib-watch" spec="~0.6.1" args=["grunt-contrib-watch","~0.6.1"]
+168 verbose parsed url { pathname: '~0.6.1', path: '~0.6.1', href: '~0.6.1' }
+169 verbose addNamed [ 'grunt-contrib-watch', '~0.6.1' ]
+170 verbose addNamed [ null, '>=0.6.1- <0.7.0-' ]
+171 silly lockFile 82ce6ec8-grunt-contrib-watch-0-6-1 grunt-contrib-watch@~0.6.1
+172 verbose lock grunt-contrib-watch@~0.6.1 /Users/pablotreo/.npm/82ce6ec8-grunt-contrib-watch-0-6-1.lock
+173 verbose cache add [ 'grunt-csscomb@~3.0.0', null ]
+174 silly cache add name=undefined spec="grunt-csscomb@~3.0.0" args=["grunt-csscomb@~3.0.0",null]
+175 verbose parsed url { pathname: 'grunt-csscomb@~3.0.0',
+175 verbose parsed url   path: 'grunt-csscomb@~3.0.0',
+175 verbose parsed url   href: 'grunt-csscomb@~3.0.0' }
+176 silly cache add name="grunt-csscomb" spec="~3.0.0" args=["grunt-csscomb","~3.0.0"]
+177 verbose parsed url { pathname: '~3.0.0', path: '~3.0.0', href: '~3.0.0' }
+178 verbose addNamed [ 'grunt-csscomb', '~3.0.0' ]
+179 verbose addNamed [ null, '>=3.0.0- <3.1.0-' ]
+180 silly lockFile 92ce4c48-grunt-csscomb-3-0-0 grunt-csscomb@~3.0.0
+181 verbose lock grunt-csscomb@~3.0.0 /Users/pablotreo/.npm/92ce4c48-grunt-csscomb-3-0-0.lock
+182 verbose cache add [ 'grunt-exec@~0.4.6', null ]
+183 silly cache add name=undefined spec="grunt-exec@~0.4.6" args=["grunt-exec@~0.4.6",null]
+184 verbose parsed url { pathname: 'grunt-exec@~0.4.6',
+184 verbose parsed url   path: 'grunt-exec@~0.4.6',
+184 verbose parsed url   href: 'grunt-exec@~0.4.6' }
+185 silly cache add name="grunt-exec" spec="~0.4.6" args=["grunt-exec","~0.4.6"]
+186 verbose parsed url { pathname: '~0.4.6', path: '~0.4.6', href: '~0.4.6' }
+187 verbose addNamed [ 'grunt-exec', '~0.4.6' ]
+188 verbose addNamed [ null, '>=0.4.6- <0.5.0-' ]
+189 silly lockFile 9156a606-grunt-exec-0-4-6 grunt-exec@~0.4.6
+190 verbose lock grunt-exec@~0.4.6 /Users/pablotreo/.npm/9156a606-grunt-exec-0-4-6.lock
+191 verbose cache add [ 'grunt-html@~4.0.1', null ]
+192 silly cache add name=undefined spec="grunt-html@~4.0.1" args=["grunt-html@~4.0.1",null]
+193 verbose parsed url { pathname: 'grunt-html@~4.0.1',
+193 verbose parsed url   path: 'grunt-html@~4.0.1',
+193 verbose parsed url   href: 'grunt-html@~4.0.1' }
+194 silly cache add name="grunt-html" spec="~4.0.1" args=["grunt-html","~4.0.1"]
+195 verbose parsed url { pathname: '~4.0.1', path: '~4.0.1', href: '~4.0.1' }
+196 verbose addNamed [ 'grunt-html', '~4.0.1' ]
+197 verbose addNamed [ null, '>=4.0.1- <4.1.0-' ]
+198 silly lockFile a4db1a9a-grunt-html-4-0-1 grunt-html@~4.0.1
+199 verbose lock grunt-html@~4.0.1 /Users/pablotreo/.npm/a4db1a9a-grunt-html-4-0-1.lock
+200 verbose cache add [ 'grunt-jekyll@~0.4.2', null ]
+201 silly cache add name=undefined spec="grunt-jekyll@~0.4.2" args=["grunt-jekyll@~0.4.2",null]
+202 verbose parsed url { pathname: 'grunt-jekyll@~0.4.2',
+202 verbose parsed url   path: 'grunt-jekyll@~0.4.2',
+202 verbose parsed url   href: 'grunt-jekyll@~0.4.2' }
+203 silly cache add name="grunt-jekyll" spec="~0.4.2" args=["grunt-jekyll","~0.4.2"]
+204 verbose parsed url { pathname: '~0.4.2', path: '~0.4.2', href: '~0.4.2' }
+205 verbose addNamed [ 'grunt-jekyll', '~0.4.2' ]
+206 verbose addNamed [ null, '>=0.4.2- <0.5.0-' ]
+207 silly lockFile d42d37db-grunt-jekyll-0-4-2 grunt-jekyll@~0.4.2
+208 verbose lock grunt-jekyll@~0.4.2 /Users/pablotreo/.npm/d42d37db-grunt-jekyll-0-4-2.lock
+209 verbose cache add [ 'grunt-jscs@~1.5.0', null ]
+210 silly cache add name=undefined spec="grunt-jscs@~1.5.0" args=["grunt-jscs@~1.5.0",null]
+211 verbose parsed url { pathname: 'grunt-jscs@~1.5.0',
+211 verbose parsed url   path: 'grunt-jscs@~1.5.0',
+211 verbose parsed url   href: 'grunt-jscs@~1.5.0' }
+212 silly cache add name="grunt-jscs" spec="~1.5.0" args=["grunt-jscs","~1.5.0"]
+213 verbose parsed url { pathname: '~1.5.0', path: '~1.5.0', href: '~1.5.0' }
+214 verbose addNamed [ 'grunt-jscs', '~1.5.0' ]
+215 verbose addNamed [ null, '>=1.5.0- <1.6.0-' ]
+216 silly lockFile 458c447a-grunt-jscs-1-5-0 grunt-jscs@~1.5.0
+217 verbose lock grunt-jscs@~1.5.0 /Users/pablotreo/.npm/458c447a-grunt-jscs-1-5-0.lock
+218 verbose cache add [ 'grunt-saucelabs@~8.6.0', null ]
+219 silly cache add name=undefined spec="grunt-saucelabs@~8.6.0" args=["grunt-saucelabs@~8.6.0",null]
+220 verbose parsed url { pathname: 'grunt-saucelabs@~8.6.0',
+220 verbose parsed url   path: 'grunt-saucelabs@~8.6.0',
+220 verbose parsed url   href: 'grunt-saucelabs@~8.6.0' }
+221 silly cache add name="grunt-saucelabs" spec="~8.6.0" args=["grunt-saucelabs","~8.6.0"]
+222 verbose parsed url { pathname: '~8.6.0', path: '~8.6.0', href: '~8.6.0' }
+223 verbose addNamed [ 'grunt-saucelabs', '~8.6.0' ]
+224 verbose addNamed [ null, '>=8.6.0- <8.7.0-' ]
+225 silly lockFile b94b80ef-grunt-saucelabs-8-6-0 grunt-saucelabs@~8.6.0
+226 verbose lock grunt-saucelabs@~8.6.0 /Users/pablotreo/.npm/b94b80ef-grunt-saucelabs-8-6-0.lock
+227 verbose cache add [ 'grunt-sed@~0.1.1', null ]
+228 silly cache add name=undefined spec="grunt-sed@~0.1.1" args=["grunt-sed@~0.1.1",null]
+229 verbose parsed url { pathname: 'grunt-sed@~0.1.1',
+229 verbose parsed url   path: 'grunt-sed@~0.1.1',
+229 verbose parsed url   href: 'grunt-sed@~0.1.1' }
+230 silly cache add name="grunt-sed" spec="~0.1.1" args=["grunt-sed","~0.1.1"]
+231 verbose parsed url { pathname: '~0.1.1', path: '~0.1.1', href: '~0.1.1' }
+232 verbose addNamed [ 'grunt-sed', '~0.1.1' ]
+233 verbose addNamed [ null, '>=0.1.1- <0.2.0-' ]
+234 silly lockFile cbb6689a-grunt-sed-0-1-1 grunt-sed@~0.1.1
+235 verbose lock grunt-sed@~0.1.1 /Users/pablotreo/.npm/cbb6689a-grunt-sed-0-1-1.lock
+236 verbose cache add [ 'load-grunt-tasks@~3.1.0', null ]
+237 silly cache add name=undefined spec="load-grunt-tasks@~3.1.0" args=["load-grunt-tasks@~3.1.0",null]
+238 verbose parsed url { pathname: 'load-grunt-tasks@~3.1.0',
+238 verbose parsed url   path: 'load-grunt-tasks@~3.1.0',
+238 verbose parsed url   href: 'load-grunt-tasks@~3.1.0' }
+239 silly cache add name="load-grunt-tasks" spec="~3.1.0" args=["load-grunt-tasks","~3.1.0"]
+240 verbose parsed url { pathname: '~3.1.0', path: '~3.1.0', href: '~3.1.0' }
+241 verbose addNamed [ 'load-grunt-tasks', '~3.1.0' ]
+242 verbose addNamed [ null, '>=3.1.0- <3.2.0-' ]
+243 silly lockFile 36b9eb23-load-grunt-tasks-3-1-0 load-grunt-tasks@~3.1.0
+244 verbose lock load-grunt-tasks@~3.1.0 /Users/pablotreo/.npm/36b9eb23-load-grunt-tasks-3-1-0.lock
+245 verbose cache add [ 'markdown-it@^4.0.1', null ]
+246 silly cache add name=undefined spec="markdown-it@^4.0.1" args=["markdown-it@^4.0.1",null]
+247 verbose parsed url { pathname: 'markdown-it@^4.0.1',
+247 verbose parsed url   path: 'markdown-it@^4.0.1',
+247 verbose parsed url   href: 'markdown-it@^4.0.1' }
+248 silly cache add name="markdown-it" spec="^4.0.1" args=["markdown-it","^4.0.1"]
+249 verbose parsed url { pathname: '^4.0.1', path: '^4.0.1', href: '^4.0.1' }
+250 verbose addNamed [ 'markdown-it', '^4.0.1' ]
+251 verbose addNamed [ null, null ]
+252 silly lockFile 8022a2c5-markdown-it-4-0-1 markdown-it@^4.0.1
+253 verbose lock markdown-it@^4.0.1 /Users/pablotreo/.npm/8022a2c5-markdown-it-4-0-1.lock
+254 verbose cache add [ 'npm-shrinkwrap@^200.1.0', null ]
+255 silly cache add name=undefined spec="npm-shrinkwrap@^200.1.0" args=["npm-shrinkwrap@^200.1.0",null]
+256 verbose parsed url { pathname: 'npm-shrinkwrap@^200.1.0',
+256 verbose parsed url   path: 'npm-shrinkwrap@^200.1.0',
+256 verbose parsed url   href: 'npm-shrinkwrap@^200.1.0' }
+257 silly cache add name="npm-shrinkwrap" spec="^200.1.0" args=["npm-shrinkwrap","^200.1.0"]
+258 verbose parsed url { pathname: '^200.1.0', path: '^200.1.0', href: '^200.1.0' }
+259 verbose addNamed [ 'npm-shrinkwrap', '^200.1.0' ]
+260 verbose addNamed [ null, null ]
+261 silly lockFile caa70c31-npm-shrinkwrap-200-1-0 npm-shrinkwrap@^200.1.0
+262 verbose lock npm-shrinkwrap@^200.1.0 /Users/pablotreo/.npm/caa70c31-npm-shrinkwrap-200-1-0.lock
+263 verbose cache add [ 'time-grunt@^1.1.0', null ]
+264 silly cache add name=undefined spec="time-grunt@^1.1.0" args=["time-grunt@^1.1.0",null]
+265 verbose parsed url { pathname: 'time-grunt@^1.1.0',
+265 verbose parsed url   path: 'time-grunt@^1.1.0',
+265 verbose parsed url   href: 'time-grunt@^1.1.0' }
+266 silly cache add name="time-grunt" spec="^1.1.0" args=["time-grunt","^1.1.0"]
+267 verbose parsed url { pathname: '^1.1.0', path: '^1.1.0', href: '^1.1.0' }
+268 verbose addNamed [ 'time-grunt', '^1.1.0' ]
+269 verbose addNamed [ null, null ]
+270 silly lockFile 448b8b73-time-grunt-1-1-0 time-grunt@^1.1.0
+271 verbose lock time-grunt@^1.1.0 /Users/pablotreo/.npm/448b8b73-time-grunt-1-1-0.lock
+272 silly addNameRange { name: 'glob', range: '>=5.0.3- <5.1.0-', hasData: false }
+273 silly addNameRange { name: 'btoa', range: '>=1.1.2- <1.2.0-', hasData: false }
+274 silly addNameRange { name: 'grunt-autoprefixer',
+274 silly addNameRange   range: '>=2.2.0- <2.3.0-',
+274 silly addNameRange   hasData: false }
+275 silly addNameRange { name: 'grunt', range: '>=0.4.5- <0.5.0-', hasData: false }
+276 silly addNameRange { name: 'grunt-banner',
+276 silly addNameRange   range: '>=0.3.1- <0.4.0-',
+276 silly addNameRange   hasData: false }
+277 silly addNameRange { name: 'grunt-contrib-compress',
+277 silly addNameRange   range: '>=0.13.0- <0.14.0-',
+277 silly addNameRange   hasData: false }
+278 silly addNameRange { name: 'grunt-contrib-concat',
+278 silly addNameRange   range: '>=0.5.1- <0.6.0-',
+278 silly addNameRange   hasData: false }
+279 silly addNameRange { name: 'grunt-contrib-clean',
+279 silly addNameRange   range: '>=0.6.0- <0.7.0-',
+279 silly addNameRange   hasData: false }
+280 silly addNameRange { name: 'grunt-contrib-connect',
+280 silly addNameRange   range: '>=0.9.0- <0.10.0-',
+280 silly addNameRange   hasData: false }
+281 silly addNameRange { name: 'grunt-contrib-copy',
+281 silly addNameRange   range: '>=0.8.0- <0.9.0-',
+281 silly addNameRange   hasData: false }
+282 silly addNameRange { name: 'grunt-contrib-csslint',
+282 silly addNameRange   range: '>=0.4.0- <0.5.0-',
+282 silly addNameRange   hasData: false }
+283 silly addNameRange { name: 'grunt-contrib-cssmin',
+283 silly addNameRange   range: '>=0.12.2- <0.13.0-',
+283 silly addNameRange   hasData: false }
+284 silly addNameRange { name: 'grunt-contrib-jade',
+284 silly addNameRange   range: '>=0.14.1- <0.15.0-',
+284 silly addNameRange   hasData: false }
+285 silly addNameRange { name: 'grunt-contrib-jshint',
+285 silly addNameRange   range: '>=0.11.0- <0.12.0-',
+285 silly addNameRange   hasData: false }
+286 silly addNameRange { name: 'grunt-contrib-less',
+286 silly addNameRange   range: '>=1.0.0- <1.1.0-',
+286 silly addNameRange   hasData: false }
+287 silly addNameRange { name: 'grunt-contrib-qunit',
+287 silly addNameRange   range: '>=0.5.2- <0.6.0-',
+287 silly addNameRange   hasData: false }
+288 silly addNameRange { name: 'grunt-contrib-uglify',
+288 silly addNameRange   range: '>=0.8.0- <0.9.0-',
+288 silly addNameRange   hasData: false }
+289 silly addNameRange { name: 'grunt-contrib-watch',
+289 silly addNameRange   range: '>=0.6.1- <0.7.0-',
+289 silly addNameRange   hasData: false }
+290 silly addNameRange { name: 'grunt-csscomb',
+290 silly addNameRange   range: '>=3.0.0- <3.1.0-',
+290 silly addNameRange   hasData: false }
+291 silly addNameRange { name: 'grunt-exec', range: '>=0.4.6- <0.5.0-', hasData: false }
+292 silly addNameRange { name: 'grunt-html', range: '>=4.0.1- <4.1.0-', hasData: false }
+293 silly addNameRange { name: 'grunt-jekyll',
+293 silly addNameRange   range: '>=0.4.2- <0.5.0-',
+293 silly addNameRange   hasData: false }
+294 silly addNameRange { name: 'grunt-jscs', range: '>=1.5.0- <1.6.0-', hasData: false }
+295 silly addNameRange { name: 'grunt-saucelabs',
+295 silly addNameRange   range: '>=8.6.0- <8.7.0-',
+295 silly addNameRange   hasData: false }
+296 silly addNameRange { name: 'grunt-sed', range: '>=0.1.1- <0.2.0-', hasData: false }
+297 info addNameTag [ 'markdown-it', '^4.0.1' ]
+298 silly addNameRange { name: 'load-grunt-tasks',
+298 silly addNameRange   range: '>=3.1.0- <3.2.0-',
+298 silly addNameRange   hasData: false }
+299 verbose url raw btoa
+300 verbose url resolving [ 'https://registry.npmjs.org/', './btoa' ]
+301 verbose url resolved https://registry.npmjs.org/btoa
+302 info retry registry request attempt 1 at 14:20:26
+303 http GET https://registry.npmjs.org/btoa
+304 info addNameTag [ 'time-grunt', '^1.1.0' ]
+305 verbose url raw grunt-autoprefixer
+306 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-autoprefixer' ]
+307 verbose url resolved https://registry.npmjs.org/grunt-autoprefixer
+308 info retry registry request attempt 1 at 14:20:26
+309 http GET https://registry.npmjs.org/grunt-autoprefixer
+310 verbose url raw grunt-banner
+311 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-banner' ]
+312 verbose url resolved https://registry.npmjs.org/grunt-banner
+313 info retry registry request attempt 1 at 14:20:26
+314 http GET https://registry.npmjs.org/grunt-banner
+315 info addNameTag [ 'npm-shrinkwrap', '^200.1.0' ]
+316 verbose url raw grunt-contrib-compress
+317 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-compress' ]
+318 verbose url resolved https://registry.npmjs.org/grunt-contrib-compress
+319 info retry registry request attempt 1 at 14:20:26
+320 http GET https://registry.npmjs.org/grunt-contrib-compress
+321 verbose url raw grunt-contrib-concat
+322 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-concat' ]
+323 verbose url resolved https://registry.npmjs.org/grunt-contrib-concat
+324 info retry registry request attempt 1 at 14:20:26
+325 http GET https://registry.npmjs.org/grunt-contrib-concat
+326 verbose url raw grunt-contrib-connect
+327 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-connect' ]
+328 verbose url resolved https://registry.npmjs.org/grunt-contrib-connect
+329 info retry registry request attempt 1 at 14:20:26
+330 http GET https://registry.npmjs.org/grunt-contrib-connect
+331 verbose url raw grunt-contrib-copy
+332 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-copy' ]
+333 verbose url resolved https://registry.npmjs.org/grunt-contrib-copy
+334 info retry registry request attempt 1 at 14:20:26
+335 http GET https://registry.npmjs.org/grunt-contrib-copy
+336 verbose url raw grunt-contrib-csslint
+337 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-csslint' ]
+338 verbose url resolved https://registry.npmjs.org/grunt-contrib-csslint
+339 info retry registry request attempt 1 at 14:20:26
+340 http GET https://registry.npmjs.org/grunt-contrib-csslint
+341 verbose url raw grunt-contrib-cssmin
+342 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-cssmin' ]
+343 verbose url resolved https://registry.npmjs.org/grunt-contrib-cssmin
+344 info retry registry request attempt 1 at 14:20:26
+345 http GET https://registry.npmjs.org/grunt-contrib-cssmin
+346 verbose url raw grunt-contrib-jade
+347 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jade' ]
+348 verbose url resolved https://registry.npmjs.org/grunt-contrib-jade
+349 info retry registry request attempt 1 at 14:20:26
+350 http GET https://registry.npmjs.org/grunt-contrib-jade
+351 verbose url raw grunt-contrib-jshint
+352 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+353 verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint
+354 info retry registry request attempt 1 at 14:20:26
+355 http GET https://registry.npmjs.org/grunt-contrib-jshint
+356 verbose url raw grunt-contrib-less
+357 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-less' ]
+358 verbose url resolved https://registry.npmjs.org/grunt-contrib-less
+359 info retry registry request attempt 1 at 14:20:26
+360 http GET https://registry.npmjs.org/grunt-contrib-less
+361 verbose url raw grunt-contrib-qunit
+362 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-qunit' ]
+363 verbose url resolved https://registry.npmjs.org/grunt-contrib-qunit
+364 info retry registry request attempt 1 at 14:20:26
+365 http GET https://registry.npmjs.org/grunt-contrib-qunit
+366 verbose url raw grunt-contrib-uglify
+367 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+368 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+369 info retry registry request attempt 1 at 14:20:26
+370 http GET https://registry.npmjs.org/grunt-contrib-uglify
+371 verbose url raw grunt-contrib-watch
+372 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+373 verbose url resolved https://registry.npmjs.org/grunt-contrib-watch
+374 info retry registry request attempt 1 at 14:20:26
+375 http GET https://registry.npmjs.org/grunt-contrib-watch
+376 verbose url raw grunt-csscomb
+377 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-csscomb' ]
+378 verbose url resolved https://registry.npmjs.org/grunt-csscomb
+379 info retry registry request attempt 1 at 14:20:26
+380 http GET https://registry.npmjs.org/grunt-csscomb
+381 verbose url raw grunt-exec
+382 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-exec' ]
+383 verbose url resolved https://registry.npmjs.org/grunt-exec
+384 info retry registry request attempt 1 at 14:20:26
+385 http GET https://registry.npmjs.org/grunt-exec
+386 verbose url raw grunt-html
+387 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-html' ]
+388 verbose url resolved https://registry.npmjs.org/grunt-html
+389 info retry registry request attempt 1 at 14:20:26
+390 http GET https://registry.npmjs.org/grunt-html
+391 verbose url raw grunt-jekyll
+392 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-jekyll' ]
+393 verbose url resolved https://registry.npmjs.org/grunt-jekyll
+394 info retry registry request attempt 1 at 14:20:26
+395 http GET https://registry.npmjs.org/grunt-jekyll
+396 verbose url raw grunt-jscs
+397 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-jscs' ]
+398 verbose url resolved https://registry.npmjs.org/grunt-jscs
+399 info retry registry request attempt 1 at 14:20:26
+400 http GET https://registry.npmjs.org/grunt-jscs
+401 verbose url raw grunt-saucelabs
+402 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-saucelabs' ]
+403 verbose url resolved https://registry.npmjs.org/grunt-saucelabs
+404 info retry registry request attempt 1 at 14:20:26
+405 http GET https://registry.npmjs.org/grunt-saucelabs
+406 verbose url raw grunt-sed
+407 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-sed' ]
+408 verbose url resolved https://registry.npmjs.org/grunt-sed
+409 info retry registry request attempt 1 at 14:20:26
+410 http GET https://registry.npmjs.org/grunt-sed
+411 verbose url raw markdown-it
+412 verbose url resolving [ 'https://registry.npmjs.org/', './markdown-it' ]
+413 verbose url resolved https://registry.npmjs.org/markdown-it
+414 info retry registry request attempt 1 at 14:20:26
+415 http GET https://registry.npmjs.org/markdown-it
+416 verbose url raw grunt-contrib-clean
+417 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-clean' ]
+418 verbose url resolved https://registry.npmjs.org/grunt-contrib-clean
+419 info retry registry request attempt 1 at 14:20:26
+420 http GET https://registry.npmjs.org/grunt-contrib-clean
+421 verbose url raw load-grunt-tasks
+422 verbose url resolving [ 'https://registry.npmjs.org/', './load-grunt-tasks' ]
+423 verbose url resolved https://registry.npmjs.org/load-grunt-tasks
+424 info retry registry request attempt 1 at 14:20:26
+425 http GET https://registry.npmjs.org/load-grunt-tasks
+426 verbose url raw time-grunt
+427 verbose url resolving [ 'https://registry.npmjs.org/', './time-grunt' ]
+428 verbose url resolved https://registry.npmjs.org/time-grunt
+429 info retry registry request attempt 1 at 14:20:26
+430 http GET https://registry.npmjs.org/time-grunt
+431 verbose url raw npm-shrinkwrap
+432 verbose url resolving [ 'https://registry.npmjs.org/', './npm-shrinkwrap' ]
+433 verbose url resolved https://registry.npmjs.org/npm-shrinkwrap
+434 info retry registry request attempt 1 at 14:20:26
+435 http GET https://registry.npmjs.org/npm-shrinkwrap
+436 verbose url raw grunt
+437 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+438 verbose url resolved https://registry.npmjs.org/grunt
+439 info retry registry request attempt 1 at 14:20:26
+440 http GET https://registry.npmjs.org/grunt
+441 verbose url raw glob
+442 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+443 verbose url resolved https://registry.npmjs.org/glob
+444 info retry registry request attempt 1 at 14:20:31
+445 verbose etag "FHUPEI84RTD0TUQHAT6GOLU3"
+446 http GET https://registry.npmjs.org/glob
+447 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+448 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+449 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+450 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+451 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+452 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+453 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+454 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+455 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+456 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+457 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+458 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+459 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+460 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+461 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+462 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+463 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+464 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+465 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+466 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+467 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+468 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+469 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+470 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+471 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+472 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+473 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+474 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+475 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+476 info retry registry request attempt 2 at 14:20:42
+477 http GET https://registry.npmjs.org/grunt-contrib-concat
+478 info retry registry request attempt 2 at 14:20:42
+479 http GET https://registry.npmjs.org/btoa
+480 info retry registry request attempt 2 at 14:20:42
+481 http GET https://registry.npmjs.org/grunt-banner
+482 info retry registry request attempt 2 at 14:20:42
+483 http GET https://registry.npmjs.org/grunt-autoprefixer
+484 info retry registry request attempt 2 at 14:20:43
+485 http GET https://registry.npmjs.org/grunt-contrib-connect
+486 info retry registry request attempt 2 at 14:20:43
+487 http GET https://registry.npmjs.org/grunt-contrib-compress
+488 info retry registry request attempt 2 at 14:20:43
+489 http GET https://registry.npmjs.org/grunt-contrib-csslint
+490 info retry registry request attempt 2 at 14:20:43
+491 http GET https://registry.npmjs.org/grunt-contrib-cssmin
+492 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+493 info retry registry request attempt 2 at 14:20:43
+494 http GET https://registry.npmjs.org/grunt-contrib-jade
+495 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+496 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+497 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+498 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+499 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+500 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+501 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+502 info retry registry request attempt 2 at 14:20:44
+503 http GET https://registry.npmjs.org/grunt-contrib-less
+504 info retry registry request attempt 2 at 14:20:44
+505 http GET https://registry.npmjs.org/grunt-contrib-jshint
+506 info retry registry request attempt 2 at 14:20:45
+507 http GET https://registry.npmjs.org/grunt-contrib-qunit
+508 info retry registry request attempt 2 at 14:20:45
+509 http GET https://registry.npmjs.org/grunt-contrib-copy
+510 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+511 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+512 info retry registry request attempt 2 at 14:20:45
+513 http GET https://registry.npmjs.org/grunt-contrib-uglify
+514 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+515 info retry registry request attempt 2 at 14:20:45
+516 http GET https://registry.npmjs.org/grunt-contrib-watch
+517 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+518 info retry registry request attempt 2 at 14:20:46
+519 http GET https://registry.npmjs.org/grunt-csscomb
+520 info retry registry request attempt 2 at 14:20:46
+521 http GET https://registry.npmjs.org/grunt-html
+522 info retry registry request attempt 2 at 14:20:46
+523 http GET https://registry.npmjs.org/grunt-exec
+524 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+525 info retry registry request attempt 2 at 14:20:47
+526 http GET https://registry.npmjs.org/grunt-jekyll
+527 info retry registry request attempt 2 at 14:20:47
+528 http GET https://registry.npmjs.org/grunt-jscs
+529 info retry registry request attempt 2 at 14:20:47
+530 http GET https://registry.npmjs.org/grunt-saucelabs
+531 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+532 info retry registry request attempt 2 at 14:20:47
+533 http GET https://registry.npmjs.org/grunt-sed
+534 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+535 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+536 info retry registry request attempt 2 at 14:20:48
+537 http GET https://registry.npmjs.org/markdown-it
+538 info retry registry request attempt 2 at 14:20:48
+539 http GET https://registry.npmjs.org/grunt-contrib-clean
+540 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+541 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+542 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+543 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+544 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+545 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+546 info retry registry request attempt 2 at 14:20:49
+547 http GET https://registry.npmjs.org/load-grunt-tasks
+548 info retry registry request attempt 2 at 14:20:49
+549 http GET https://registry.npmjs.org/time-grunt
+550 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+551 info retry registry request attempt 2 at 14:20:49
+552 http GET https://registry.npmjs.org/grunt
+553 info retry registry request attempt 2 at 14:20:49
+554 http GET https://registry.npmjs.org/npm-shrinkwrap
+555 info retry registry request attempt 2 at 14:20:50
+556 verbose etag "FHUPEI84RTD0TUQHAT6GOLU3"
+557 http GET https://registry.npmjs.org/glob
+558 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+559 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+560 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+561 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+562 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+563 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+564 info retry registry request attempt 3 at 14:21:43
+565 http GET https://registry.npmjs.org/btoa
+566 info retry registry request attempt 3 at 14:21:43
+567 http GET https://registry.npmjs.org/grunt-contrib-concat
+568 info retry registry request attempt 3 at 14:21:43
+569 http GET https://registry.npmjs.org/grunt-banner
+570 info retry registry request attempt 3 at 14:21:43
+571 http GET https://registry.npmjs.org/grunt-contrib-csslint
+572 info retry registry request attempt 3 at 14:21:43
+573 http GET https://registry.npmjs.org/grunt-autoprefixer
+574 info retry registry request attempt 3 at 14:21:44
+575 http GET https://registry.npmjs.org/grunt-contrib-cssmin
+576 info retry registry request attempt 3 at 14:21:44
+577 http GET https://registry.npmjs.org/grunt-contrib-compress
+578 info retry registry request attempt 3 at 14:21:44
+579 http GET https://registry.npmjs.org/grunt-contrib-jade
+580 silly lockFile 7a8901a8-btoa-1-1-2 btoa@~1.1.2
+581 error Error: SSL Error: CERT_UNTRUSTED
+581 error     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:525:26)
+581 error     at ClientRequest.g (events.js:185:14)
+581 error     at ClientRequest.EventEmitter.emit (events.js:88:17)
+581 error     at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1455:7)
+581 error     at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:111:23)
+581 error     at CleartextStream.socketOnData [as ondata] (http.js:1366:20)
+581 error     at CleartextStream.CryptoStream._push (tls.js:495:27)
+581 error     at SecurePair.cycle (tls.js:849:20)
+581 error     at EncryptedStream.CryptoStream.write (tls.js:230:13)
+581 error     at Socket.ondata (stream.js:38:26)
+582 error If you need help, you may report this log at:
+582 error     <http://github.com/isaacs/npm/issues>
+582 error or email it to:
+582 error     <npm-@googlegroups.com>
+583 error System Darwin 14.1.0
+584 error command "node" "/usr/local/bin/npm" "install"
+585 error cwd /Users/pablotreo/Sites/bower_components/bootstrap
+586 error node -v v0.8.8
+587 error npm -v 1.1.59
+588 verbose exit [ 1, true ]
