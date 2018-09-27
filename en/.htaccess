@@ -1,7 +1,5 @@
-RewriteEngine on
-Options -Indexes
-ErrorDocument 400  /public_html/en/error.html
-ErrorDocument 401  /public_html/en/error.html
-ErrorDocument 403  /public_html/en/error.html
-ErrorDocument 404  /public_html/en/error.html
-ErrorDocument 500  /public_html/en/error.html
+ErrorDocument 400  www.patagoniascent.com/public_html/en/error.html
+ErrorDocument 401  www.patagoniascent.com/public_html/en/error.html
+ErrorDocument 403  www.patagoniascent.com/public_html/en/error.html
+ErrorDocument 404  www.patagoniascent.com/public_html/en/error.html
+ErrorDocument 500  www.patagoniascent.com/public_html/en/error.html
