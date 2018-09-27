@@ -1,5 +1,0 @@
-ErrorDocument 400  www.patagoniascent.com/public_html/en/error.html
-ErrorDocument 401  www.patagoniascent.com/public_html/en/error.html
-ErrorDocument 403  www.patagoniascent.com/public_html/en/error.html
-ErrorDocument 404  www.patagoniascent.com/public_html/en/error.html
-ErrorDocument 500  www.patagoniascent.com/public_html/en/error.html
