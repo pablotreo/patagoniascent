@@ -4,9 +4,3 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} !^www.patagoniascent.com$
 RewriteRule (.*) https://www.patagoniascent.com/$1 [L,R=301]
-
-ErrorDocument 400 en/error.html
-ErrorDocument 401 en/error.html
-ErrorDocument 403 en/error.html
-ErrorDocument 404 en/error.html
-ErrorDocument 500 en/error.html
