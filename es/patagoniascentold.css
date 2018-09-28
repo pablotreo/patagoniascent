@@ -677,7 +677,6 @@ Class slides CSS
     }
     button.close {
         font-size: 40px;
-        line-height: 0;
     }    
     /*EndModal*/
     .navbar-custom .navbar-brand img {
