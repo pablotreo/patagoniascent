@@ -304,8 +304,8 @@ footer li{
 }
 footer ul{
 	padding: 0px;
-/*}
-.footer-logos a{
+}
+/*.footer-logos a{
     font-size: 14px;
 }
 .footer-logos a:hover, a:focus{
@@ -317,7 +317,8 @@ footer ul{
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 /* Extra Small */
-@media(max-width:767px) {
+
+@media screen and (max-width:767px) {
     .col-lg-12{
         padding-left: 4%;
         padding-right: 4%;
@@ -340,7 +341,7 @@ footer ul{
         float: left;
     }   
     .page-header{
-        font-size: 35px;
+        font-size: 30px;
     }
     .glyphicon {
         top: -12px;
@@ -368,8 +369,9 @@ footer ul{
         padding-top: 5px;
     }
     .navbar-custom .navbar-brand img {
-        margin-top: -6px;
-        max-width: 100px;
+        margin-top: -10px;
+        margin-left: -2px;
+        max-width: 120px;
     }
     .btn{
         font-size: 10px;
@@ -384,26 +386,28 @@ footer ul{
     .navbar-toggle{
         padding: 14px 0px 0px 10px;
         margin-top: 10px;
-    }
-        
+    }  
     footer .container {
-    	margin-top: -30px;
+    	margin-top: -20px;
         padding-top: 0px;
     	padding-right: 20px;
     	padding-bottom: 10px;
     	padding-left: 20px;
     }
     footer h4{
-        font-size: 12px;
+        font-size: 10px;
     }
     footer a{
-        font-size: 12px;
+        font-size: 10px;
         margin-top: 0px;
     }
     footer p{
-        font-size: 12px;
+        font-size: 10px;
         margin-top: -3px;
         text-align: right;
+    }
+    footer p a {
+    font-size: 10px;
     }
     .footer-logos a{
         font-size: 12px;
@@ -417,6 +421,7 @@ footer ul{
         margin-top: -20px;
     }
 }
+
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar-wrapper .container {

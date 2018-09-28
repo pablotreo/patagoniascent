@@ -59,7 +59,7 @@ h1 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 5px;
     margin-top: 2px;
 }
@@ -543,7 +543,9 @@ Class slides CSS
 
 @media screen and (orientation: landscape){
 
-
+    h2{
+        margin-bottom: 0px;
+    }
 }
 
 /* Extra Small */
@@ -556,29 +558,29 @@ Class slides CSS
     }
 
     #section1{
-        padding: 0% 10% 0% 10%;
+        padding: 3% 10% 0% 10%;
     }
     #section2{
-        padding: 0% 10% 0% 10%;
+        padding: 3% 10% 0% 10%;
     }
     #section3{
-        padding: 0% 10% 0% 10%;
+        padding: 3% 10% 0% 10%;
     }
     #section4{
-        padding: 0% 10% 0% 10%;
+        padding: 3% 10% 0% 10%;
     }
     #section5{
-        padding: 0% 10% 0% 10%;
+        padding: 3% 10% 0% 10%;
     }
     #section6{
-        padding: 0% 10% 0% 10%;
+        padding: 3% 10% 0% 10%;
     }
 
     h1{
-        font-size: 40px;
+        font-size: 32px;
     }
     h2{
-        font-size: 30px;
+        font-size: 28px;
     }
     h3{
         font-size: 25px;
@@ -631,8 +633,9 @@ Class slides CSS
         color: rgb(35,60,130);
         margin-top: 1px;
     }
-    #section1 .boton{
+    #section1 .button{
         margin-top: 6px;
+        font-size: 12px;
     }
     /*EdnThumbnails*/
     /*Contact*/
@@ -666,6 +669,9 @@ Class slides CSS
         font-size: 10px;
     }
     /*EndContact*/
+    .footer{
+        background-color: black;
+    }
     /*Modal*/
     .modal { 
     }
@@ -705,6 +711,11 @@ Class slides CSS
     .navbar-custom {
         padding-top: 0px;
     }
+
+    .send{
+        padding: 0px;
+        font-size: 16px;
+    }
 }
 
 /* Small */
@@ -741,7 +752,6 @@ Class slides CSS
 @media (min-width:992px) and (max-width:1199px){
     
     .navbar-custom .navbar-brand img {
-        
         width: 170px;
     }
     .nav > li > a {
@@ -765,7 +775,6 @@ Class slides CSS
     #slide1,#slide2,#slide3,#slide4,#slide5{
         padding: 0% 0% 0% 4.4%;
     }
-
 
 }
 
