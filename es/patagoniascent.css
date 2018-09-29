@@ -430,10 +430,9 @@ Class slides CSS
     font-size: 14px;
     text-align: right;
 }
-/*#section6 button.close{
-    padding: 12px;
-    background-color: transparent;
-}*/
+#section6 .close{
+    font-size: 20px;
+}
 /*EndSection6*/
 
 /*Modals*/
@@ -545,9 +544,7 @@ Class slides CSS
 
 @media screen and (orientation: landscape){
 
-    h2{
-        margin-bottom: 0px;
-    }
+   
 }
 
 /* Extra Small */

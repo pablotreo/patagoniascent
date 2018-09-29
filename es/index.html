@@ -325,27 +325,28 @@
                 <div class="form-group col-xs-12">
                     <textarea rows="5" class="form-control" placeholder="Mensaje / Consulta / Presupuesto:" name="message" id="message" required data-validation-required-message="Por favor ingrese el mensaje." minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="400" style="resize:none"></textarea>
                     <p class="help-block text-danger"></p>
-                   <!--  <div><? echo $errorCap; ?></div> -->
                 </div>
             </div>
             <div id="success"></div>
-            <div class="row col-xs-12">
-                <div class="form-group">
-                    <!-- <div class="g-recaptcha" data-sitekey="6LcudF0UAAAAACLzjUDdy6shuJ56KXm2dePm7Arb"></div> -->
-                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-                    <div class="row col-xs-12">
-                      <div class="footer">
-                          <p>
-                          <a href="mailto:patagoniascent@gmail.com">patagoniascent@gmail.com</a><br>
-                          Tel: +54 264 4449633<br>
-                          </p>
-                          <h4 class="hidden-xs"><b>PATAGONIA</b>SCENT</h4>
-                          <p class="hidden-xs">El Chalten - Argentina</p>
-                      </div>
-                    </div>
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-primary btn-lg send">
                 </div>
-            </div>  
-        </form>        
+                <div class="form-group">
+                  <div class="col-sm-10 col-sm-offset-2"></div>
+                </div>
+            </div> 
+        </form>
+        <div class="row col-xs-12 hidden-xs">
+          <div class="footer">
+              <p>
+              <a href="mailto:patagoniascent@gmail.com">patagoniascent@gmail.com</a><br>
+              Tel: +54 264 4449633<br>
+              </p>
+              <h4 class="hidden-xs"><b>PATAGONIA</b>SCENT</h4>
+              <p class="hidden-xs">El Chalten - Patagonia</p>
+          </div>
+        </div>
     </div>
     
 
