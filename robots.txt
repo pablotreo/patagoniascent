@@ -1,2 +1,5 @@
+# Rule 2
 User-agent: *
-Disallow: /mail/
+Allow: /
+
+Sitemap: https://www.patagoniascent.com/sitemap.xml
