@@ -1,338 +1,507 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://www.patagoniascent.com/en/</loc>
-<lastmod>2018-09-29T23:51:18+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://www.patagoniascent.com/en/</loc>
+  <lastmod>2018-09-29T23:51:18+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/expeditionicefield.html
-</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/es/index.html</loc>
+  <lastmod>2019-04-14T16:06:55+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.patagoniascent.com/en/cerrosolo.html</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/expeditionicefield.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/cerroelectrico.html
-</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/cerrosolo.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/cerrogorrablanca.html
-</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/cerroelectrico.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.patagoniascent.com/en/cerromadsen.html</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/cerrogorrablanca.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/cerromojonrojo.html
-</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/cerromadsen.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/cerrovespignani.html
-</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/cerromojonrojo.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/tresvallestraverse.html
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/cerrovespignani.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/pasosuperiortraverse.html
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/tresvallestraverse.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/fitzroycerrotorrecircuit.html
-</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/pasosuperiortraverse.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/sportclimbing.html
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/fitzroycerrotorrecircuit.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/agujaguillaumet.html
-</loc>
-<lastmod>2018-09-26T21:07:39+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/sportclimbing.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.patagoniascent.com/en/cerromocho.html</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/agujaguillaumet.html</loc>
+  <lastmod>2018-09-26T21:07:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.patagoniascent.com/en/agujadelas.html</loc>
-<lastmod>2018-09-26T21:07:38+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/cerromocho.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/agujapoincenot.html
-</loc>
-<lastmod>2018-09-26T21:07:39+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/agujadelas.html</loc>
+  <lastmod>2018-09-26T21:07:38+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/cerrofitzroy.html
-</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/agujapoincenot.html</loc>
+  <lastmod>2018-09-26T21:07:39+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.patagoniascent.com/en/cerrotorre.html</loc>
-<lastmod>2018-09-26T21:07:42+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/cerrofitzroy.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/northpatagonia.html
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/cerrotorre.html</loc>
+  <lastmod>2018-09-26T21:07:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/southpatagonia.html
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/northpatagonia.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/volcanoespatagonia.html
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/southpatagonia.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/tourpatagonia.html
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/volcanoespatagonia.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/rockclimbingcourse.html
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/tourpatagonia.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/iceclimbingcourse.html
-</loc>
-<lastmod>2018-09-26T21:07:44+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/rockclimbingcourse.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/skimountaineeringcourse.html
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://www.patagoniascent.com/en/iceclimbingcourse.html</loc>
+  <lastmod>2018-09-26T21:07:44+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://www.patagoniascent.com/en/index.html</loc>
-<lastmod>2018-09-29T23:51:18+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/en/skimountaineeringcourse.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/ExpeditionIceField.pdf
-</loc>
-<lastmod>2018-09-27T12:07:46+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/en/index.html</loc>
+  <lastmod>2018-09-29T23:51:18+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/CerroSolo.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/campodehielo.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/CerroElectrico.pdf
-</loc>
-<lastmod>2018-09-26T21:08:13+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cerrosolo.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/CerroGorraBlanca.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cerroelectrico.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/CerroMadsen.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cerrogorrablanca.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/CerroMojonRojo.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cerromadsen.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/CerroVespignani.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cerromojonrojo.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/TraverseTresValles.pdf
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cerrovespignani.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/TraversePasoSuperior.pdf
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/travesiatresvalles.html</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/FitzRoyCerroTorreCircuit.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/travesiapasosup.html</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/SportClimbing.pdf
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/vueltafitzroy.html</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/AgujaGuillaumet.pdf
-</loc>
-<lastmod>2018-09-26T21:08:13+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/escaladaroca.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/CerroMocho.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/agujaguillaumet.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/AgujadelaS.pdf
-</loc>
-<lastmod>2018-09-26T21:08:13+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cerromocho.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/AgujaPoincenot.pdf
-</loc>
-<lastmod>2018-09-26T21:08:13+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/agujadelas.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/CerroFitzRoy.pdf
-</loc>
-<lastmod>2018-09-26T21:08:13+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/agujapoincenot.html</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/CerroTorre.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cerrofitzroy.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/NorthPatagonia.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cerrotorre.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/SouthPatagonia.pdf
-</loc>
-<lastmod>2018-09-26T21:08:19+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/patagonianorte.html</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/VolcanoesPatagonia.pdf
-</loc>
-<lastmod>2018-09-26T21:08:20+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/patagoniasur.html</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/SkiTourPatagonia.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/volcanespatagonia.html</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/RockClimbingCourse.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/tourpatagonia.html</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/IceClimbingGlacierTravelCourse.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cursoescaladaroca.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://www.patagoniascent.com/en/itinerary/SkiMountaineeringCourse.pdf
-</loc>
-<lastmod>2018-09-26T21:08:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://www.patagoniascent.com/es/cursoescaladahielo.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://www.patagoniascent.com/es/cursoskimontana.html</loc>
+  <lastmod>2018-09-26T21:08:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/ExpeditionIceField.pdf</loc>
+  <lastmod>2018-09-27T12:07:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/CerroSolo.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/CerroElectrico.pdf</loc>
+  <lastmod>2018-09-26T21:08:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/CerroGorraBlanca.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/CerroMadsen.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/CerroMojonRojo.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/CerroVespignani.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/TraverseTresValles.pdf</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/TraversePasoSuperior.pdf</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/FitzRoyCerroTorreCircuit.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/SportClimbing.pdf</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/AgujaGuillaumet.pdf</loc>
+  <lastmod>2018-09-26T21:08:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/CerroMocho.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/AgujadelaS.pdf</loc>
+  <lastmod>2018-09-26T21:08:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/AgujaPoincenot.pdf</loc>
+  <lastmod>2018-09-26T21:08:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/CerroFitzRoy.pdf</loc>
+  <lastmod>2018-09-26T21:08:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/CerroTorre.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/NorthPatagonia.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/SouthPatagonia.pdf</loc>
+  <lastmod>2018-09-26T21:08:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/VolcanoesPatagonia.pdf</loc>
+  <lastmod>2018-09-26T21:08:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/SkiTourPatagonia.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/RockClimbingCourse.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/IceClimbingGlacierTravelCourse.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/en/itinerary/SkiMountaineeringCourse.pdf</loc>
+  <lastmod>2018-09-26T21:08:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CampodeHielo.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CerroSolo.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CerroElectrico.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CerroGorraBlanca.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CerroMadsen.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CerroMojonRojo.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CerroVespignani.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/TravesiaTresValles.pdf</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/TravesiaPasoSuperiorPasoGuillaumet.pdf</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/VueltaFitzRoyCerroTorre.pdf</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/EscaladaDeportivaRoca.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/AgujaGuillaumet.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CerroMocho.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/AgujadelaS.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/Ag.Poincenot.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CerroFitzRoy.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CerroTorre.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/PatagoniaNorte.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/PatagoniaSur.pdf</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/VolcanesPatagonia.pdf</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/TourPatagonia.pdf</loc>
+  <lastmod>2018-09-26T21:09:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CursodeEscaladaRocaNivelIyII.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CursoEscaladaHieloTransitoGlaciar.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.patagoniascent.com/es/propuestas/CursoEsquiMontana.pdf</loc>
+  <lastmod>2018-09-26T21:09:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
