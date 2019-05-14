@@ -161,8 +161,7 @@ a:focus {
 }*/
 .navbar-toggle{
     color: #fff;
-    margin-top: 15px;
-    margin-right: 5px;
+    margin-top: 5px;
 }
 .navbar-brand .navbar-toggle:focus,
 .navbar-brand .navbar-toggle:active {
