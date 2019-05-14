@@ -409,7 +409,7 @@ Class slides CSS
 /*#section6 .fp-tableCell {
     vertical-align: middle;
 }*/
-.send{
+#section6 .send{
     border-radius: 0px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
@@ -418,6 +418,9 @@ Class slides CSS
     font-size: 16px;
     float: left;
     padding: 6px 8px;
+}
+#section6 .contactform {
+    width: 250px;
 }
 #section6 .form-control{
 	border-radius: 0px;
@@ -435,8 +438,6 @@ Class slides CSS
 #section6 .close{
     font-size: 20px;
 }
-
-
 /*EndSection6*/
 
 /*Modals*/
@@ -576,7 +577,7 @@ Class slides CSS
         padding: 3% 10% 0% 10%;
     }
     #section6{
-        padding: 3% 10% 0% 10%;
+        padding: 20% 10% 0% 10%;
     }
 
     h1{
@@ -641,9 +642,11 @@ Class slides CSS
         font-size: 12px;
     }
     /*EdnThumbnails*/
+    
     /*Contact*/
-    #section6 .contactForm {
-    width: 95%;
+    #section6 .contactform {
+        width: 250px;
+        margin-top: 50px;
     }
     #section6 .form-control {
         border-radius: 0px;
@@ -671,6 +674,11 @@ Class slides CSS
         .footer{
             background-color: black;
         }
+
+    /*arrows*/
+    .fp-controlArrow{
+        display:none !important;
+    }
     /*Modal*/
     .modal { 
     }
