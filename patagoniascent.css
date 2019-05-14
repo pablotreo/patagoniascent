@@ -161,7 +161,8 @@ a:focus {
 }*/
 .navbar-toggle{
     color: #fff;
-    margin-top: 18px;
+    margin-top: 15px;
+    margin-right: 5px;
 }
 .navbar-brand .navbar-toggle:focus,
 .navbar-brand .navbar-toggle:active {
@@ -708,7 +709,7 @@ Class slides CSS
     /*EndModal*/
     .navbar-brand img {
         width: 100px;
-        margin-top: 8px;
+        margin-top: 5px;
         margin-left: 5px;
     }
     .navbar-collapse{
