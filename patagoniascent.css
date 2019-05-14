@@ -708,8 +708,8 @@ Class slides CSS
     /*EndModal*/
     .navbar-brand img {
         width: 100px;
-        margin-top: 14px;
-        margin-left: 14px;
+        margin-top: 8px;
+        margin-left: 5px;
     }
     .navbar-collapse{
         background: rgba(35,60,130,0.8);
