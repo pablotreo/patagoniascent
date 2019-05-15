@@ -175,21 +175,25 @@
                 <h3 class="hidden-xs">Te damos la bienvenida a</h3>
                 <h1>PATAGONIA ASCENT...</h1>
                 <h3>UNA EMPRESA JOVEN Y CON MUCHA MOTIVACIÓN</p> PARA AYUDARTE A CONQUISTAR TUS SUEÑOS!!!</h3> 
+                <p class="link-slide">
+                  <a href="#nosotros">QUIENES SOMOS</a>
+                </p>
         </div>
 		<div class="slide" id="slide2">
                 <h3>Esta temporada tus sueños son realidad...</h3>
                 <h1>PATAGONIA 2018 - 2019 !!!</h1>
                 <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
                 <p class="link-slide">
-                    <a href="#nosotros">QUIENES SOMOS</a>
+                  <a href="#montana" >VER PROPUESTAS</a>
                 </p>
+                
         </div>
         <div class="slide" id="slide3">
                 <h3>Escalada en la meca del alpinismo mundial...</h3>
                 <h1>"EL CHALTEN"</h1>
                 <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
-                    <p class="link-slide">
-                <a href="#montana" >VER PROPUESTAS</a>
+                <p class="link-slide">
+                  <a href="#escalada">VER PROPUESTAS</a>
                 </p>
         </div>
         <div class="slide" id="slide4">
@@ -202,10 +206,10 @@
         </div>
         <div class="slide" id="slide5">
                 <h3>Acá podrás ver nuestras ultimas expediciones realizadas.</h3>
-                <h1>FANPAGE</h1>
+                <h1>SOCIAL MEDIA</h1>
                 <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
                 <p class="link-slide">
-                    <a href="https://www.facebook.com/PatagoniAscent" target="_blank">SEGUINOS EN FACEBOOK</a>
+                    <a href="#contacto" >CONTACTO</a>
                 </p>
         </div>
 	</div>
@@ -309,6 +313,75 @@
     </div>
 
     <div class="section" id="section6">
+      
+      <h2>CONTACT US</h2>
+
+      <div class="row">
+
+          <div class="col-md-4">
+            <!-- Facebook widget -->
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPatagoniAscent%2F&tabs=timeline&width=250&height=250&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+          </div>
+          
+          <div class="col-md-4">
+
+            <!-- Instagram widget -->
+
+            <!-- TripAdvisor widget -->
+            <div id="TA_selfserveprop260" class="TA_selfserveprop"><ul id="IPxS1CXVA05" class="TA_links zltwXAul7"><li id="z9ITny5a" class="jQnKKp"><a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a></li></ul></div><script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=260&amp;locationId=12941928&amp;lang=en_US&amp;rating=true&amp;nreviews=1&amp;writereviewlink=true&amp;popIdx=false&amp;iswide=false&amp;border=true&amp;display_version=2" data-loadtrk onload="this.loadtrk=true"></script> 
+          </div>
+
+          <div class="col-md-4">
+            <form  action="mail/contact_me.php" method="POST" name="sentMessage" class="contactform" id="contactForm">
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <input type="text" class="form-control" placeholder="Nombre:" name="name" id="name" required data-validation-required-message="Por favor ingrese el nombre.">
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <input type="email" class="form-control" placeholder="E-mail:" name="email" id="email" required data-validation-required-message="Por favor ingrese el e-mail.">
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <textarea rows="5" class="form-control" placeholder="Mensaje / Consulta / Presupuesto:" name="message" id="message" required data-validation-required-message="Por favor ingrese el mensaje." minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="400" style="resize:none"></textarea>
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <div id="success"></div>
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-primary btn-lg send">
+                </div>
+                <!-- <div class="form-group">
+                  <div class="col-sm-10 col-sm-offset-2"></div>
+                </div> -->
+            </div> 
+          </form>
+          </div>
+          
+      </div>  
+        
+      <div class="row footer">
+        <div class="col-md-4">
+          <p>
+            <a href="mailto:patagoniascent@gmail.com">patagoniascent@gmail.com</a><br>
+            Tel: +54 264 4449633<br>
+          </p>
+          <p class="hidden-xs">El Chalten - Patagonia</p>
+        </div>  
+        <div class="col-md-4">
+          <h4 class="hidden-xs"><b>PATAGONIA</b>SCENT</h4>
+        </div>
+        <div class="col-md-4">
+        </div> 
+      </div>  
+
+    </div>
+    <!-- <div class="section" id="section6">
         <h2>CONTACTO</h2>
         <form  action="mail/contact_me.php" method="POST" name="sentMessage" class="contactForm" id="contactForm">
             <div class="row">
@@ -349,8 +422,10 @@
               <p class="hidden-xs">El Chalten - Patagonia</p>
           </div>
         </div>
-    </div>
-    
+    </div> -->
+ 
+</div> <!-- cierra fullpage -->
+
 
 	<!-- jQuery JavaScript -->
 	<script src="jquery/dist/jquery.min.js"></script>
@@ -368,18 +443,24 @@
 			$('#fullpage').fullpage({
                 anchors: ['home', 'nosotros', 'montana', 'escalada', 'ski', 'cursos', 'contacto'],
                 menu: '#menu',
-                scrollingSpeed: 800,
-				        verticalCentered: true,
+                 scrollingSpeed: 800,
+                verticalCentered: true,
                 navigation: false,
                 slidesNavigation: true,
                 slidesNavPosition: 'bottom',
-                controlArrows: false,
-                //responsiveHeight: 600,
+                controlArrows: true,
+                //scrollBar: true,
+                //normalScrollElements: '#section6, .contactus',
+                responsiveHeight: 500,
+                //responsiveWidth: 400,
                 bigSectionsDestination: top,
+                //autoScrolling: false,
+                //fitToSection: true,
+                //scrollOverflow: true,
             afterRender: function(){
                     setInterval(function(){
                     $.fn.fullpage.moveSlideRight();
-                }, 5000);
+                }, 8000);
             }
 			});
 		});

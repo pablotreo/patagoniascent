@@ -118,7 +118,7 @@ a:focus {
     background-color: transparent;
     font-weight: lighter;
     font-size: 14px;
-    padding-top: 40px;
+    padding-top: 60px;
     letter-spacing: 1px;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -137,8 +137,8 @@ a:focus {
     margin: 10px;
 }
 .nav-logos{
-    padding-left: 10px;
-    font-size: 18px;
+    padding-left: 8px;
+    font-size: 16px;
     text-align: left;
 }
 /*.navbar-collapse{
@@ -161,9 +161,7 @@ a:focus {
 }*/
 .navbar-toggle{
     color: #fff;
-    margin-top: 10px;
-    margin-right: 0px;
-    padding: 10px 8px;
+    margin-top: 18px;
 }
 .navbar-brand .navbar-toggle:focus,
 .navbar-brand .navbar-toggle:active {
@@ -188,7 +186,7 @@ a:focus {
     outline: 0;
 }
 .nav li.active a {
-    background-color: rgba(35,60,130,.6);
+    background-color: rgba(255,255,255,.3);
 }
 .nav li.active a:hover {
     color: #fff;
@@ -211,9 +209,7 @@ a:focus {
     height: 16px;
 }
 /*nav-bar*/
-.TA_selfserveprop{
-    margin-top: -20px;
-}
+
 /* 
 Class sections CSS 
 * --------------------------------------- */
@@ -258,7 +254,14 @@ Class sections CSS
     padding: 5px 5px;
     margin: 5px -7px;
 }*/
-
+.send{
+    border-radius: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+}
 /* 
 Class slides CSS
 * --------------------------------------- */
@@ -269,46 +272,42 @@ Class slides CSS
 .slide h1{
 	text-align: left;
 	color: #fff;
-    background-color: rgba(35,60,130,.6);
-    width: fit-content;
-    padding: 5px 10px; 
-    margin: 3px 0px;  
+    /*background-color: rgba(35,60,130,.8);
+    width: max-content;*/
+    padding: 5px 10px;  
 }
 .slide h3{
 	text-align: left;
 	color: #fff;
-    background-color: rgba(35,60,130,.6);
-    width: fit-content;
+    /*background-color: rgba(35,60,130,.8);
+    width: max-content;*/
     padding: 5px 10px;
-    margin: 3px 0px;
 }
 .slide a{
-    background: rgba(35,60,130,.6);
-    width: fit-content;
+    /*background: rgba(35,60,130,.8);
+    width: max-content;*/
     padding: 5px 10px;
-    margin: 3px 0px;
 }
-
 /*ID slides style
 * --------------------------------------- */
 #slide1{
-	background-image: url(img/slide/portada2.jpg);
+	background-image: url(img/slide/portada11.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #slide2{
-	background-image: url(img/slide/portada3.jpg);
+	background-image: url(img/slide/portada10.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #slide3{
-	background-image: url(img/slide/portada7.jpg);
+	background-image: url(img/slide/portada4.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #slide4{
-	background-image: url(img/slide/portada5.jpg);
+	background-image: url(img/slide/portada9.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #slide5{
-	background-image: url(img/slide/portada6.jpg);
+	background-image: url(img/slide/portada3.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
@@ -402,40 +401,34 @@ Class slides CSS
     margin-left: 20px;
 }
 /*EndSection5*/
-
 /*Section6*/
 #section6{
 	background-image: url(img/secciones/contacto.jpg);
-	padding: 2% 10% 0% 10%;
+	padding: 5% 10% 0% 10%;
 }
-/*#section6 .fp-tableCell {
-    vertical-align: middle;
-}*/
-#section6 .send{
-    border-radius: 0px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    /*background-color: transparent;*/
-    border-color: transparent;
-    font-size: 16px;
-    float: left;
-    padding: 6px 8px;
+#section6 h2{
+	float: left;
+	margin-top: -8px;
 }
-#section6 .contactform {
-    width: 250px;
+#section6 .contactForm{
+	margin-top: 60px;
+	float:right;
+	width: 70%;	
 }
 #section6 .form-control{
 	border-radius: 0px;
 }
 #section6 .footer{
-    margin-bottom: 20px;
+	margin-top: 40px;
 }
 #section6 .footer h4{
     font-size: 14px;
     color: #fff;
+    text-align: right;
 }
 #section6 .footer p{
     font-size: 14px;
+    text-align: right;
 }
 #section6 .close{
     font-size: 20px;
@@ -530,9 +523,9 @@ Class slides CSS
 /*End Alert Massege*/
 
 /* RESPONSIVE CSS
----------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------- */
+---------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------*/
 
 @media screen and (orientation: portrait) {
     #section2 li a {
@@ -551,7 +544,7 @@ Class slides CSS
 
 @media screen and (orientation: landscape){
 
-
+   
 }
 
 /* Extra Small */
@@ -579,7 +572,7 @@ Class slides CSS
         padding: 3% 10% 0% 10%;
     }
     #section6{
-        padding: 20% 10% 0% 10%;
+        padding: 3% 10% 0% 10%;
     }
 
     h1{
@@ -644,19 +637,21 @@ Class slides CSS
         font-size: 12px;
     }
     /*EdnThumbnails*/
-    
     /*Contact*/
-    #section6 .contactform {
-        width: 250px;
-        margin-top: 50px;
+    #section6 .contactForm {
+    margin-top: 10px;
+    float: right;
+    width: 95%;
     }
-    #section6 .form-control {
-        border-radius: 0px;
-        /*display: block;
+    .form-control {
+        display: block;
         width: 100%;
         height: 20px;
         padding: 0px 5px;
-        font-size: 10px;*/
+        font-size: 10px;
+    }
+    .form-group {
+        margin-bottom: 0px;
     }
     .section button {
         margin-top: -8px;
@@ -673,13 +668,8 @@ Class slides CSS
         font-size: 10px;
     }
     /*EndContact*/
-        .footer{
-            background-color: black;
-        }
-
-    /*arrows*/
-    .fp-controlArrow{
-        display:none !important;
+    .footer{
+        background-color: black;
     }
     /*Modal*/
     .modal { 
@@ -705,13 +695,13 @@ Class slides CSS
         font-size: 14px;
     }
     button.close {
-        font-size: 35px;
+        font-size: 40px;
     }    
     /*EndModal*/
     .navbar-brand img {
         width: 100px;
-        margin-top: 5px;
-        margin-left: 5px;
+        margin-top: 14px;
+        margin-left: 14px;
     }
     .navbar-collapse{
         background: rgba(35,60,130,0.8);
