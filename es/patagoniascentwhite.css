@@ -77,6 +77,10 @@ a:focus {
     color: rgb(88,88,90);
     font-size: 18px;
 }
+span{
+    color: rgb(88,88,90);
+    font-weight: 400;
+}
 .glyphicon {
     top:4px;
 }
@@ -219,6 +223,13 @@ a:focus {
 .breadcrumb > li + li:before {
     padding: 0px 0px;
 }
+/*menu de itinerarios*/
+.submenu li a{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding: 3px 5px;
+}
 /*CarouselThumbs*/
 .list-inline {
   text-align: left;
@@ -241,6 +252,10 @@ a:focus {
 .box{
 	margin-right: 10px;
 	margin-top: 10px;
+}
+.box h2 {
+    font-size: 20px;
+    margin-top: 10px;
 }
 .circuitos{
   text-align: center;
@@ -315,7 +330,9 @@ footer ul{
 
 
 /* RESPONSIVE CSS
--------------------------------------------------- */
+-----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------- */
 /* Extra Small */
 
 @media screen and (max-width:767px) {
