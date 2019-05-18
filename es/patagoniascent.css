@@ -582,7 +582,7 @@ Class slides CSS
 @media screen and (max-width:767px) {
     
     #slide1, #slide2, #slide3, #slide4, #slide5{
-        padding: 0% 2% 2% 2%;
+        padding: 0% 1% 0% 1%;
         background-position: center;
 
     }
