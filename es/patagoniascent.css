@@ -72,9 +72,9 @@ h2 {
     font-size: 40px; 
     margin-bottom: 10px;
     margin-top: 2px;
-    /*background-color: rgba(35,60,130,.8);*/
+    background-color: rgba(35,60,130,.8);
     width: max-content;
-    padding: 5px 0px;
+    padding: 5px 10px;
 }
 
 h3{
@@ -137,7 +137,7 @@ a:focus {
     margin: 10px;
 }
 .nav-logos{
-    padding-left: 10px;
+    /*padding-left: 10px;*/
     font-size: 18px;
     text-align: left;
 }
@@ -228,15 +228,20 @@ Class sections CSS
 }
 .section .menu-section li a {
     font-size: 20px;
-    padding: 3px 3px 3px 5px;
-    margin-left: 15px;
+    padding: 2px 5px 2px 8px;
+    margin: 3px 10px;
     letter-spacing: 2px;
     font-weight: 400;
+    color: rgba(35,60,130);
+    background-color: rgba(255,255,255,.6);
+    width: fit-content;
+   /*  padding: 2px 5px;*/
 }
 .section li a:hover{
-    /*background-color: rgba(255,255,255,.3);*/
-    width: auto;
+   /* background-color: rgba(255,255,255,.3);
+    width: auto;*/
 	background-color: rgba(35,60,129,.8);
+    color: rgba(255,255,255)
 }
 /*.section button {
     border-radius: 0;
@@ -323,6 +328,9 @@ Class slides CSS
 }
 #section1 p{
 	margin-top: 20px;
+    background-color: rgba(255,255,255,.6);
+    color: rgba(35,60,130);
+    padding: 10px;
 }
 
 #section1 .thumbnail {
@@ -398,8 +406,10 @@ Class slides CSS
 	padding: 2% 10% 2% 10%;
 }
 #section5 p{
-	margin-bottom: 20px; 
-    margin-left: 20px;
+	margin-bottom: 10px;
+    background-color: rgba(255,255,255,.6);
+    color: rgba(35,60,130);
+    padding: 10px;
 }
 /*EndSection5*/
 

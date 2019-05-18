@@ -248,7 +248,11 @@ span{
 .selected img {
   opacity:0.5;
 }
-
+/*padding del slider, !Importante*/
+#slider .col-sm-6, .col-md-6, .col-lg-6{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .box{
 	margin-right: 10px;
 	margin-top: 10px;
