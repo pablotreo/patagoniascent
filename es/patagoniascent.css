@@ -174,8 +174,8 @@ a:focus {
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
-.nav li a:hover {
-    color: rgba(255,255,255,.8);
+.nav li a:hover{
+    color: rgba(255,255,255);
     background-color: transparent;
     outline: 0;
 }
@@ -189,6 +189,7 @@ a:focus {
 }
 .nav li.active a {
     background-color: rgba(35,60,130,.6);
+    color: rgba(255,255,255);
 }
 .nav li.active a:hover {
     color: #fff;

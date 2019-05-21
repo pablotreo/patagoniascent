@@ -114,12 +114,12 @@ span{
     margin: 10px;
 }
 .nav-logos {
-    padding-left: 10px;
     font-size: 18px;
-    text-align: left;
+    padding: 0px 0px;
 }
-.nav-logos a:focus,active {
+.nav-logos a:active, a:focus {
     font-size: 18px;
+    padding: 0px 0px;
 }
 .navbar-collapse{
     box-shadow: none;
@@ -229,6 +229,7 @@ span{
     letter-spacing: 2px;
     font-weight: 400;
     padding: 3px 5px;
+    width: fit-content;
 }
 /*CarouselThumbs*/
 .list-inline {
