@@ -146,19 +146,24 @@ a:focus {
     float: left;
     color: #000;
 }*/
-.navbar-brand {
-   padding: 0px;
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:active {
+   padding: 0px 0px;
+   background-color: transparent;
+   margin: 0px;
 }
 .navbar-brand img {
     margin-top: -22px;
+    background-color: transparent;
 }
 .navbar-custom .navbar-brand:focus {
     outline: 0;
 }
-/*.navbar-custom .navbar-brand .navbar-toggle {
+.navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-}*/
+}
 .navbar-toggle{
     color: #fff;
     /*margin-top: 10px;
@@ -197,7 +202,7 @@ a:focus {
 .nav li.active ul a {
     background-color: transparent;
 }
- .nav li img{
+.nav li img{
     margin-top: -20px;
 }
 .link-slide{

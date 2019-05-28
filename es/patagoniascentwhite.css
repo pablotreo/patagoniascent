@@ -134,7 +134,13 @@ span{
     font-size: 14px;
     padding-top: 60px;
     letter-spacing: 1px;
- }       
+ } 
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:active {
+   padding: 15px 15px;
+   background-color: transparent;
+}      
 .navbar-custom .navbar-brand img {
     margin-top: -35px;
 }
