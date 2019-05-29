@@ -275,7 +275,7 @@ span{
 
 /*FOOTER*/
 footer {
-	margin-top: 50px;
+	/*margin-top: 50px;*/
     background-color: #fff;  
     color: rgb(88,88,90);
 }
@@ -313,7 +313,7 @@ footer .container{
     padding-top: 25px;
     padding-right: 80px;
     padding-bottom: 25px;
-    padding-left: 40px;
+    padding-left: 80px;
 }
 footer img {
     margin-left: 20px;
