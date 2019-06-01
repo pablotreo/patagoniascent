@@ -72,9 +72,9 @@ h2 {
     font-size: 40px; 
     margin-bottom: 10px;
     margin-top: 2px;
-    background-color: rgba(35,60,130,.6);
+    /*background-color: rgba(35,60,130,.8);*/
     width: max-content;
-    padding: 5px 10px;
+    padding: 5px 0px;
 }
 
 h3{
@@ -137,7 +137,7 @@ a:focus {
     margin: 10px;
 }
 .nav-logos{
-    /*padding-left: 10px;*/
+    padding-left: 10px;
     font-size: 18px;
     text-align: left;
 }
@@ -146,24 +146,19 @@ a:focus {
     float: left;
     color: #000;
 }*/
-.navbar-brand,
-.navbar-brand:focus,
-.navbar-brand:active {
-   padding: 0px 0px;
-   background-color: transparent;
-   margin: 0px;
+.navbar-brand {
+   padding: 0px;
 }
 .navbar-brand img {
-    margin-top: -22px;
-    background-color: transparent;
+    margin-top: -21px;
 }
-.navbar-custom .navbar-brand:focus {
+/*.navbar-custom .navbar-brand:focus {
     outline: 0;
 }
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-}
+}*/
 .navbar-toggle{
     color: #fff;
     /*margin-top: 10px;
@@ -179,8 +174,8 @@ a:focus {
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
-.nav li a:hover{
-    color: rgba(255,255,255);
+.nav li a:hover {
+    color: rgba(255,255,255,.8);
     background-color: transparent;
     outline: 0;
 }
@@ -194,7 +189,6 @@ a:focus {
 }
 .nav li.active a {
     background-color: rgba(35,60,130,.6);
-    color: rgba(255,255,255);
 }
 .nav li.active a:hover {
     color: #fff;
@@ -202,7 +196,7 @@ a:focus {
 .nav li.active ul a {
     background-color: transparent;
 }
-.nav li img{
+ .nav li img{
     margin-top: -20px;
 }
 .link-slide{
@@ -233,21 +227,16 @@ Class sections CSS
 	color: #fff;
 }
 .section .menu-section li a {
-    font-size: 20px;
-    padding: 2px 5px 2px 8px;
-    margin: 3px 10px;
+    font-size: 18px;
+    padding: 3px 3px 3px 5px;
+    margin-left: 15px;
     letter-spacing: 2px;
     font-weight: 400;
-    color: rgba(255,255,255);
-    background-color: rgba(35,60,130,.6);
-    width: fit-content;
-   /*  padding: 2px 5px;*/
 }
 .section li a:hover{
-   /* background-color: rgba(255,255,255,.3);
-    width: auto;*/
-	background-color: rgba(255,255,255);
-    color: rgba(35,60,129)
+    /*background-color: rgba(255,255,255,.3);*/
+    width: auto;
+	background-color: rgba(35,60,129,.8);
 }
 /*.section button {
     border-radius: 0;
@@ -298,14 +287,6 @@ Class slides CSS
     width: fit-content;
     padding: 5px 10px;
     margin: 3px 0px;
-    font-weight: 400;
-}
-.slide a:hover, a:focus{
-    background: rgba(255,255,255,.6);
-    color: rgba(35,60,130);
-    width: fit-content;
-    padding: 5px 10px;
-    margin: 3px 0px;   
 }
 
 /*ID slides style
@@ -342,9 +323,6 @@ Class slides CSS
 }
 #section1 p{
 	margin-top: 20px;
-    background-color: rgba(35,60,130,.6);
-    color: rgba(255,255,255);
-    padding: 10px;
 }
 
 #section1 .thumbnail {
@@ -420,10 +398,8 @@ Class slides CSS
 	padding: 2% 10% 2% 10%;
 }
 #section5 p{
-	margin-bottom: 10px;
-    background-color: rgba(35,60,130,.6);
-    color: rgba(255,255,255);
-    padding: 10px;
+	margin-bottom: 20px; 
+    margin-left: 20px;
 }
 /*EndSection5*/
 
@@ -464,15 +440,9 @@ Class slides CSS
 #section6 .close{
     font-size: 20px;
 }
-#section6 .btn-primary {
-    background-color: rgb(35,60,130);
-}
-/*#section6 .btn-primary a:hover{
-    background-color: rgb(35,60,130,.5);
-}*/
 /*EndSection6*/
 
-/*Modals
+/*Modals*/
 .modal-content{
     border-radius: 0px;
     padding: 30px 40px 80px 40px;
@@ -534,7 +504,7 @@ Class slides CSS
 .close:hover{
     color: rgb(35,60,130);
     opacity: 1;
-}*/
+}
 /*EndModals*/
 /*Arrow*/
 .fp-controlArrow {
@@ -588,15 +558,15 @@ Class slides CSS
 @media screen and (max-width:767px) {
     
     #slide1, #slide2, #slide3, #slide4, #slide5{
-        padding: 0% 1% 0% 1%;
+        padding: 0% 2% 2% 2%;
         background-position: center;
 
     }
 
-    #section1, #section2, #section3, #section4, #section5, #section6{
-        padding: 3% 5% 0% 5%;
+    #section1{
+        padding: 3% 10% 0% 10%;
     }
-   /* #section2{
+    #section2{
         padding: 3% 10% 0% 10%;
     }
     #section3{
@@ -610,14 +580,13 @@ Class slides CSS
     }
     #section6{
         padding: 20% 10% 0% 10%;
-    }*/
+    }
 
     h1{
         font-size: 32px;
     }
     h2{
         font-size: 28px;
-        padding: 3px 5px:;
     }
     h3{
         font-size: 25px;
@@ -640,9 +609,11 @@ Class slides CSS
     }
     .section .menu-section li a {
         font-size: 14px;
-        padding: 2px 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 10px;
+        margin-bottom: 0px;
         width: 100%;
-        margin-left: 0px;
         letter-spacing: 2px;
         font-weight: 400;
     }
@@ -710,7 +681,7 @@ Class slides CSS
     .fp-controlArrow{
         display:none !important;
     }
-    /*Modal
+    /*Modal*/
     .modal { 
     }
     .modal-content{
@@ -735,11 +706,10 @@ Class slides CSS
     }
     button.close {
         font-size: 35px;
-    }    */
+    }    
     /*EndModal*/
-
     .navbar-brand img {
-        width: 120px;
+        width: 100px;
         margin-top: 5px;
         margin-left: 5px;
     }
@@ -749,6 +719,7 @@ Class slides CSS
     .navbar-custom {
         padding-top: 0px;
     }
+
     .send{
         padding: 0px;
         font-size: 16px;
