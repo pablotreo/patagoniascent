@@ -249,7 +249,7 @@ Class sections CSS
 	background-color: rgba(255,255,255);
     color: rgba(35,60,129)
 }
-/*.section button {
+.section button {
     border-radius: 0;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
@@ -268,7 +268,7 @@ Class sections CSS
     font-size: 20px;
     padding: 5px 5px;
     margin: 5px -7px;
-}*/
+}
 
 /* 
 Class slides CSS
@@ -341,7 +341,6 @@ Class slides CSS
 	padding: 2% 10% 2% 10%;
 }
 #section1 p{
-	margin-top: 20px;
     background-color: rgba(35,60,130,.6);
     color: rgba(255,255,255);
     padding: 10px;
@@ -352,7 +351,7 @@ Class slides CSS
     border: none;
     border-radius: 0px;
     padding: 0px;
-    margin: 10px -30px 10px 0px;
+    /*margin: 10px -30px 10px 0px;*/
 }
 #section1 .thumbnail .img-thumbnail{
     float: right;
@@ -382,18 +381,18 @@ Class slides CSS
     font-weight: 400;
     color: rgb(35,60,130);
     margin-top: 4px;
+    margin-bottom: 10px;
 }
 #section1 .button {
   border-radius: 0;
   text-transform: none;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: transparent;
   border: none;
-  margin-top: 20px;
-  padding: 0px;
   font-size: 14px;
   letter-spacing: 2px;
+  color: rgb(35,60,130);
 }
 /*EndSection1*/
 /*Section2-Montana*/
