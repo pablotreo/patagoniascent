@@ -252,7 +252,6 @@ Class sections CSS
     color: rgba(255,255,255);
     background-color: rgba(35,60,130,.6);
     width: fit-content;
-   /*  padding: 2px 5px;*/
 }
 .section li a:hover{
    /* background-color: rgba(255,255,255,.3);
@@ -475,7 +474,7 @@ Class slides CSS
     background-color: rgb(35,60,130);
 }
 #section6 .contactform .form-group {
-    margin-bottom: 6px;
+    margin-bottom: 7px;
 }
 /*#section6 .btn-primary a:hover{
     background-color: rgb(35,60,130,.5);
