@@ -272,7 +272,10 @@ span{
   text-align: center;
   margin-top: 10px;
 }
-
+#insta-logo-nosotros{
+    margin-top: 5px;
+    font-size: 25px;
+}
 /*FOOTER*/
 footer {
 	/*margin-top: 50px;*/

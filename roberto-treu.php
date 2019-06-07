@@ -48,7 +48,8 @@
             </div>
              <div class="class=col-lg-4 col-md-4 col-sm-4">   
                 <div>  
-                    <img src="img/nosotros/RobertoTreu.jpg" class="img-responsive" alt="RobertoTreu">          
+                    <img src="img/nosotros/RobertoTreu.jpg" class="img-responsive" alt="Roberto Treu">
+                    <a href="https://www.instagram.com/roberto_indio_treu/" id="insta-logo-nosotros" target="_blank"><i class="fa fa-instagram" ></i> roberto_indio_treu</a>          
                 </div>
             </div> 
           </div>  

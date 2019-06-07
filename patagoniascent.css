@@ -442,6 +442,11 @@ Class slides CSS
 	background-image: url(img/secciones/contacto.jpg);
 	padding: 2% 10% 0% 10%;
 }
+#section6 .row h3{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 5px 0px;
+}
 #section6 .send{
     border-radius: 0px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -458,15 +463,13 @@ Class slides CSS
 #section6 .form-control{
 	border-radius: 0px;
 }
-#section6 .footer{
-    margin-bottom: 20px;
-}
-#section6 .footer h4{
-    font-size: 14px;
+#section6 .footer p{
+    margin-top: 30px;
+    font-size: 20px;
     color: #fff;
 }
-#section6 .footer p{
-    font-size: 14px;
+#section6 .footer a{
+    color: #fff;
 }
 #section6 .close{
     font-size: 20px;

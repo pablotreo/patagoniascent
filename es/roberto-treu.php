@@ -45,12 +45,12 @@
                         Algunos de los logros más importantes han sido la travesía Standhardt - Herron - Egger y la apertura de la via "Directa Huarpe" en la cara oeste del Cerro Torre.<br>
                         También es miembro del comité técnico de la AAGM (Asociación Argentina de Guías de Montaña). Además de instructor en los cursos de guía de alta montaña UIAGM de dicha asociación
                     </p>
-                   <!--  <a href="https://www.instagram.com/patagonia_ascent/" target="_blank"><i class="fa fa-instagram fa-fw"></i></a> -->
                 </div>
             </div>
              <div class="class=col-lg-4 col-md-4 col-sm-4">   
                 <div>  
-                    <img src="img/nosotros/RobertoTreu.jpg" class="img-responsive" alt="RobertoTreu">          
+                    <img src="img/nosotros/RobertoTreu.jpg" class="img-responsive" alt="Roberto Treu"> 
+                    <a href="https://www.instagram.com/roberto_indio_treu/" id="insta-logo-nosotros" target="_blank"><i class="fa fa-instagram" ></i> roberto_indio_treu</a>         
                 </div>
             </div> 
           </div>  

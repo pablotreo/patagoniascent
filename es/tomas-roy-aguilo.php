@@ -47,7 +47,8 @@
             </div>
              <div class="class=col-lg-4 col-md-4 col-sm-4">   
                 <div>  
-                    <img src="img/nosotros/TomasAguilo.jpg" class="img-responsive" alt="RobertoTreu">          
+                    <img src="img/nosotros/TomasAguilo.jpg" class="img-responsive" alt="Tomas Roy Aguilo">
+                    <a href="https://www.instagram.com/fitzroyguide/" id="insta-logo-nosotros" target="_blank"><i class="fa fa-instagram" ></i> fitzroyguide</a>          
                 </div>
             </div> 
           </div>  

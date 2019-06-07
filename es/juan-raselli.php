@@ -48,7 +48,8 @@
             </div>
              <div class="class=col-lg-4 col-md-4 col-sm-4">   
                 <div>  
-                    <img src="img/nosotros/JuanRaselli.jpg" class="img-responsive" alt="RobertoTreu">          
+                    <img src="img/nosotros/JuanRaselli.jpg" class="img-responsive" alt="Juan Raselli">
+                    <a href="https://www.instagram.com/juanraselli/" id="insta-logo-nosotros" target="_blank"><i class="fa fa-instagram" ></i> juanraselli</a> 
                 </div>
             </div> 
           </div>  

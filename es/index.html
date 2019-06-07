@@ -253,16 +253,19 @@
       <div class="row">
 
           <div class="col-md-3">
+            <h3>Facebook</h3>
             <!-- Facebook widget -->
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPatagoniAscent%2F&tabs=timeline&width=250&height=268&small_header=false&adapt_container_width=false&hide_cover=true&show_facepile=false&appId" width="250" height="268" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPatagoniAscent&tabs=timeline&width=250&height=268&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="250" height="268" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
           </div>
           
           <div class="col-md-3">
+            <h3>Instagram</h3>
             <!-- Instagram widget -->
             <iframe src="https://instaembedder.com/gallery-v2.php?width=105&cols=2&rows=3&margin=0&color=white&image_border=0&frame_color=white&cid=11671&" frameborder="0" width="100%" height="268" ></iframe>
           </div>
           
           <div class="col-md-3">
+            <h3>Youtube</h3>
             <!-- Youtube widget -->
             <iframe width="250" height="268" src="https://www.youtube.com/embed/videoseries?list=UUMqFsAQ6I0cjByx82SaIQRg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -271,6 +274,7 @@
           </div>
 
           <div class="col-md-3">
+            <h3>E-mail</h3>
             <form action="mail/contact_me.php" method="POST" class="contactform" name="sentMessage"  id="contactForm" novalidate>
               <div class="row">
                   <div class="form-group col-xs-12">
@@ -302,27 +306,19 @@
             </form>
           </div>
           
+          <div class="row footer">
+            <div class="col-md-12">
+              <p>
+                <b>PATAGONIA</b>SCENT - <a href="mailto:patagoniascent@gmail.com">patagoniascent@gmail.com</a> - Tel: +54 264 4449633
+              </p>
+            </div> 
+          </div>
+
       </div> 
-        
-      <div class="row footer">
-        <div class="col-md-4">
-          <p>
-            <a href="mailto:patagoniascent@gmail.com">patagoniascent@gmail.com</a><br>
-            Tel: +54 264 4449633<br>
-          </p>
-          <p class="hidden-xs">El Chalten - Patagonia</p>
-        </div>  
-        <div class="col-md-4">
-          <h4 class="hidden-xs"><b>PATAGONIA</b>SCENT</h4>
-        </div>
-        <div class="col-md-4">
-        </div> 
-      </div>  
 
     </div>
  
 </div> <!-- cierra fullpage -->
-
 
 	<!-- jQuery JavaScript -->
 	<script src="jquery/dist/jquery.min.js"></script>
@@ -340,14 +336,14 @@
 			$('#fullpage').fullpage({
                 anchors: ['home', 'nosotros', 'montana', 'escalada', 'eski', 'cursos', 'contacto'],
                 menu: '#menu',
-                 scrollingSpeed: 800,
+                scrollingSpeed: 800,
                 verticalCentered: true,
                 navigation: false,
                 slidesNavigation: true,
                 slidesNavPosition: 'bottom',
                 controlArrows: true,
                 //scrollBar: true,
-                //normalScrollElements: '#section6, .contactus',
+                //normalScrollElements: '#section6',
                 responsiveHeight: 500,
                 //responsiveWidth: 400,
                 bigSectionsDestination: top,
