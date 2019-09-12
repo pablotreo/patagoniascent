@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-
 <?php  include('head.html');?>
 
 <title>Roberto A. Treu</title>
@@ -14,13 +11,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header"> 
-                  <span class="glyphicon glyphicon-menu-right hidden-xs"></span>
-                  Roberto A. Treu
+                <div class="page-header"> 
+                  <span class="glyphicon glyphicon-menu-right"><h1>Roberto A. Treu</h1></span>
                   <!-- <a href="propuestas/PatagoniaSur.pdf" target="_blank"><small class="hidden-xs hidden-sm">DESCARGAR PROPUESTA COMPLETA</small>
                   <span class="glyphicon glyphicon-download-alt"></span>
                   </a> -->
-                </h1>
+                </div>
                 <ol class="breadcrumb hidden-xs">
                     <li><a href="index.html">Home</a>
                     </li>

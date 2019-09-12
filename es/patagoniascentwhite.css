@@ -84,12 +84,12 @@ span{
     top:4px;
 }
 .glyphicon-menu-right:before {
-    margin-left: -46px;
+    margin-left: -45px;
     margin-top: 10px;
     border-top: 1px solid rgba(9,9,9,.1);
     border-bottom: 1px solid rgba(9,9,9,.1);
-    padding-bottom: 9px;
-    padding-top: 9px;
+    padding-bottom: 16px;
+    padding-top: 13px;
 }
 .glyphicon-download-alt {
     font-size: 16px;
@@ -132,7 +132,7 @@ span{
     background-color: transparent;
     font-weight: lighter;
     font-size: 14px;
-    padding-top: 60px;
+    padding-top: 30px;
     letter-spacing: 1px;
  } 
 .navbar-brand,
@@ -199,11 +199,22 @@ span{
     color: rgb(88,88,90);
     font-weight: 100;
 }
-.page-header a, .page-header a:hover, .page-header a:active, .page-header a:focus{
-    font-size: 45px;
+.page-header h1{
+    margin-bottom: 7px;
+    margin-top: -7px;
+    float: right;
+}
+.page-header a{
+    font-size: 25px;
+    float: right;
+    margin-top: 22px;
+   /* margin-top: inherit;*/
+}
+.page-header a:hover, .page-header a:active, .page-header a:focus{
+    font-size: 25px;
 	float: right;
-    margin-top: 5px;
-    line-height: 1;
+    margin-top: 22px;
+    /*margin-top: inherit;*/
 }
 .section {
     width: 100%;
@@ -355,15 +366,16 @@ footer ul{
         padding-right: 4%;
     }
     h1{
-        font-size: 24px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+     h2{
+        font-size: 30px;
+        margin-bottom: 5px;
     }
     h3{
         font-size: 18px;
         margin-top: 10px;
-        margin-bottom: 5px;
-    }
-    h2{
-        font-size: 30px;
         margin-bottom: 5px;
     }
     .navbar-nav {
@@ -373,9 +385,18 @@ footer ul{
     }   
     .page-header{
         font-size: 30px;
+        margin: 20px 0 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .page-header a{
+        margin-top: 2px;
+    }
+    .page-header a:hover,a:focus,a:active{
+        margin-top: 2px;
     }
     .glyphicon {
-        top: -12px;
+        
     }   
     .thumbnail .caption {
         padding-left: 5px;

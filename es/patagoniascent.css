@@ -107,7 +107,8 @@ a {
     font-weight: 400;
 }
 a:hover,
-a:focus {
+a:focus,
+a:active {
     text-decoration: none;
     color: #fff;
 }
@@ -198,6 +199,7 @@ a:focus {
 .nav li a:focus,
 .nav li a:active {
     outline: 0;
+    color: rgba(255,255,255);
     background-color: transparent;
 }
 .nav li.active {
@@ -295,13 +297,17 @@ Class slides CSS
     padding: 5px 10px; 
     margin: 3px 0px;  
 }
-.slide h3{
+.slide h2{
 	text-align: left;
 	color: #fff;
     background-color: rgba(35,60,130,.6);
     width: fit-content;
     padding: 5px 10px;
     margin: 3px 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px; 
+    font-size: 34px;  
 }
 .slide a{
     background: rgba(35,60,130,.6);
@@ -309,6 +315,7 @@ Class slides CSS
     padding: 5px 10px;
     margin: 3px 0px;
     font-weight: 400;
+    font-size: 18px;
 }
 .slide a:hover, a:focus{
     background: rgba(255,255,255,.6);
@@ -316,6 +323,7 @@ Class slides CSS
     width: fit-content;
     padding: 5px 10px;
     margin: 3px 0px;   
+    font-size: 18px;
 }
 
 /*ID slides style
@@ -350,10 +358,25 @@ Class slides CSS
 	background-image: url(img/secciones/nosotros.jpg);
 	padding: 2% 10% 2% 10%;
 }
+#section1 h1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px; 
+    font-size: 40px; 
+    margin-bottom: 10px;
+    margin-top: 2px;
+    background-color: rgba(35,60,130,.6);
+    width: max-content;
+    padding: 5px 10px;
+    color: #fff;
+}
 #section1 p{
+    font-size: 18px;
+    letter-spacing: 1px;
     background-color: rgba(35,60,130,.6);
     color: rgba(255,255,255);
     padding: 10px;
+    line-height: normal;
 }
 
 #section1 .thumbnail {
@@ -361,6 +384,7 @@ Class slides CSS
     border: none;
     border-radius: 0px;
     padding: 0px;
+    background-color: rgba(255,255,255,.6);
     /*margin: 10px -30px 10px 0px;*/
 }
 #section1 .thumbnail .img-thumbnail{
@@ -372,26 +396,29 @@ Class slides CSS
     border-radius: 0px; 
 }
 #section1 .thumbnail .caption{
-    width: 60%;
+    width: 65%;
     float: left;
     color: rgb(35,60,130);
-    text-align: left;
-    padding: 0px;
-    margin-left: 18px;
-    margin-top: 10px;
-    background-color: #fff;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 0px;
 }
-#section1 .thumbnail .caption h4{
+#section1 .thumbnail .caption h2{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 26px;
     color: rgb(35,60,130);
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
 }
-#section1 .thumbnail .caption h5{
+#section1 .thumbnail .caption h3{
     font-size: 14px;
     font-weight: 400;
     color: rgb(35,60,130);
     margin-top: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    color: rgb(35,60,130);
 }
 #section1 .button {
   border-radius: 0;
@@ -404,11 +431,30 @@ Class slides CSS
   letter-spacing: 2px;
   color: rgb(35,60,130);
 }
+#section1 a:active, a:focus, a:hover{
+  margin: 0px;
+  padding: 0px;
+}
+#linkhometext {  
+    font-weight: bold;
+}
 /*EndSection1*/
 /*Section2-Montana*/
 #section2{
 	background-image: url(img/secciones/montana.jpg);
 	padding: 2% 10% 2% 10%;
+}
+#section2 h1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px; 
+    font-size: 40px; 
+    margin-bottom: 10px;
+    margin-top: 2px;
+    background-color: rgba(35,60,130,.6);
+    width: max-content;
+    padding: 5px 10px;
+    color: #fff;
 }
 /*EndSection2*/
 /*Section3-Escalada*/
@@ -416,17 +462,53 @@ Class slides CSS
 	background-image: url(img/secciones/escalada.jpg);
 	padding: 2% 10% 2% 10%;
 }
+#section3 h1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px; 
+    font-size: 40px; 
+    margin-bottom: 10px;
+    margin-top: 2px;
+    background-color: rgba(35,60,130,.6);
+    width: max-content;
+    padding: 5px 10px;
+    color: #fff;
+}
 /*EndSection3*/
 /*Section4*/
 #section4{
 	background-image: url(img/secciones/ski2.jpg);
 	padding: 2% 10% 2% 10%;
 }
+#section4 h1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px; 
+    font-size: 40px; 
+    margin-bottom: 10px;
+    margin-top: 2px;
+    background-color: rgba(35,60,130,.6);
+    width: max-content;
+    padding: 5px 10px;
+    color: #fff;
+}
 /*EndSection4*/
 /*Section5*/
 #section5{
 	background-image: url(img/secciones/cursos2.jpg);
 	padding: 2% 10% 2% 10%;
+}
+#section5 h1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px; 
+    font-size: 40px; 
+    margin-bottom: 10px;
+    margin-top: 2px;
+    background-color: rgba(35,60,130,.6);
+    width: max-content;
+    padding: 5px 10px;
+    color: #fff;
 }
 #section5 p{
 	margin-bottom: 10px;
@@ -441,10 +523,23 @@ Class slides CSS
 	background-image: url(img/secciones/contacto.jpg);
 	padding: 2% 10% 0% 10%;
 }
-#section6 .row h3{
+#section6 h1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px; 
+    font-size: 40px; 
+    margin-bottom: 10px;
+    margin-top: 2px;
+    background-color: rgba(35,60,130,.6);
+    width: max-content;
+    padding: 5px 10px;
+    color: #fff;
+}
+#section6 .row h2{
     color: #ffffff;
     font-size: 30px;
     margin: 5px 0px;
+    background-color: transparent;
 }
 #section6 .send{
     border-radius: 0px;
@@ -540,26 +635,9 @@ Class slides CSS
         background-position: center;
 
     }
-
-    #section1, #section2, #section3, #section4, #section5, #section6{
+    /*#section1, #section2, #section3, #section4, #section5, #section6{
         padding: 3% 5% 0% 5%;
-    }
-   /* #section2{
-        padding: 3% 10% 0% 10%;
-    }
-    #section3{
-        padding: 3% 10% 0% 10%;
-    }
-    #section4{
-        padding: 3% 10% 0% 10%;
-    }
-    #section5{
-        padding: 3% 10% 0% 10%;
-    }
-    #section6{
-        padding: 20% 10% 0% 10%;
     }*/
-
     h1{
         font-size: 32px;
     }
@@ -658,34 +736,6 @@ Class slides CSS
     .fp-controlArrow{
         display:none !important;
     }
-    /*Modal
-    .modal { 
-    }
-    .modal-content{
-        padding: 10px 10px 35px 10px;
-    }
-    .modal-header{
-    }
-    .modal-body { 
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-    .modal-header h3 {
-        margin: 0px;
-        font-size: 22px;
-    }
-    .modal-header h4 {
-        margin: 0px;
-        font-size: 14px;
-    }
-    .modal p{
-        font-size: 14px;
-    }
-    button.close {
-        font-size: 35px;
-    }    */
-    /*EndModal*/
-
     .navbar-brand img {
         width: 120px;
         margin-top: 5px;
@@ -706,15 +756,20 @@ Class slides CSS
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    .navbar-nav {
+        margin: 10px 0px;
+    }
     .nav > li > a {
         position: relative;
         display: block;
-        padding: 6px 2px;
-        margin: 0px 5px;
+        padding: 2px 4px;
+        margin: 0px 0px;
         font-size: 14px;
         font-weight: 400;
     }
-
+    .nav-logos {
+        margin-left: -5px;
+    }
     .navbar-custom{
         padding-top: 30px;
     }
@@ -735,13 +790,16 @@ Class slides CSS
 
 /* Medium */
 @media (min-width:992px) and (max-width:1199px){
-    
+
     .navbar-custom .navbar-brand img {
         width: 170px;
     }
     .nav > li > a {
-        padding: 6px 10px;
-        margin: 0px 1px;
+        padding: 6px 1px;
+        margin: 0px 4px;
+    }
+    .nav-logos {
+        margin-left: 0;
     }
     #section1 .thumbnail .caption {
         width: 50%; 
