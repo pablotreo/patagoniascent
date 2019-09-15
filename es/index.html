@@ -114,7 +114,7 @@
     <div class="slide" id="slide1">
             <h2 class="hidden-xs">Te damos la bienvenida a</h2>
             <h1>PATAGONIA ASCENT...</h1>
-            <h2>UNA EMPRESA JOVEN Y CON MUCHA MOTIVACIÓN</p> PARA AYUDARTE A CONQUISTAR TUS SUEÑOS!!!</h2> 
+            <h2>Una empresa joven y con mucha motivación</br> para ayudarte a conquistar tus sueños!!!</h2> 
             <p class="link-slide">
               <a href="#nosotros">QUIENES SOMOS</a>
             </p>
@@ -154,13 +154,14 @@
 	</div>
 
 	<div class="section" id="section1">
-        <h1>QUIENES SOMOS</h1>
+        <h1>NOSOTROS</h1>
+      </br>
           <div class="row">
             <div class="col-xs-10 col-md-4">
             <div class="thumbnail">
                 <div class="caption">
                     <h2>Juan Raselli</h2>
-                    <h3>GUÍA DE ALTA MONTAÑA UIAGM</h3>
+                    <h3>GUÍA DE MONTAÑA UIAGM</h3>
                     <a class="button" href="juan-raselli.php">[ más info aquí ]</a>
                 </div>
                 <img src="img/nosotros/JuanRaselliThumb.jpg" alt="Juan Raselli" class="img-responsive img-thumbnail hidden-xs">
@@ -171,7 +172,7 @@
             <div class="thumbnail">   
                 <div class="caption">
                   <h2>Roberto Treu</h2>
-                  <h3>GUÍA DE ALTA MONTAÑA UIAGM</h3>
+                  <h3>GUÍA DE MONTAÑA UIAGM</h3>
                   <a class="button" href="roberto-treu.php">[ más info aquí ]</a>
                 </div>
                 <img src="img/nosotros/RobertoTreuThumb.jpg" alt="Roberto Treu" class="img-responsive img-thumbnail hidden-xs">
@@ -182,7 +183,7 @@
             <div class="thumbnail">
                 <div class="caption">
                     <h2>Tomás Aguiló</h2>
-                    <h3>GUÍA DE ALTA MONTAÑA UIAGM</h3>
+                    <h3>GUÍA DE MONTAÑA UIAGM</h3>
                     <a class="button" href="tomas-roy-aguilo.php">[ más info aquí ]</a>
                 </div>
                 <img src="img/nosotros/TomasAguiloThumb.jpg" alt="Tomas Aguilo" class="img-responsive img-thumbnail hidden-xs">
@@ -318,12 +319,14 @@
               </div>
             </form>
           </div>
-
-          <div class="row footer">
-            <div class="col-md-12">
-              <p>
-                <b>PATAGONIA</b>SCENT - <a href="mailto:patagoniascent@gmail.com">patagoniascent@gmail.com</a> - Tel: +54 264 4449633
-              </p>
+          
+          <div class="col-md-12">
+            <div class="row">
+              <div class="footer">
+                <h4 class="hidden-xs"><b>PATAGONIA</b>SCENT</h4>
+                <h4>Mail: <a href="mailto:patagoniascent@gmail.com">patagoniascent@gmail.com</a></h4>
+                <h4>Tel: +54 264 4449633</h4>
+              </div>
             </div> 
           </div>
 
@@ -357,27 +360,27 @@
                 controlArrows: true,
                 //scrollBar: true,
                 //normalScrollElements: '#section6',
-                responsiveHeight: 500,
-                //responsiveWidth: 400,
+                //responsiveHeight: 700,
+                responsiveWidth: 430,
                 bigSectionsDestination: top,
                 //autoScrolling: false,
                 //fitToSection: true,
                 //scrollOverflow: true,
-            // afterRender: function(){
-            //         setInterval(function(){
-            //         $.fn.fullpage.moveSlideRight();
-            //     }, 8000);
-            // }
+              afterRender: function(){
+                      setInterval(function(){
+                      $.fn.fullpage.moveSlideRight();
+                  }, 8000);
+              }
 			});
 		});
 	</script>  
   </script>
-  <!-- ToolTip -->
+  <!-- ToolTip 
   <script type="text/javascript">
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   }) 
-  </script>
+  </script>-->
 
 </body>
 </html>

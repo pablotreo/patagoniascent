@@ -413,12 +413,13 @@ Class slides CSS
     background-color: transparent;
 }
 #section1 .thumbnail .caption h3{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: rgb(35,60,130);
     margin-top: 4px;
-    margin-bottom: 8px;
+    margin-bottom: 22px;
     color: rgb(35,60,130);
+    letter-spacing: 1px;
 }
 #section1 .button {
   border-radius: 0;
@@ -557,14 +558,6 @@ Class slides CSS
 #section6 .form-control{
 	border-radius: 0px;
 }
-#section6 .footer p{
-    margin-top: 30px;
-    font-size: 20px;
-    color: #fff;
-}
-#section6 .footer a{
-    color: #fff;
-}
 #section6 .close{
     font-size: 20px;
 }
@@ -578,7 +571,20 @@ Class slides CSS
     background-color: rgb(35,60,130,.5);
 }*/
 /*EndSection6*/
-
+/*Footer*/
+.footer{
+    margin-top: 40px;
+    text-align: left;
+    font-size: 18px;
+}
+.footer a{
+    
+}
+.footer h4{
+    color: #ffffff;
+    font-weight: 400;
+}
+/*Footer*/
 /*Arrow*/
 .fp-controlArrow {
 }
@@ -683,6 +689,9 @@ Class slides CSS
         margin-top: -12px;
         background-color: #fff;
     }
+    #section1 .thumbnail .caption h3{
+        margin-bottom: 4px;
+    }
     #section1 .thumbnail .caption h4 {
         font-weight: 400;
         font-size: 14px;
@@ -723,14 +732,17 @@ Class slides CSS
     #section6 .footer p {
         font-size: 10px;
         text-align: right;
+        color: rgba(35,60,130,.99);
     }
     #section6 .footer h4 {
-        font-size: 10px;
+        color: #ffffff;
+        font-size: 16px;
+        text-align: left;
+        margin: 10px 14px;
+        font-weight: 400;
     }
     /*EndContact*/
-        .footer{
-            background-color: black;
-        }
+        
 
     /*arrows*/
     .fp-controlArrow{
@@ -755,6 +767,18 @@ Class slides CSS
 
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
+
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 28px;
+        padding: 3px 5px:;
+    }
+    h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
 
     .navbar-nav {
         margin: 10px 0px;
