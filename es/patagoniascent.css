@@ -383,7 +383,7 @@ Class slides CSS
     display: inline-table;
     border: none;
     border-radius: 0px;
-    padding: 0px;
+   /* padding: 0px;*/
     background-color: rgba(255,255,255,.6);
     /*margin: 10px -30px 10px 0px;*/
 }
@@ -682,12 +682,11 @@ Class slides CSS
     #section1 .thumbnail .caption {
         width: 100%;
         float: left;
-        color: rgb(35,60,130);
+        /*color: rgb(35,60,130,.5);*/
         text-align: left;
         padding: 8px 8px 6px 8px;
         margin-left: 0px;
-        margin-top: -12px;
-        background-color: #fff;
+        background-color: rgb(255,255,255,.5);
     }
     #section1 .thumbnail .caption h3{
         margin-bottom: 4px;
