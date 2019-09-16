@@ -250,9 +250,8 @@ span{
 }
 /*CarouselThumbs*/
 .list-inline {
-  text-align: left;
-  width: 107%;
-  margin-left: -4px;
+  width: 105%;
+  margin-left: 0px;
 }
 .list-inline > li {
 	width: 18%;
@@ -471,6 +470,12 @@ footer ul{
         max-width: 50px;
         margin-bottom: 10px;
         margin-top: -20px;
+    }
+    /* thumbnails */
+    .list-inline {
+    width: 100%;
+    margin-left: 0px;
+    /* padding-left: 1px; */
     }
 }
 
