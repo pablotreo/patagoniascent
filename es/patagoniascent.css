@@ -269,7 +269,7 @@ Class sections CSS
     border-color: transparent;
     font-size: 20px;
     padding: 5px 5px;
-    margin: 5px -7px;
+    margin: 0px 0px;
 }
 .section button:hover{
     border-radius: 0;
@@ -279,7 +279,7 @@ Class sections CSS
     border-color: transparent;
     font-size: 20px;
     padding: 5px 5px;
-    margin: 5px -7px;
+    margin: 0px 0px;
 }
 
 /* 
@@ -598,14 +598,15 @@ Class slides CSS
 }
 /*End-Arrow*/
 
-/*Alert Massege*/
+/*Alert Massege
 .alert {
     padding: 10px;
     margin-bottom: 30px;
     border: 1px solid transparent;
     border-radius: 0px;
     margin-top: -10px;
-}
+    color: red;
+}*/
 /*End Alert Massege*/
 
 /* RESPONSIVE CSS
