@@ -559,14 +559,16 @@ Class slides CSS
 	border-radius: 0px;
 }
 #section6 .close{
-    font-size: 20px;
+    font-size: 18px;
+    padding: 0px;
+    font-weight: 600;
 }
 #section6 .btn-primary {
     background-color: rgb(35,60,130);
 }
-#section6 .contactform .form-group {
+/*#section6 .contactform .form-group {
     margin-bottom: 7px;
-}
+}*/
 /*#section6 .btn-primary a:hover{
     background-color: rgb(35,60,130,.5);
 }*/
@@ -598,16 +600,21 @@ Class slides CSS
 }
 /*End-Arrow*/
 
-/*Alert Massege
+/*Alert Massege*/
 .alert {
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 5px;
+    margin-bottom: 15px;
     border: 1px solid transparent;
     border-radius: 0px;
-    margin-top: -10px;
-    color: red;
-}*/
+}
 /*End Alert Massege*/
+/*Help Block*/
+.help-block {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    color: rgb(35,60,130);
+    font-size: 16px;
+}
 
 /* RESPONSIVE CSS
 ---------------------------------------------------------------------------------------------------------
