@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
     margin:0;
     padding:0;
-    color:#444;
+    color:#fff;
 }
 label{
     font-size: 20px;
@@ -378,7 +378,6 @@ Class slides CSS
     padding: 10px;
     line-height: normal;
 }
-
 #section1 .thumbnail {
     display: inline-table;
     border: none;
@@ -428,8 +427,8 @@ Class slides CSS
   font-weight: 400;
   background-color: transparent;
   border: none;
-  font-size: 14px;
-  letter-spacing: 2px;
+  font-size: 16px;
+  letter-spacing: 1px;
   color: rgb(35,60,130);
 }
 #section1 a:active, a:focus, a:hover{
