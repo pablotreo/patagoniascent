@@ -684,14 +684,24 @@ Class slides CSS
     }
     /*Nosotros-Thumbnails*/
     #section1 .thumbnail .caption {
-        width: 100%;
+        width: 66%;
         float: left;
-        color: rgb(35,60,130);
+        /*color: rgb(35,60,130,.5);*/
         text-align: left;
-        padding: 8px 8px 6px 8px;
+        /*padding: 8px 8px 6px 8px;*/
         margin-left: 0px;
-        margin-top: -12px;
-        background-color: #fff;
+        /*background-color: rgb(255,255,255,.5);*/
+    }
+    #section1 .thumbnail .img-thumbnail {
+        width: 32%;
+    }
+    #section1 .thumbnail .caption h2 {
+        font-size: 20px;
+    }
+    #section1 .thumbnail .caption h3{
+        margin-bottom: 0px;
+        font-size: 8px;
+        margin-top: 0px;
     }
     #section1 .thumbnail .caption h4 {
         font-weight: 400;
@@ -768,15 +778,32 @@ Class slides CSS
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 28px;
+        padding: 3px 5px:;
+    }
+    h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav {
+        margin: 10px 0px;
+    }
     .nav > li > a {
         position: relative;
         display: block;
-        padding: 6px 2px;
-        margin: 0px 5px;
+        padding: 2px 4px;
+        margin: 0px 0px;
         font-size: 14px;
         font-weight: 400;
     }
-
+    .nav-logos {
+        margin-left: -5px;
+    }
     .navbar-custom{
         padding-top: 30px;
     }
@@ -802,8 +829,11 @@ Class slides CSS
         width: 170px;
     }
     .nav > li > a {
-        padding: 6px 10px;
-        margin: 0px 1px;
+        padding: 6px 1px;
+        margin: 0px 4px;
+    }
+    .nav-logos {
+        margin-left: 0;
     }
     #section1 .thumbnail .caption {
         width: 50%; 
