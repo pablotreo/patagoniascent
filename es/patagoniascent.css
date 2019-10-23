@@ -253,7 +253,7 @@ Class sections CSS
     font-weight: 400;
     color: rgba(255,255,255);
     background-color: rgba(35,60,130,.6);
-    width: fit-content;
+    width: max-content;
 }
 .section li a:hover{
    /* background-color: rgba(255,255,255,.3);
@@ -293,7 +293,7 @@ Class slides CSS
 	text-align: left;
 	color: #fff;
     background-color: rgba(35,60,130,.6);
-    width: fit-content;
+    width: max-content;
     padding: 5px 10px; 
     margin: 3px 0px;  
 }
@@ -301,7 +301,7 @@ Class slides CSS
 	text-align: left;
 	color: #fff;
     background-color: rgba(35,60,130,.6);
-    width: fit-content;
+    width: max-content;
     padding: 5px 10px;
     margin: 3px 0px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -311,7 +311,7 @@ Class slides CSS
 }
 .slide a{
     background: rgba(35,60,130,.6);
-    width: fit-content;
+    width: max-content;
     padding: 5px 10px;
     margin: 3px 0px;
     font-weight: 400;
@@ -320,7 +320,7 @@ Class slides CSS
 .slide a:hover, a:focus{
     background: rgba(255,255,255,.6);
     color: rgba(35,60,130);
-    width: fit-content;
+    width: max-content;
     padding: 5px 10px;
     margin: 3px 0px;   
     font-size: 18px;
