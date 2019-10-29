@@ -12,10 +12,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-header"> 
-                  <span class="glyphicon glyphicon-menu-right"><h1>Roberto A. Treu</h1></span>
-                  <!-- <a href="propuestas/PatagoniaSur.pdf" target="_blank"><small class="hidden-xs hidden-sm">DESCARGAR PROPUESTA COMPLETA</small>
-                  <span class="glyphicon glyphicon-download-alt"></span>
-                  </a> -->
+                  <span class="glyphicon glyphicon-menu-right"><h1>Guía de Montaña</h1></span>
                 </div>
                 <ol class="breadcrumb hidden-xs">
                     <li><a href="index.html">Home</a>
@@ -35,6 +32,7 @@
           <div class="col-lg-12">
             <div class="class=col-lg-8 col-md-8 col-sm-8">
                 <div class="box">
+                  <h2><span>Roberto A. Treu</span></h2>
                     <p>
                         Roberto Treu “Indio” es originario de la provincia de San Juan, donde encontró su pasión por las montañas. Subió muchos picos diferentes a lo largo de los Andes, así como en Bolivia, Brasil, Chile, Francia, España, Alemania, Italia, Austria y Suiza.<br>
                         Desde 2006 vive en la Patagonia, donde ha escalado importantes montañas y realizado nuevas rutas, tanto en el Cerro Torre como en el cerro Fitz Roy el cual ambos fueron ascendidos en reiteradas oportunidades.<br>

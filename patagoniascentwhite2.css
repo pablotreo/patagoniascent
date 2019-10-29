@@ -133,13 +133,13 @@ span{
     font-size: 14px;
     padding-top: 30px;
     letter-spacing: 1px;
- } 
+ }       
 .navbar-brand,
 .navbar-brand:focus,
 .navbar-brand:active {
    padding: 15px 15px;
    background-color: transparent;
-}      
+} 
 .navbar-custom .navbar-brand img {
     margin-top: -35px;
 }
@@ -211,7 +211,7 @@ span{
 }
 .page-header a:hover, .page-header a:active, .page-header a:focus{
     font-size: 25px;
-	float: right;
+    float: right;
     margin-top: 22px;
     /*margin-top: inherit;*/
 }
@@ -239,18 +239,11 @@ span{
 .breadcrumb > li + li:before {
     padding: 0px 0px;
 }
-/*menu de itinerarios*/
-.submenu li a{
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    padding: 3px 5px;
-    width: fit-content;
-}
 /*CarouselThumbs*/
 .list-inline {
-  width: 105%;
-  margin-left: 0px;
+  text-align: left;
+  width: 107%;
+  margin-left: -4px;
 }
 .list-inline > li {
 	width: 18%;
@@ -273,6 +266,7 @@ span{
 	margin-right: 10px;
 	margin-top: 10px;
 }
+}
 .box h2 {
     font-size: 20px;
     margin-top: 10px;
@@ -285,9 +279,13 @@ span{
     margin-top: 5px;
     font-size: 25px;
 }
+#insta-logo-nosotros{
+    margin-top: 5px;
+    font-size: 25px;
+}
 /*FOOTER*/
 footer {
-	/*margin-top: 50px;*/
+	margin-top: 50px;
     background-color: #fff;  
     color: rgb(88,88,90);
 }
@@ -325,7 +323,7 @@ footer .container{
     padding-top: 25px;
     padding-right: 80px;
     padding-bottom: 25px;
-    padding-left: 80px;
+    padding-left: 40px;
 }
 footer img {
     margin-left: 20px;
@@ -353,9 +351,7 @@ footer ul{
 
 
 /* RESPONSIVE CSS
------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------
------------------------------------------------------------------------------------ */
+-------------------------------------------------- */
 /* Extra Small */
 
 @media screen and (max-width:767px) {
@@ -364,16 +360,15 @@ footer ul{
         padding-right: 4%;
     }
     h1{
-        font-size: 26px;
-        font-weight: 400;
-    }
-     h2{
-        font-size: 30px;
-        margin-bottom: 5px;
+        font-size: 24px;
     }
     h3{
         font-size: 18px;
         margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    h2{
+        font-size: 30px;
         margin-bottom: 5px;
     }
     .navbar-nav {
@@ -383,18 +378,9 @@ footer ul{
     }   
     .page-header{
         font-size: 30px;
-        margin: 20px 0 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .page-header a{
-        margin-top: 0px;
-    }
-    .page-header a:hover,a:focus,a:active{
-        margin-top: 0px;
     }
     .glyphicon {
-        
+        top: -12px;
     }   
     .thumbnail .caption {
         padding-left: 5px;
@@ -469,12 +455,6 @@ footer ul{
         max-width: 50px;
         margin-bottom: 10px;
         margin-top: -20px;
-    }
-    /* thumbnails */
-    .list-inline {
-    width: 100%;
-    margin-left: 0px;
-    /* padding-left: 1px; */
     }
 }
 

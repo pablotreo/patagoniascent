@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-
 <?php  include('head.html');?>
 
 <title>Tomás Roy Aguiló</title>
@@ -14,13 +11,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header"> 
-                  <span class="glyphicon glyphicon-menu-right hidden-xs"></span>
-                  Tomás Roy Aguiló
-                  <!-- <a href="propuestas/PatagoniaSur.pdf" target="_blank"><small class="hidden-xs hidden-sm">DESCARGAR PROPUESTA COMPLETA</small>
-                  <span class="glyphicon glyphicon-download-alt"></span>
-                  </a> -->
-                </h1>
+                <div class="page-header"> 
+                  <span class="glyphicon glyphicon-menu-right hidden-xs"><h1>Mountain Guide</h1></span>
+                </div>
                 <ol class="breadcrumb hidden-xs">
                     <li><a href="index.html">Home</a>
                     </li>
@@ -39,6 +32,7 @@
           <div class="col-lg-12">
             <div class="class=col-lg-8 col-md-8 col-sm-8">
                 <div class="box">
+                    <h2><span>Tomás Roy Aguiló</span></h2>
                     <p>
                         Tomy was born in San Carlos de Bariloche, northern Patagonia, and is now an IFMGA/UIAGM Mountain Guide. At 5 years of age he began to ski and from there he developed his passion for the mountains. He moved to El Chalten in 2006. <br>
                         Tomy has worked as a guide in Nepal, France, Suitzerland, Italy, Argentina, Chile, Peru, and Bolivia. From technical climbing in Patagonia (guiding Fitz Roy, Cerro Torre, Poincenot), ski touring in remote places (Cordillera Sarmiento), Heliski in Zermatt (switzerland), and climbing in altitude (Mera Peak, Aconcagua, Alpamayo). <br>

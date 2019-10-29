@@ -638,22 +638,12 @@ Class slides CSS
 /* Extra Small */
 @media screen and (max-width:767px) {
     
-    #slide1, #slide2, #slide3, #slide4, #slide5{
-        padding: 0% 1% 0% 1%;
-        background-position: center;
-
-    }
-
-    /*#section1, #section2, #section3, #section4, #section5, #section6{
-        padding: 3% 5% 0% 5%;
-    }*/
-
     h1{
-        font-size: 32px;
+        font-size: 28px !important;
     }
     h2{
         font-size: 28px;
-        padding: 3px 5px:;
+        padding: 3px 5px;
     }
     h3{
         font-size: 25px;
@@ -662,6 +652,13 @@ Class slides CSS
     p{
         font-size: 15px;
     }
+    #slide1, #slide2, #slide3, #slide4, #slide5{
+        padding: 0% 1% 0% 1%;
+        background-position: center;
+    }
+    /*#section1, #section2, #section3, #section4, #section5, #section6 h1{
+        font-size: 32px;
+    }*/
     .navbar-nav {
         float: left;
         margin: 10px;
@@ -682,6 +679,20 @@ Class slides CSS
         letter-spacing: 2px;
         font-weight: 400;
     }
+    .slide h1 {
+        width: initial;
+    }
+    .slide h2 {
+        width: initial;
+    }
+    .slide h3 {
+        width: initial;
+    }
+    .slide a {
+        padding: 0px 5px;
+        width: initial;
+    }
+
     /*Nosotros-Thumbnails*/
     #section1 .thumbnail .caption {
         width: 66%;
@@ -752,12 +763,17 @@ Class slides CSS
         margin: 10px 14px;
         font-weight: 400;
     }
+     .send{
+        padding: 0px;
+        font-size: 16px;
+    }
     /*EndContact*/
 
     /*arrows*/
     .fp-controlArrow{
         display:none !important;
     }
+
     .navbar-brand img {
         width: 120px;
         margin-top: 5px;
@@ -769,27 +785,22 @@ Class slides CSS
     .navbar-custom {
         padding-top: 0px;
     }
-    .send{
-        padding: 0px;
-        font-size: 16px;
-    }
+   
 }
 
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
 
     h1{
-        font-size: 32px;
+        font-size: 40px;
     }
     h2{
         font-size: 28px;
         padding: 3px 5px:;
     }
     h3{
-        font-size: 25px;
-        margin-bottom: 10px;
+        font-size: 28px;
     }
-
     .navbar-nav {
         margin: 10px 0px;
     }
@@ -811,12 +822,6 @@ Class slides CSS
         padding-top: 15px;
         width: 130px;
     }   
-    h3{
-        font-size: 28px;
-    }
-    h1{
-        font-size: 40px;
-    }
     #section1 .thumbnail .img-thumbnail {
         width: 22%;
     }

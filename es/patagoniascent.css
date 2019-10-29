@@ -646,13 +646,12 @@ Class slides CSS
     #slide1, #slide2, #slide3, #slide4, #slide5{
         padding: 0% 1% 0% 1%;
         background-position: center;
-
     }
     /*#section1, #section2, #section3, #section4, #section5, #section6{
         padding: 3% 5% 0% 5%;
     }*/
     h1{
-        font-size: 32px;
+       font-size: 28px !important;
     }
     h2{
         font-size: 28px;
@@ -685,6 +684,20 @@ Class slides CSS
         letter-spacing: 2px;
         font-weight: 400;
     }
+    .slide h1 {
+        width: initial;
+    }
+    .slide h2 {
+        width: initial;
+    }
+    .slide h3 {
+        width: initial;
+    }
+    .slide a {
+        padding: 0px 5px;
+        width: initial;
+    }
+
     /*Nosotros-Thumbnails*/
     #section1 .thumbnail .caption {
         width: 66%;
