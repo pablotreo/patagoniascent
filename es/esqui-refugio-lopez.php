@@ -1,6 +1,6 @@
 <?php  include('head.html');?>
 
-<title>Esquí Refugio Lopez</title>
+<title>Refugio Lopez Esquí Patagonia</title>
 
 </head>
 
@@ -19,7 +19,7 @@
                   </a>
                 </div>
                 <ol class="breadcrumb hidden-xs">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.html">Inicio</a>
                     </li>
                     <li><a href="index.html#eski">Esquí</a>
                     </li>
@@ -55,19 +55,19 @@
                         <!-- main slider carousel -->
                         <div class="carousel-inner">
                             <div class="active item" data-slide-number="0">
-                                <img src="img/esquirefugiolopez/EsquiRefugioLopez3.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquirefugiolopez/EsquiRefugioLopez3.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="1">
-                                <img src="img/esquirefugiolopez/EsquiRefugioLopez1.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquirefugiolopez/EsquiRefugioLopez1.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="2">
-                                <img src="img/esquirefugiolopez/EsquiRefugioLopez6.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquirefugiolopez/EsquiRefugioLopez6.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="3">
-                                <img src="img/esquirefugiolopez/EsquiRefugioLopez4.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquirefugiolopez/EsquiRefugioLopez4.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="4">
-                                <img src="img/esquirefugiolopez/EsquiRefugioLopez5.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquirefugiolopez/EsquiRefugioLopez5.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                         </div>
                     </div>
@@ -75,27 +75,27 @@
                     <ul class="list-inline">
                         <li>
                             <a id="carousel-selector-0" class="selected">
-                              <img src="img/esquirefugiolopez/EsquiRefugioLopezThumb3.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquirefugiolopez/EsquiRefugioLopezThumb3.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-1">
-                              <img src="img/esquirefugiolopez/EsquiRefugioLopezThumb1.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquirefugiolopez/EsquiRefugioLopezThumb1.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-2">
-                              <img src="img/esquirefugiolopez/EsquiRefugioLopezThumb6.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquirefugiolopez/EsquiRefugioLopezThumb6.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-3">
-                              <img src="img/esquirefugiolopez/EsquiRefugioLopezThumb4.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquirefugiolopez/EsquiRefugioLopezThumb4.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-4">
-                              <img src="img/esquirefugiolopez/EsquiRefugioLopezThumb5.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquirefugiolopez/EsquiRefugioLopezThumb5.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                     </ul>

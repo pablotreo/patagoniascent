@@ -1,6 +1,6 @@
 <?php  include('head.html');?>
 
-<title>Una Semana Esquí de Montaña en Chalten.</title>
+<title>Una Semana Esquí Patagonia</title>
 </head>
 
 <body>
@@ -12,12 +12,12 @@
             <div class="col-lg-12">
                 <div class="page-header"> 
                     <span class="glyphicon glyphicon-menu-right"><h1>Esquí Patagonia</h1></span>
-                    <a href="propuestas/EsquiUnaSemanaChalten.pdf" target="_blank"><small class="hidden-xs hidden-sm">DESCARGAR PROPUESTA COMPLETA</small>
+                    <a href="propuestas/EsquiUnaSemanaChalten.pdf" target="_blank"><small class="hidden-xs hidden-sm">DESCARGAR PROPUESTA</small>
                     <span class="glyphicon glyphicon-download-alt"></span>
                     </a>
                 </div>
                 <ol class="breadcrumb hidden-xs">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.html">Inicio</a>
                     </li>
                     <li><a href="index.html#eski">Esquí</a>
                     </li>
@@ -53,19 +53,19 @@
                         <!-- main slider carousel -->
                         <div class="carousel-inner">
                             <div class="active item" data-slide-number="0">
-                                <img src="img/esquiunasemanachalten/EsquiUnaSemanaChalten3.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquiunasemanachalten/EsquiUnaSemanaChalten3.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="1">
-                                <img src="img/esquiunasemanachalten/EsquiUnaSemanaChalten1.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquiunasemanachalten/EsquiUnaSemanaChalten1.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="2">
-                                <img src="img/esquiunasemanachalten/EsquiUnaSemanaChalten7.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquiunasemanachalten/EsquiUnaSemanaChalten7.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="3">
-                                <img src="img/esquiunasemanachalten/EsquiUnaSemanaChalten6.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquiunasemanachalten/EsquiUnaSemanaChalten6.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="4">
-                                <img src="img/esquiunasemanachalten/EsquiUnaSemanaChalten2.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquiunasemanachalten/EsquiUnaSemanaChalten2.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                         </div>
                     </div>
@@ -73,27 +73,27 @@
                     <ul class="list-inline">
                         <li>
                             <a id="carousel-selector-0" class="selected">
-                              <img src="img/esquiunasemanachalten/EsquiUnaSemanaChaltenThumb3.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquiunasemanachalten/EsquiUnaSemanaChaltenThumb3.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-1">
-                              <img src="img/esquiunasemanachalten/EsquiUnaSemanaChaltenThumb1.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquiunasemanachalten/EsquiUnaSemanaChaltenThumb1.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-2">
-                              <img src="img/esquiunasemanachalten/EsquiUnaSemanaChaltenThumb7.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquiunasemanachalten/EsquiUnaSemanaChaltenThumb7.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-3">
-                              <img src="img/esquiunasemanachalten/EsquiUnaSemanaChaltenThumb6.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquiunasemanachalten/EsquiUnaSemanaChaltenThumb6.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-4">
-                              <img src="img/esquiunasemanachalten/EsquiUnaSemanaChaltenThumb2.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquiunasemanachalten/EsquiUnaSemanaChaltenThumb2.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                     </ul>

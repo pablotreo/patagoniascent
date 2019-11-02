@@ -245,7 +245,7 @@ span{
     letter-spacing: 2px;
     font-weight: 400;
     padding: 3px 5px;
-    width: fit-content;
+    width: max-content;
 }
 /*CarouselThumbs*/
 .list-inline {

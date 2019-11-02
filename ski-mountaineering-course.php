@@ -36,7 +36,7 @@
             <div class="col-lg-12">
                 <div class="class=col-lg-6 col-md-6 col-sm-6">
                     <div class="box">
-                        <h2><span>Ski Mountaineering Course</span></h2>
+                        <h2><span>Ski Mountaineering Course.</span></h2>
                         <p>
                         The aim of this course is to introduce the Alpine skiing enthusiast into the world of ski mountaineering. We will form and build a solid base in regards to safety knowledge in the mountain environment. We will expand the sporting goals of people who practice this winter sport.
                         </p>

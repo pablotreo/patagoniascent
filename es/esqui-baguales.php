@@ -1,6 +1,6 @@
 <?php  include('head.html');?>
 
-<title>Esquí Baguales</title>
+<title>Baguales Esquí Patagonia</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
                   </a>
                 </div>
                 <ol class="breadcrumb hidden-xs">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.html">Inicio</a>
                     </li>
                     <li><a href="index.html#eski">Esquí</a>
                     </li>
@@ -55,19 +55,19 @@
                         <!-- main slider carousel -->
                         <div class="carousel-inner">
                             <div class="active item" data-slide-number="0">
-                                <img src="img/esquibaguales/EsquiBaguales8.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquibaguales/EsquiBaguales8.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="1">
-                                <img src="img/esquibaguales/EsquiBaguales2.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquibaguales/EsquiBaguales2.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="2">
-                                <img src="img/esquibaguales/EsquiBaguales7.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquibaguales/EsquiBaguales7.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="3">
-                                <img src="img/esquibaguales/EsquiBaguales5.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquibaguales/EsquiBaguales5.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="4">
-                                <img src="img/esquibaguales/EsquiBaguales9.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquibaguales/EsquiBaguales9.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                         </div>
                     </div>
@@ -75,27 +75,27 @@
                     <ul class="list-inline">
                         <li>
                             <a id="carousel-selector-0" class="selected">
-                              <img src="img/esquibaguales/EsquiBagualesThumb8.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquibaguales/EsquiBagualesThumb8.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-1">
-                              <img src="img/esquibaguales/EsquiBagualesThumb2.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquibaguales/EsquiBagualesThumb2.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-2">
-                              <img src="img/esquibaguales/EsquiBagualesThumb7.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquibaguales/EsquiBagualesThumb7.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-3">
-                              <img src="img/esquibaguales/EsquiBagualesThumb5.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquibaguales/EsquiBagualesThumb5.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-4">
-                              <img src="img/esquibaguales/EsquiBagualesThumb9.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquibaguales/EsquiBagualesThumb9.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                     </ul>

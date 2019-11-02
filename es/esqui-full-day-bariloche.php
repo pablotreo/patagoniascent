@@ -1,6 +1,6 @@
 <?php  include('head.html');?>
 
-<title>Full Day Esquí de Montaña Bariloche.</title>
+<title>Full Day Esquí Patagonia.</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
                   </a>
                 </div>
                 <ol class="breadcrumb hidden-xs">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.html">Inicio</a>
                     </li>
                     <li><a href="index.html#eski">Esquí</a>
                     </li>
@@ -54,19 +54,19 @@
                         <!-- main slider carousel -->
                         <div class="carousel-inner">
                             <div class="active item" data-slide-number="0">
-                                <img src="img/esquifulldaybariloche/EsquiFullDay8.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquifulldaybariloche/EsquiFullDay8.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="1">
-                                <img src="img/esquifulldaybariloche/EsquiFullDay1.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquifulldaybariloche/EsquiFullDay1.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="2">
-                                <img src="img/esquifulldaybariloche/EsquiFullDay6.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquifulldaybariloche/EsquiFullDay6.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="3">
-                                <img src="img/esquifulldaybariloche/EsquiFullDay4.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquifulldaybariloche/EsquiFullDay4.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="4">
-                                <img src="img/esquifulldaybariloche/EsquiFullDay2.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquifulldaybariloche/EsquiFullDay2.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                         </div>
                     </div>
@@ -74,27 +74,27 @@
                     <ul class="list-inline">
                         <li>
                             <a id="carousel-selector-0" class="selected">
-                              <img src="img/esquifulldaybariloche/EsquiFullDayThumb8.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquifulldaybariloche/EsquiFullDayThumb8.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-1">
-                              <img src="img/esquifulldaybariloche/EsquiFullDayThumb1.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquifulldaybariloche/EsquiFullDayThumb1.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-2">
-                              <img src="img/esquifulldaybariloche/EsquiFullDayThumb6.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquifulldaybariloche/EsquiFullDayThumb6.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-3">
-                              <img src="img/esquifulldaybariloche/EsquiFullDayThumb4.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquifulldaybariloche/EsquiFullDayThumb4.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-4">
-                              <img src="img/esquifulldaybariloche/EsquiFullDayThumb2.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquifulldaybariloche/EsquiFullDayThumb2.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                     </ul>

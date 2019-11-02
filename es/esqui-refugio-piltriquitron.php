@@ -1,6 +1,6 @@
 <?php  include('head.html');?>
 
-<title>Esquí Refugio Piltriquitron.</title>
+<title>Piltriquitron Esquí Patagonia</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
                     </a>
                 </div>
                 <ol class="breadcrumb hidden-xs">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.html">Inicio</a>
                     </li>
                     <li><a href="index.html#eski">Esquí</a>
                     </li>
@@ -55,19 +55,19 @@
                         <!-- main slider carousel -->
                         <div class="carousel-inner">
                             <div class="active item" data-slide-number="0">
-                                <img src="img/esquipiltriquitron/esquipiltriquitron3.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquipiltriquitron/esquipiltriquitron3.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="1">
-                                <img src="img/esquipiltriquitron/esquipiltriquitron10.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquipiltriquitron/esquipiltriquitron10.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="2">
-                                <img src="img/esquipiltriquitron/esquipiltriquitron6.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquipiltriquitron/esquipiltriquitron6.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="3">
-                                <img src="img/esquipiltriquitron/esquipiltriquitron2.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquipiltriquitron/esquipiltriquitron2.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                             <div class="item" data-slide-number="4">
-                                <img src="img/esquipiltriquitron/esquipiltriquitron9.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                                <img src="img/esquipiltriquitron/esquipiltriquitron9.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </div>
                         </div>
                     </div>
@@ -75,27 +75,27 @@
                     <ul class="list-inline">
                         <li>
                             <a id="carousel-selector-0" class="selected">
-                              <img src="img/esquipiltriquitron/esquipiltriquitronThumb3.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquipiltriquitron/esquipiltriquitronThumb3.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-1">
-                              <img src="img/esquipiltriquitron/esquipiltriquitronThumb10.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquipiltriquitron/esquipiltriquitronThumb10.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-2">
-                              <img src="img/esquipiltriquitron/esquipiltriquitronThumb6.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquipiltriquitron/esquipiltriquitronThumb6.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-3">
-                              <img src="img/esquipiltriquitron/esquipiltriquitronThumb2.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquipiltriquitron/esquipiltriquitronThumb2.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                         <li>
                             <a id="carousel-selector-4">
-                              <img src="img/esquipiltriquitron/esquipiltriquitronThumb9.jpg" class="img-responsive" alt="Esquí Ptagonia">
+                              <img src="img/esquipiltriquitron/esquipiltriquitronThumb9.jpg" class="img-responsive" alt="Esquí Patagonia">
                             </a>
                         </li>
                     </ul>
