@@ -323,25 +323,45 @@ Class slides CSS
 
 /*ID slides style
 * --------------------------------------- */
+#slide1.lazy{
+    background-image: none;
+    background-color: #F1F1FA;
+}
 #slide1{
 	background-image: url(img/slide/portada2.jpg);
 	padding: 0% 0% 0% 2%; 
 }
+#slide2.lazy{
+    background-image: none;
+    background-color: #F1F1FA;
+}
 #slide2{
 	background-image: url(img/slide/portada3.jpg);
 	padding: 0% 0% 0% 2%;
+}
+#slide3.lazy{
+    background-image: none;
+    background-color: #F1F1FA;
 }
 #slide3{
 	background-image: url(img/slide/portada7.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #slide4{
-	background-image: url(img/slide/portada5.jpg);
-	padding: 0% 0% 0% 2%;
+    background-image: url(img/slide/portada5.jpg);
+    padding: 0% 0% 0% 2%;
+}
+#slide4.lazy{
+    background-image: none;
+    background-color: #F1F1FA;
 }
 #slide5{
 	background-image: url(img/slide/portada6.jpg);
 	padding: 0% 0% 0% 2%;
+}
+#slide5.lazy{
+    background-image: none;
+    background-color: #F1F1FA;
 }
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
 	background: #fff;
@@ -354,7 +374,7 @@ Class slides CSS
 /* ID sections style
 * --------------------------------------- */
 /*Section1-Nosotros*/
-#section1 .lazy{
+#section1.lazy{
     background-image: none;
     background-color: #F1F1FA;
 }
@@ -445,7 +465,7 @@ Class slides CSS
 /*EndSection1*/
 
 /*Section2-Montana*/
-#section2 .lazy{
+#section2.lazy{
     background-image: none;
     background-color: #F1F1FA;
 }
@@ -468,7 +488,7 @@ Class slides CSS
 /*EndSection2*/
 
 /*Section3-Escalada*/
-#section3 .lazy{
+#section3.lazy{
     background-image: none;
     background-color: #F1F1FA;
 }
@@ -491,7 +511,7 @@ Class slides CSS
 /*EndSection3*/
 
 /*Section4*/
-#section4 .lazy{
+#section4.lazy{
     background-image: none;
     background-color: #F1F1FA;
 }
@@ -514,7 +534,7 @@ Class slides CSS
 /*EndSection4*/
 
 /*Section5*/
-#section5 .lazy{
+#section5.lazy{
     background-image: none;
     background-color: #F1F1FA;
 }
@@ -543,7 +563,7 @@ Class slides CSS
 /*EndSection5*/
 
 /*Section6*/
-#section6 .lazy{
+#section6.lazy{
     background-image: none;
     background-color: #F1F1FA;
 }
