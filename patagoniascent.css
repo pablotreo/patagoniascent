@@ -325,7 +325,7 @@ Class slides CSS
 * --------------------------------------- */
 #slide1{
 	background-image: url(img/slide/portada2.jpg);
-	padding: 0% 0% 0% 2%;
+	padding: 0% 0% 0% 2%; 
 }
 #slide2{
 	background-image: url(img/slide/portada3.jpg);
@@ -346,9 +346,18 @@ Class slides CSS
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
 	background: #fff;
 }
+
+/*#slide1 .lazy{
+    background-image: none;
+    background-color: #F1F1FA;
+}*/
 /* ID sections style
 * --------------------------------------- */
 /*Section1-Nosotros*/
+#section1 .lazy{
+    background-image: none;
+    background-color: #F1F1FA;
+}
 #section1{
 	background-image: url(img/secciones/nosotros.jpg);
 	padding: 2% 10% 2% 10%;
@@ -436,6 +445,10 @@ Class slides CSS
 /*EndSection1*/
 
 /*Section2-Montana*/
+#section2 .lazy{
+    background-image: none;
+    background-color: #F1F1FA;
+}
 #section2{
 	background-image: url(img/secciones/montana.jpg);
 	padding: 2% 10% 2% 10%;
@@ -455,6 +468,10 @@ Class slides CSS
 /*EndSection2*/
 
 /*Section3-Escalada*/
+#section3 .lazy{
+    background-image: none;
+    background-color: #F1F1FA;
+}
 #section3{
 	background-image: url(img/secciones/escalada.jpg);
 	padding: 2% 10% 2% 10%;
@@ -474,6 +491,10 @@ Class slides CSS
 /*EndSection3*/
 
 /*Section4*/
+#section4 .lazy{
+    background-image: none;
+    background-color: #F1F1FA;
+}
 #section4{
 	background-image: url(img/secciones/ski2.jpg);
 	padding: 2% 10% 2% 10%;
@@ -493,6 +514,10 @@ Class slides CSS
 /*EndSection4*/
 
 /*Section5*/
+#section5 .lazy{
+    background-image: none;
+    background-color: #F1F1FA;
+}
 #section5{
 	background-image: url(img/secciones/cursos2.jpg);
 	padding: 2% 10% 2% 10%;
@@ -518,6 +543,10 @@ Class slides CSS
 /*EndSection5*/
 
 /*Section6*/
+#section6 .lazy{
+    background-image: none;
+    background-color: #F1F1FA;
+}
 #section6{
 	background-image: url(img/secciones/contacto.jpg);
 	padding: 2% 10% 0% 10%;
