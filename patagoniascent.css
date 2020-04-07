@@ -374,6 +374,10 @@ Class slides CSS
 /* ID sections style
 * --------------------------------------- */
 /*Section1-Nosotros*/
+#section.lazy{
+    background-image: none;
+    background-color: #F1F1FA;
+}
 #section1.lazy{
     background-image: none;
     background-color: #F1F1FA;
