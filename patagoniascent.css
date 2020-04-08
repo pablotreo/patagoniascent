@@ -323,10 +323,6 @@ Class slides CSS
 
 /*ID slides style
 * --------------------------------------- */
-#slide1.lazy{
-    background-image: none;
-    background-color: #F1F1FA;
-}
 #slide1{
 	background-image: url(img/slide/portada2.jpg);
 	padding: 0% 0% 0% 2%; 
@@ -374,10 +370,10 @@ Class slides CSS
 /* ID sections style
 * --------------------------------------- */
 /*Section1-Nosotros*/
-#section.lazy{
+/*#section.lazy{
     background-image: none;
     background-color: #F1F1FA;
-}
+}*/
 #section1.lazy{
     background-image: none;
     background-color: #F1F1FA;
