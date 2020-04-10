@@ -27,8 +27,8 @@
   <link rel="stylesheet" type="text/css" href="fullpage/jquery.fullPage.css">
   <!-- PatagoniAscent CSS -->
   <link rel="stylesheet" type="text/css" href="patagoniascent.css">
-  <!-- FavIcon 
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> -->
+  <!-- FavIcon -->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> 
   <!-- Custom Fonts -->
   <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 
@@ -120,7 +120,7 @@
 
 
 <div id="fullpage">
-	<div class="lazy section" id="section">
+	<div class="lazy section" id="section"> 
 		    <div class="slide" id="slide1">
                 <h3 class="hidden-xs">We welcome you to</h3>
                 <h1>PATAGONIA ASCENT...</h1>
@@ -161,9 +161,9 @@
                     <a href="#contactus">FIND US</a>
                 </p>
         </div>
-	</div>
+  </div>
 
-	<div class="lazy section" id="section1">
+	<div class="section lazy" id="section1">
         <h1>ABOUT US</h1>
         <br>
         <div class="row">
@@ -174,7 +174,7 @@
                   <h3>IFMGA MOUNTAIN GUIDE</h3>
                   <a class="button" href="juan-raselli.php">[ more info here ]</a>  
               </div>
-              <img src="https://www.patagoniascent.com/img/nosotros/JuanRaselliThumb.jpg" alt="Juan Raselli" class="img-responsive img-thumbnail">
+              <img src="https://www.patagoniascent.com/img/nosotros/JuanRaselliThumb.jpg" alt="Juan Raselli" class="img-responsive img-thumbnail" loading="lazy">
           </div>
           </div>
 
@@ -185,7 +185,7 @@
                 <h3>IFMGA MOUNTAIN GUIDE</h3>
                 <a class="button" href="roberto-treu.php">[ more info here ]</a>
               </div>
-              <img src="https://www.patagoniascent.com/img/nosotros/RobertoTreuThumb.jpg" alt="Roberto Treu" class="img-responsive img-thumbnail">
+              <img src="https://www.patagoniascent.com/img/nosotros/RobertoTreuThumb.jpg" alt="Roberto Treu" class="img-responsive img-thumbnail" loading="lazy">
           </div>
           </div>
 
@@ -196,7 +196,7 @@
                   <h3>IFMGA MOUNTAIN GUIDE</h3>
                   <a class="button" href="tomas-roy-aguilo.php">[ more info here ]</a>
               </div>
-              <img src="https://www.patagoniascent.com/img/nosotros/TomasAguiloThumb.jpg" alt="Tomas Aguilo" class="img-responsive img-thumbnail">
+              <img src="https://www.patagoniascent.com/img/nosotros/TomasAguiloThumb.jpg" alt="Tomas Aguilo" class="img-responsive img-thumbnail" loading="lazy">
           </div>
           </div> 
         </div>
@@ -220,7 +220,7 @@
           <li><a href="fitz-roy-cerro-torre-circuit.php" title="Fitz Roy - Cerro Torre Circuit">Fitz Roy - Cerro Torre Circuit</a></li>
         </ul>
   </div>
- 
+
 	<div class="lazy section" id="section3">
         <h1>CLIMBING</h1>
         <ul class="nav menu-section">
@@ -364,7 +364,7 @@
             afterRender: function(){
                     setInterval(function(){
                     $.fn.fullpage.moveSlideRight();
-                }, 12000);
+                }, 12000000);
             }
 			});
 		});
