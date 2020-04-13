@@ -292,8 +292,6 @@ Class slides CSS
     background-color: rgba(35,60,130,.6);
 	background-size: cover;
     background-position: center;
-    /*position: relative;*/
-   /* background-attachment: fixed;*/
 }
 .slide h1{
 	text-align: left;
