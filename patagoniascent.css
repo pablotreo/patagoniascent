@@ -45,9 +45,9 @@ label{
     font-size: 20px;
     font-weight: normal;
 }
-q:before,q:after {
+/*q:before,q:after {
     content:'';
-}
+}*/
 abbr,acronym { 
 	border: 0;
 }
@@ -235,11 +235,14 @@ a:focus {
 /* 
 Class sections CSS 
 * --------------------------------------- */
+
 .section{
-	background-size: cover;
-	/*color: #fff;*/
-	text-align: left;
+    background-color: rgba(35,60,130,.8);
     background-position: center;
+	background-size: cover;
+	text-align: left;
+    /*background-attachment: fixed;*/
+    /*color: #fff;*/
 }
 .section h2{
 	color: #fff;
@@ -284,15 +287,13 @@ Class sections CSS
 /* 
 Class slides CSS
 * --------------------------------------- */
-/*#shadow{
-    background-color: rgb(40,40,40,0.5)!important;
-    z-index: 10;
-    position: relative;
-}*/
+
 .slide{
+    background-color: rgba(35,60,130,.6);
 	background-size: cover;
     background-position: center;
     position: relative;
+    background-attachment: fixed;
 }
 .slide h1{
 	text-align: left;
@@ -332,11 +333,9 @@ Class slides CSS
 #slide1{
 	background-image: url(img/slide/portada2.jpg);
 	padding: 0% 0% 0% 2%; 
-
 }
 #slide2.lazy{
     background-image: none;
-    background-color: rgba(35,60,130,.6);
 }
 #slide2{
 	background-image: url(img/slide/portada3.jpg);
@@ -344,46 +343,35 @@ Class slides CSS
 }
 #slide3.lazy{
     background-image: none;
-    background-color: #F1F1FA;
 }
 #slide3{
 	background-image: url(img/slide/portada7.jpg);
 	padding: 0% 0% 0% 2%;
 }
+#slide4.lazy{
+    background-image: none;
+}
 #slide4{
     background-image: url(img/slide/portada5.jpg);
     padding: 0% 0% 0% 2%;
 }
-#slide4.lazy{
+#slide5.lazy{
     background-image: none;
-    background-color: #F1F1FA;
 }
 #slide5{
 	background-image: url(img/slide/portada6.jpg);
 	padding: 0% 0% 0% 2%;
 }
-#slide5.lazy{
-    background-image: none;
-    background-color: #F1F1FA;
-}
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
 	background: #fff;
 }
 
-/*#slide1 .lazy{
-    background-image: none;
-    background-color: #F1F1FA;
-}*/
 /* ID sections style
 * --------------------------------------- */
 /*Section1-Nosotros*/
-/*#section.lazy{
-    background-image: none;
-    background-color: #F1F1FA;
-}*/
+
 #section1.lazy{
     background-image: none;
-    background-color: #F1F1FA;
 }
 #section1{
 	background-image: url(img/secciones/nosotros.jpg);
@@ -474,7 +462,6 @@ Class slides CSS
 /*Section2-Montana*/
 #section2.lazy{
     background-image: none;
-    background-color: rgba(35,60,130,.6);
 }
 #section2{
 	background-image: url(img/secciones/montana.jpg);
@@ -497,7 +484,6 @@ Class slides CSS
 /*Section3-Escalada*/
 #section3.lazy{
     background-image: none;
-    background-color: rgba(35,60,130,.6);
 }
 #section3{
 	background-image: url(img/secciones/escalada.jpg);
@@ -520,7 +506,6 @@ Class slides CSS
 /*Section4*/
 #section4.lazy{
     background-image: none;
-    background-color: rgba(35,60,130,.6);
 }
 #section4{
 	background-image: url(img/secciones/ski2.jpg);
@@ -543,7 +528,6 @@ Class slides CSS
 /*Section5*/
 #section5.lazy{
     background-image: none;
-    background-color: rgba(35,60,130,.6);
 }
 #section5{
 	background-image: url(img/secciones/cursos2.jpg);
@@ -572,7 +556,6 @@ Class slides CSS
 /*Section6*/
 #section6.lazy{
     background-image: none;
-    background-color: rgba(35,60,130,.6);
 }
 #section6{
 	background-image: url(img/secciones/contacto.jpg);
@@ -672,6 +655,7 @@ Class slides CSS
 --------------------------------------------------------------------------------------------------------- */
 
 @media screen and (orientation: portrait) {
+
     #section2 li a {
         font-size: 16px;
     }
@@ -693,7 +677,7 @@ Class slides CSS
 
 /* Extra Small */
 @media screen and (max-width:767px) {
-    
+
     h1{
         font-size: 28px !important;
     }
@@ -865,7 +849,7 @@ Class slides CSS
         display: block;
         padding: 2px 4px;
         margin: 0px 0px;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
     }
     .nav-logos {
@@ -876,8 +860,13 @@ Class slides CSS
     }
     .navbar-custom .navbar-brand img {
         padding-top: 15px;
-        width: 130px;
-    }   
+        width: 118px;
+    } 
+    .nav .flag {
+    margin-top: 3px;
+    width: 16px;
+    height: 12px;
+    }  
     #section1 .thumbnail .img-thumbnail {
         width: 22%;
     }
