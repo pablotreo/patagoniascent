@@ -307,7 +307,7 @@ Class slides CSS
 .slide{
     background-color: rgba(35,60,130,.6);
 	background-size: cover;
-    background-position: center;
+    /*background-position: center;*/
 }
 .slide h1{
     /*background-color: rgba(35,60,130,.6);
