@@ -45,9 +45,9 @@ label{
     font-size: 20px;
     font-weight: normal;
 }
-/*q:before,q:after {
+q:before,q:after {
     content:'';
-}*/
+}
 abbr,acronym { 
 	border: 0;
 }
@@ -186,9 +186,9 @@ a:focus {
     outline: 0;
 }
 .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    -webkit-transition: background .0s ease-in-out;
+    -moz-transition: background .0s ease-in-out;
+    transition: background .0s ease-in-out;
 }
 .nav li a:hover{
     color: rgba(255,255,255);
@@ -205,7 +205,7 @@ a:focus {
     outline: 0;
 }
 .nav li.active a {
-    background-color: rgba(35,60,130,.6);
+    background-color: transparent;
     color: rgba(255,255,255);
 }
 .nav li.active a:hover {
@@ -234,34 +234,46 @@ a:focus {
 }
 /* 
 Class sections CSS 
-* --------------------------------------- */
-
+* ---------------------------------------background-color: rgba(18,37,35,0.4); */
+/* Filtro gris para todoas las fotos del home*/
+.bg-shade {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+}
+/*Fin*/
 .section{
     background-color: rgba(35,60,130,.8);
     background-position: center;
 	background-size: cover;
 	text-align: left;
-    /*background-attachment: fixed;*/
-    /*color: #fff;*/
 }
 .section h2{
 	color: #fff;
 }
 .section .menu-section li a {
-    font-size: 20px;
-    padding: 2px 5px 2px 8px;
-    margin: 3px 10px;
+    font-size: 22px;
+    padding: 0px 8px 0px 8px;
+    margin: 0px 10px;
     letter-spacing: 2px;
     font-weight: 400;
     color: rgba(255,255,255);
-    background-color: rgba(35,60,130,.6);
+    /*background-color: rgba(35,60,130,.6);*/
     width: max-content;
+    z-index: 5;
+    position: relative;
 }
 .section li a:hover{
-   /* background-color: rgba(255,255,255,.3);
-    width: auto;*/
-	background-color: rgba(255,255,255);
+    background-color: rgba(255,255,255,.3);
+    /*width: auto;*/
+	background-color: rgba(35,60,130,.6);
     color: rgba(35,60,129)
+    z-index: 5;
+    position: relative;
 }
 .section button {
     border-radius: 0;
@@ -272,6 +284,8 @@ Class sections CSS
     font-size: 20px;
     padding: 5px 5px;
     margin: 5px -7px;
+    z-index: 5;
+    position: relative;
 }
 .section button:hover{
     border-radius: 0;
@@ -282,48 +296,58 @@ Class sections CSS
     font-size: 20px;
     padding: 5px 5px;
     margin: 5px -7px;
+    z-index: 5;
+    position: relative;
 }
 
 /* 
 Class slides CSS
 * --------------------------------------- */
-
 .slide{
     background-color: rgba(35,60,130,.6);
 	background-size: cover;
     background-position: center;
 }
 .slide h1{
+    /*background-color: rgba(35,60,130,.6);
+    width: max-content;*/
 	text-align: left;
 	color: #fff;
-    background-color: rgba(35,60,130,.6);
-    width: max-content;
     padding: 5px 10px; 
     margin: 3px 0px;  
+    z-index: 5;
+    position: relative;
 }
 .slide h3{
+    /*background-color: rgba(35,60,130,.6);
+    width: max-content;*/
 	text-align: left;
 	color: #fff;
-    background-color: rgba(35,60,130,.6);
-    width: max-content;
     padding: 5px 10px;
     margin: 3px 0px;
+    z-index: 5;
+    position: relative;
 }
 .slide a{
-    background: rgba(35,60,130,.6);
-    width: max-content;
+    background-color: transparent;
+    /*background: rgba(35,60,130,.6);
+    width: max-content;*/
     padding: 5px 10px;
     margin: 3px 0px;
     font-weight: 400;
     font-size: 18px;
+    z-index: 5;
+    position: relative;
 }
 .slide a:hover, a:focus{
-    background: rgba(255,255,255,.6);
-    color: rgba(35,60,130);
+    background: rgba(35,60,130,.6);
+    color: rgba(255,255,255);
     width: max-content;
     padding: 5px 10px;
     margin: 3px 0px;   
     font-size: 18px;
+    z-index: 5;
+    position: relative;
 }
 
 /*ID slides style
@@ -382,18 +406,22 @@ Class slides CSS
     font-size: 40px; 
     /*margin-bottom: 10px;*/
     margin-top: 2px;
-    background-color: rgba(35,60,130,.6);
-    width: max-content;
     padding: 5px 10px;
     color: #fff;
+    z-index: 5;
+    position: relative;
+    /*background-color: rgba(35,60,130,.6);
+    width: max-content;*/
 }
 #section1 p{
     font-size: 18px;
     letter-spacing: 1px;
-    background-color: rgba(35,60,130,.6);
+    /*background-color: rgba(35,60,130,.6);*/
     color: rgba(255,255,255);
     padding: 10px;
     line-height: normal;
+    z-index: 5;
+    position: relative;
 }
 #section1 .thumbnail {
     display: inline-table;
@@ -401,6 +429,8 @@ Class slides CSS
     border-radius: 0px;
     padding: 0px;
     background-color: rgba(255,255,255,.6);
+    z-index: 5;
+    position: relative;
     /*margin: 10px -30px 10px 0px;*/
 }
 #section1 .thumbnail .img-thumbnail{
@@ -410,6 +440,8 @@ Class slides CSS
     background-color: #fff;
     border: 0px solid #fff;
     border-radius: 0px; 
+    z-index: 5;
+    position: relative;
 }
 #section1 .thumbnail .caption{
     width: 65%;
@@ -419,6 +451,8 @@ Class slides CSS
     padding-top: 8px;
     padding-left: 8px;
     padding-bottom: 0px;
+    z-index: 5;
+    position: relative;
 }
 #section1 .thumbnail .caption h2{
     font-weight: 400;
@@ -436,6 +470,8 @@ Class slides CSS
     margin-bottom: 22px;
     color: rgb(35,60,130);
     letter-spacing: 1px;
+    z-index: 5;
+    position: relative;
 }
 #section1 .button {
   border-radius: 0;
@@ -447,6 +483,8 @@ Class slides CSS
   font-size: 16px;
   letter-spacing: 1px;
   color: rgb(35,60,130);
+  z-index: 5;
+position: relative;
 }
 #section1 a:active, a:focus, a:hover{
   margin: 0px;
@@ -472,10 +510,12 @@ Class slides CSS
     font-size: 40px; 
     /*margin-bottom: 10px;*/
     margin-top: 2px;
-    background-color: rgba(35,60,130,.6);
-    width: max-content;
+    /*background-color: rgba(35,60,130,.6);
+    width: max-content;*/
     padding: 5px 10px;
     color: #fff;
+    z-index: 5;
+    position: relative;
 }
 /*EndSection2*/
 
@@ -494,10 +534,12 @@ Class slides CSS
     font-size: 40px; 
     /*margin-bottom: 10px;*/
     margin-top: 2px;
-    background-color: rgba(35,60,130,.6);
-    width: max-content;
+   /* background-color: rgba(35,60,130,.6);
+    width: max-content;*/
     padding: 5px 10px;
     color: #fff;
+    z-index: 5;
+    position: relative;
 }
 /*EndSection3*/
 
@@ -516,10 +558,12 @@ Class slides CSS
     font-size: 40px; 
     /*margin-bottom: 10px;*/
     margin-top: 2px;
-    background-color: rgba(35,60,130,.6);
-    width: max-content;
+    /*background-color: rgba(35,60,130,.6);
+    width: max-content;*/
     padding: 5px 10px;
     color: #fff;
+    z-index: 5;
+    position: relative;
 }
 /*EndSection4*/
 
@@ -538,16 +582,20 @@ Class slides CSS
     font-size: 40px; 
     margin-bottom: 10px;
     margin-top: 2px;
-    background-color: rgba(35,60,130,.6);
-    width: max-content;
+    /*background-color: rgba(35,60,130,.6);
+    width: max-content;*/
     padding: 5px 10px;
     color: #fff;
+    z-index: 5;
+    position: relative;
 }
 #section5 p{
 	margin-bottom: 10px;
-    background-color: rgba(35,60,130,.6);
+    /*background-color: rgba(35,60,130,.6);*/
     color: rgba(255,255,255);
     padding: 10px;
+    z-index: 5;
+    position: relative;
 }
 /*EndSection5*/
 
@@ -566,16 +614,20 @@ Class slides CSS
     font-size: 40px; 
     margin-bottom: 10px;
     margin-top: 2px;
-    background-color: rgba(35,60,130,.6);
-    width: max-content;
+   /* background-color: rgba(35,60,130,.6);
+    width: max-content;*/
     padding: 5px 10px;
     color: #fff;
+    z-index: 5;
+    position: relative;
 }
 #section6 .row h2{
     color: #ffffff;
     font-size: 30px;
     margin: 5px 0px;
     background-color: transparent;
+    z-index: 5;
+    position: relative;
 }
 #section6 .send{
     border-radius: 0px;
@@ -586,9 +638,13 @@ Class slides CSS
     font-size: 16px;
     float: left;
     padding: 6px 8px;
+    z-index: 5;
+    position: relative;
 }
 #section6 .contactform {
     width: 250px;
+    z-index: 5;
+    position: relative;
 }
 #section6 .form-control{
 	border-radius: 0px;
@@ -614,19 +670,21 @@ Class slides CSS
     margin-top: 40px;
     text-align: left;
     font-size: 18px;
+    z-index: 5;
+    position: relative;
 }
 .footer a{
-    
+
 }
 .footer h4{
     color: #ffffff;
     font-weight: 400;
+    z-index: 5;
+    position: relative;
 }
 /*Footer*/
 
 /*Arrow*/
-.fp-controlArrow {
-}
 .fp-controlArrow.fp-prev {
     /*border-width: 38.5px 34px 38.5px 0;*/
     left: 30px;
@@ -646,6 +704,8 @@ Class slides CSS
     margin-top: -10px;
 }
 /*End Alert Massege*/
+
+
 
 /* RESPONSIVE CSS
 ---------------------------------------------------------------------------------------------------------
