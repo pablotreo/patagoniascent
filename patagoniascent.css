@@ -205,6 +205,7 @@ a:focus {
     outline: 0;
 }
 .nav li.active a {
+    /*background-color: rgba(35,60,130);*/
     background-color: transparent;
     color: rgba(255,255,255);
 }
@@ -410,7 +411,7 @@ Class slides CSS
     color: #fff;
     z-index: 5;
     position: relative;
-    /*background-color: rgba(35,60,130,.6);
+    /*background-color: rgba(35,60,130);
     width: max-content;*/
 }
 #section1 p{
