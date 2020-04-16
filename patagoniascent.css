@@ -235,7 +235,8 @@ a:focus {
 }
 /* 
 Class sections CSS 
-* ---------------------------------------background-color: rgba(18,37,35,0.4); */
+* ---------------------------------------
+background-color: rgba(18,37,35,0.4); */
 /* Filtro gris para todoas las fotos del home*/
 .bg-shade {
     background-color: rgba(0,0,0,0.5);
@@ -249,7 +250,7 @@ Class sections CSS
 /*Fin*/
 .section{
     background-color: rgba(35,60,130,.8);
-    background-position: center;
+    /*background-position: 80%;*/
 	background-size: cover;
 	text-align: left;
 }
@@ -305,9 +306,9 @@ Class sections CSS
 Class slides CSS
 * --------------------------------------- */
 .slide{
-    background-color: rgba(35,60,130,.6);
+    background-color: rgba(35,60,130,.8);
 	background-size: cover;
-    /*background-position: center;*/
+    /*background-position: 80%;*/
 }
 .slide h1{
     /*background-color: rgba(35,60,130,.6);
@@ -354,35 +355,35 @@ Class slides CSS
 /*ID slides style
 * --------------------------------------- */
 #slide1{
-	background-image: url(img/slide/portada2.jpg);
+	background-image: url(https://patagoniascent.com/img/slide/portada2.jpg);
 	padding: 0% 0% 0% 2%; 
 }
 #slide2.lazy{
     background-image: none;
 }
 #slide2{
-	background-image: url(img/slide/portada3.jpg);
+	background-image: url(https://patagoniascent.com/img/slide/portada3.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #slide3.lazy{
     background-image: none;
 }
 #slide3{
-	background-image: url(img/slide/portada7.jpg);
+	background-image: url(https://patagoniascent.com/img/slide/portada7.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #slide4.lazy{
     background-image: none;
 }
 #slide4{
-    background-image: url(img/slide/portada5.jpg);
+    background-image: url(https://patagoniascent.com/img/slide/portada5.jpg);
     padding: 0% 0% 0% 2%;
 }
 #slide5.lazy{
     background-image: none;
 }
 #slide5{
-	background-image: url(img/slide/portada6.jpg);
+	background-image: url(https://patagoniascent.com/img/slide/portada6.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
@@ -392,7 +393,8 @@ Class slides CSS
 /* ID sections style
 * --------------------------------------- */
 /*Section1-Nosotros*/
-
+#section{
+}
 #section1.lazy{
     background-image: none;
 }
