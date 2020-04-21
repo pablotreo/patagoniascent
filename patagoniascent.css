@@ -239,7 +239,7 @@ Class sections CSS
 background-color: rgba(18,37,35,0.4); */
 /* Filtro gris para todoas las fotos del home*/
 .bg-shade {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
     position: absolute;
     top: 0px;
     right: 0px;
