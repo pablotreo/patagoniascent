@@ -663,6 +663,10 @@ position: relative;
 #section6 .contactform .form-group {
     margin-bottom: 7px;
 }
+#section6 .contacto{
+    z-index: 5;
+    position: relative;
+}
 /*#section6 .btn-primary a:hover{
     background-color: rgb(35,60,130,.5);
 }*/
