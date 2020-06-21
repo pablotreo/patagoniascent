@@ -1,2 +1,2 @@
 # patagoniascent
-Pagina web para empresa dedicada de Guias en Chalten - Argentina, desarrollada en bootsrap, html, css y jquery. 
+Web para patagoniascent, empresa de guias de montaña en Chalten - Argentina, desarrollada en bootsrap, html, css y jquery. 
