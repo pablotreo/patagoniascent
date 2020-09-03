@@ -30,7 +30,7 @@
     <div class="container">  
         <div class="row">
             <div class="col-lg-12">
-                <div class="class=col-lg-6 col-md-6 col-sm-6">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="box">
                         <h2><span>Bariloche and surroundings</span></h2>
                         <p>
@@ -47,7 +47,7 @@
                     </div>
                   
                 </div>
-                <div class="class=col-lg-6 col-md-6 col-sm-6" id="slider">
+                <div class="col-lg-6 col-md-6 col-sm-6" id="slider">
                     <div id="myCarousel" class="carousel slide">
                         <!-- main slider carousel -->
                         <div class="carousel-inner">

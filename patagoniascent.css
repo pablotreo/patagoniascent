@@ -61,7 +61,7 @@ abbr,acronym {
 }
 @font-face {
   font-family: MuseoSans;
-  src: url('fonts/museo/MuseoSans-100.otf');
+  src: url('fonts/museo/MuseoSans-500.otf');
 }
 
 /* CSS de version 1.0
@@ -119,7 +119,8 @@ a {
     font-weight: 400;
 }
 a:hover,
-a:focus {
+a:focus,
+a:active {
     text-decoration: none;
     color: #fff;
 }
@@ -149,19 +150,20 @@ a:focus {
     margin: 10px;
 }
 .nav-logos{
-    margin-left: 12px;
+    margin-left: 5px;
 }
 .nav-logos a{
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
-    padding: 0px 0px;
+    padding: 0px 2px;
     margin:  0px 0px;
 }
 .nav-logos a:focus,
-.nav-logos a:active{
-    font-size: 18px;
+.nav-logos a:active,
+.nav-logos a:hover{
+    font-size: 20px;
     text-align: left;
-    padding: 0px 0px;
+    padding: 0px 2px;
     margin:  0px 0px;
 }
 /*.navbar-collapse{
@@ -250,9 +252,14 @@ a:focus {
 Class sections CSS 
 * ---------------------------------------
 background-color: rgba(18,37,35,0.4); */
+.shape-shade{
+    width: max-content;
+    height: max-content;
+    background-color: rgba(0,0,0,0.5);
+}
 /* Filtro gris para todoas las fotos del home*/
 .bg-shade {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
     position: absolute;
     top: 0px;
     right: 0px;
@@ -405,22 +412,11 @@ Class slides CSS
 
 /* ID sections style
 * --------------------------------------- */
-/*Section7-Intro*/
-#section7{
-    background-image: url(img/secciones/intro.png);
-    padding: 2% 10% 2% 10%;
-    text-align: center;
-}
-
-/*Section0-Slide*/
-#section0{
-
-}
 
 /*Section1-Nosotros*/
-/*#section1.lazy{
+#section1.lazy{
     background-image: none;
-}*/
+}
 #section1{
 	background-image: url(img/secciones/aboutus.png);
 	padding: 2% 10% 2% 10%;
@@ -640,8 +636,8 @@ position: relative;
     font-size: 40px; 
     margin-bottom: 10px;
     margin-top: 2px;
-   /* background-color: rgba(35,60,130,.6);
-    width: max-content;*/
+    background-color: rgba(35,60,130,.6);
+    width: max-content;
     padding: 5px 10px;
     color: #fff;
     z-index: 5;
@@ -659,7 +655,6 @@ position: relative;
     border-radius: 0px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
-    /*background-color: transparent;*/
     border-color: transparent;
     font-size: 16px;
     float: left;
