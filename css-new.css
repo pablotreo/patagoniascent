@@ -123,6 +123,7 @@ p{
 }
 .shape-shade-slider{
     width: fit-content;
+    width: -moz-fit-content;
     background-color: rgba(0,0,0,0.5);
     padding: 40px 50px 80px 50px;
     text-align: left;
@@ -196,7 +197,8 @@ p{
 	position: relative;
     background-color: rgba(0,0,0,0.5);
     padding: 40px 50px 40px 50px;
-    width: fit-content; 
+    width: fit-content;
+    width: -moz-fit-content; 
     margin-top: 97px; 
     text-align: left;
 }
@@ -240,6 +242,9 @@ p{
 .texthome-courses{
 	width: 250px;
 }
+.texthome-aboutus{
+	width: 1000px;
+}
 .carousel-indicators li {
 	height: 15px;
 }
@@ -279,6 +284,7 @@ p{
 	.shape-shade-section {
 	    margin-top: 83px; 
 	    height: fit-content;
+	    width: -moz-fit-content;
 	    background-color: rgba(0,0,0,0.5);
 	    padding: 30px 15px 30px 10px;
 	    text-align: left;
