@@ -102,8 +102,8 @@
       </div>
     </nav>
 
-<!-- fullpage -->
-<div id="content">
+<!-- div del coso -->
+<div id="content"> 
 <header id="section1" class="section">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -125,8 +125,8 @@
           </div>
         </div>
       </div>
-      <!-- Slide 2 - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('img/slide/slide2.jpeg')">
+      <!-- Slide 2 -->
+      <div id="slide2" class="lazy carousel-item">
         <div class="container">
           <div class="carousel-caption">
             <div class="shape-shade-slider">
@@ -137,8 +137,8 @@
           </div>
         </div>  
       </div>
-      <!-- Slide 3 - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('img/slide/slide3.jpeg')">
+      <!-- Slide 3 -->
+      <div id="slide3" class="lazy carousel-item">
         <div class="container">
           <div class="carousel-caption">
             <div class="shape-shade-slider">
@@ -149,8 +149,8 @@
           </div>
         </div>
       </div>
-      <!-- Slide 4 - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('img/slide/slide4.jpeg')">
+      <!-- Slide 4 -->
+      <div id="slide4" class="lazy carousel-item">
         <div class="container">
           <div class="carousel-caption">
             <div class="shape-shade-slider">
@@ -176,7 +176,7 @@
 
 
 
-<section id="section2" class="section about-us">
+<section id="section2" class="lazy about-us">
   <div class="container">
     <div class="p-1">
       <div class="shape-shade-section">
@@ -221,7 +221,7 @@
   </div>
 </section>
 
-<section id="section3" class="section mountaineering">
+<section id="section3" class="lazy mountaineering">
   <div class="container">
     <div class="p-1">
       <div class="shape-shade-section">
@@ -243,7 +243,7 @@
    </div>
 </section>
 
-<section id="section4" class="section climbing">
+<section id="section4" class="lazy climbing">
   <div class="container">
     <div class="p-1">
       <div class="shape-shade-section">
@@ -262,7 +262,7 @@
   </div>
 </section>
 
-<section id="section5" class="section ski">
+<section id="section5" class="lazy ski">
   <div class="container">
     <div class="p-1">
       <div class="shape-shade-section">
@@ -278,7 +278,7 @@
   </div>
 </section>
 
-<section id="section6" class="section courses">
+<section id="section6" class="lazy courses">
   <div class="container">
     <div class="p-1">
       <div class="shape-shade-section">
@@ -295,15 +295,16 @@
     </div>
   </div>
 </section>
-<!-- fullpage -->
+<!-- div del coso -->
 </div>
 
-    
+    <!-- Lazy load image -->
+    <script type="text/javascript" src="js/lazyloadimage.js"></script> 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> -->
 
     <!-- Bootstrap CDN -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -313,142 +314,142 @@
     
   
     <!-- Page Scroll to id plugin -->
-  <script src="js/jquery.malihu.PageScroll2id.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.js"></script>
   
-  <script>
-    (function($){
-      $(window).on("load",function(){
-        
-        /* Page Scroll to id fn call */
-        $("#navigation-menu a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
-          highlightSelector:"#navigation-menu a"
-        });
-        
-        /* demo functions */
-        $("a[rel='next']").click(function(e){
-          e.preventDefault();
-          var to=$(this).parent().parent("section").next().attr("id");
-          $.mPageScroll2id("scrollTo",to);
-        });
-        
-      });
-    })(jQuery);
-  </script>
-<script>
-    (function($){
-      $(window).on("load",function(){
-  
-        var doc=$(document),
-          mPS2idData=doc.data("mPS2id"),
-          mPS2idExt;
-  
-        if(!mPS2idData){
-          console.log("Error: 'Page scroll to id' plugin not present or activated. Please run the code after plugin is loaded.");
-          return;
-        }
-
-        if(!$("._mPS2id-t").length) return;
-  
-        doc.data("mPS2idExtend",{
-          selector: "._mPS2id-h",
-          currentSelector: function(){
-            return this.index($(".mPS2id-highlight-first").length ? $(".mPS2id-highlight-first") : $(".mPS2id-highlight").length ? $(".mPS2id-highlight") : $(".mPS2id-wheel-init"));
-          },
-          target: function(){
-            var curr=$(".mPS2id-target-first").length ? $(".mPS2id-target-first") : $(".mPS2id-target").length ? $(".mPS2id-target") : $(".mPS2id-clicked").length ? $("#"+$(".mPS2id-clicked").attr("href").split("#")[1]) : false;
-            if(!curr.length){
-              //if no current target exists, get the next and previous closest sections
-              var max=999999999,
-                min=-999999999;
-              $("._mPS2id-t").each(function(){
-                var pos=mPS2idData.layout==="horizontal" ? this.getBoundingClientRect().left : this.getBoundingClientRect().top;
-                if(pos < 0 && pos > min){
-                  min=pos; 
-                  curr=$("._mPS2id-t[data-psid-wheel-section='"+($(this).data("psid-wheel-section")+1)+"']");
-                }else if(pos > 0 && pos < max){
-                  max=pos; 
-                  curr=$("._mPS2id-t[data-psid-wheel-section='"+($(this).data("psid-wheel-section")-1)+"']");
-                }
-              });
-              $("._mPS2id-h[data-psid-wheel-link='"+curr.data("psid-wheel-section")+"']").addClass("mPS2id-wheel-init");
-            }
-            return [
-              $("._mPS2id-t[data-psid-wheel-section='"+(curr.data("psid-wheel-section")-1)+"']"), //previous target
-              curr, //current target
-              $("._mPS2id-t[data-psid-wheel-section='"+(curr.data("psid-wheel-section")+1)+"']"), //next target
-            ];
-          },
-          needScroll: function(dir){
-            if($("html,body").is(":animated")) return;
-            if(dir > 0){ //scrolled fw
-              var el=mPS2idExt.target.call()[2][0]; //next adjacent target
-              if(mPS2idData.layout==="horizontal"){
-                return el ? el.getBoundingClientRect().left > (window.innerWidth || document.documentElement.clientWidth) : true; //next target is after viewport
-              }else{
-                return el ? el.getBoundingClientRect().top > (window.innerHeight || document.documentElement.clientHeight) : true; //next target is below viewport
-              }
-            }else if(dir < 0){ //scrolled bw
-              var el=mPS2idExt.target.call()[0][0]; //previous adjacent target
-              if(mPS2idData.layout==="horizontal"){
-                return el ? el.getBoundingClientRect().right < 0 : true; //previous target is before viewport
-              }else{
-                return el ? el.getBoundingClientRect().bottom < 0 : true; //previous target is above viewport
-              }
-            }
-          },
-          input:{
-            y: null,
-            x: null},
-          i: null,
-          time: null,
-          support:{
-            wheel: false
-          }
-        }).on("ps2id-scrollSection",function(e,dlt,i){
-          var sel=$(mPS2idExt.selector);
-          if(!$("html,body").is(":animated")){
-            if(!i) i=mPS2idExt.currentSelector.call(sel);
-            if(!(i===0 && dlt>0) && !(i===sel.length-1 && dlt<0)) sel.eq(i-dlt).trigger("click.mPS2id");
-          }
-        }).on("keydown",function(e){ //keyboard
-          var code=e.keyCode ? e.keyCode : e.which,
-            keys=$(this).data("mPS2id").layout==="horizontal" ? [37,39] : [38,40];
-          if(code===keys[0] || code===keys[1]){
-            if(!mPS2idExt.needScroll((code > 38 ? 1 : -1))){ //check if normal scrolling is needed to reach adjacent targets
-              if($(mPS2idExt.selector).length) e.preventDefault();
-              $(this).trigger("ps2id-scrollSection",(code===keys[0] ? 1 : -1));
-            }
-          }
-        })
-        .on("ps2id-wheel-init",function(){
-          //script initialization
-          mPS2idExt=$(this).data("mPS2idExtend");
-          $("._mPS2id-t").each(function(index){
-            $(this).attr("data-psid-wheel-section",index);
+    <script>
+      (function($){
+        $(window).on("load",function(){
+          
+          /* Page Scroll to id fn call */
+          $("#navigation-menu a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
+            highlightSelector:"#navigation-menu a"
           });
-          $("._mPS2id-h").each(function(index){
-            $(this).attr("data-psid-wheel-link",index);
+          
+          /* demo functions */
+          $("a[rel='next']").click(function(e){
+            e.preventDefault();
+            var to=$(this).parent().parent("section").next().attr("id");
+            $.mPageScroll2id("scrollTo",to);
           });
-          //vanilla js mousewheel event (https://github.com/jquery/jquery/issues/2871)
-          document.addEventListener('wheel', wheel, {passive: false}, false);
-          document.addEventListener('mousewheel', wheel, {passive: false}, false);
-          document.addEventListener('DOMMouseScroll', wheel, {passive: false}, false);
-          function wheel(e){
-            if(e.type == "wheel"){
-              mPS2idExt.support.wheel = true;
-            }else if(mPS2idExt.support.wheel){
+          
+        });
+      })(jQuery);
+    </script>
+    <script>
+        (function($){
+          $(window).on("load",function(){
+      
+            var doc=$(document),
+              mPS2idData=doc.data("mPS2id"),
+              mPS2idExt;
+      
+            if(!mPS2idData){
+              console.log("Error: 'Page scroll to id' plugin not present or activated. Please run the code after plugin is loaded.");
               return;
             }
-            if(!mPS2idExt.needScroll((mPS2idData.layout==="horizontal" ? e.deltaX : e.deltaY))){ //check if normal scrolling is needed to reach adjacent targets
-              if($(mPS2idExt.selector).length) e.preventDefault();
-              doc.trigger("ps2id-scrollSection",((e.detail<0 || e.wheelDelta>0 || e.deltaY < 0 || e.deltaX < 0) ? 1 : -1));
-            }
-          };
-        }).trigger("ps2id-wheel-init");
-      });
+
+            if(!$("._mPS2id-t").length) return;
       
-    })(jQuery);
-</script>
+            doc.data("mPS2idExtend",{
+              selector: "._mPS2id-h",
+              currentSelector: function(){
+                return this.index($(".mPS2id-highlight-first").length ? $(".mPS2id-highlight-first") : $(".mPS2id-highlight").length ? $(".mPS2id-highlight") : $(".mPS2id-wheel-init"));
+              },
+              target: function(){
+                var curr=$(".mPS2id-target-first").length ? $(".mPS2id-target-first") : $(".mPS2id-target").length ? $(".mPS2id-target") : $(".mPS2id-clicked").length ? $("#"+$(".mPS2id-clicked").attr("href").split("#")[1]) : false;
+                if(!curr.length){
+                  //if no current target exists, get the next and previous closest sections
+                  var max=999999999,
+                    min=-999999999;
+                  $("._mPS2id-t").each(function(){
+                    var pos=mPS2idData.layout==="horizontal" ? this.getBoundingClientRect().left : this.getBoundingClientRect().top;
+                    if(pos < 0 && pos > min){
+                      min=pos; 
+                      curr=$("._mPS2id-t[data-psid-wheel-section='"+($(this).data("psid-wheel-section")+1)+"']");
+                    }else if(pos > 0 && pos < max){
+                      max=pos; 
+                      curr=$("._mPS2id-t[data-psid-wheel-section='"+($(this).data("psid-wheel-section")-1)+"']");
+                    }
+                  });
+                  $("._mPS2id-h[data-psid-wheel-link='"+curr.data("psid-wheel-section")+"']").addClass("mPS2id-wheel-init");
+                }
+                return [
+                  $("._mPS2id-t[data-psid-wheel-section='"+(curr.data("psid-wheel-section")-1)+"']"), //previous target
+                  curr, //current target
+                  $("._mPS2id-t[data-psid-wheel-section='"+(curr.data("psid-wheel-section")+1)+"']"), //next target
+                ];
+              },
+              needScroll: function(dir){
+                if($("html,body").is(":animated")) return;
+                if(dir > 0){ //scrolled fw
+                  var el=mPS2idExt.target.call()[2][0]; //next adjacent target
+                  if(mPS2idData.layout==="horizontal"){
+                    return el ? el.getBoundingClientRect().left > (window.innerWidth || document.documentElement.clientWidth) : true; //next target is after viewport
+                  }else{
+                    return el ? el.getBoundingClientRect().top > (window.innerHeight || document.documentElement.clientHeight) : true; //next target is below viewport
+                  }
+                }else if(dir < 0){ //scrolled bw
+                  var el=mPS2idExt.target.call()[0][0]; //previous adjacent target
+                  if(mPS2idData.layout==="horizontal"){
+                    return el ? el.getBoundingClientRect().right < 0 : true; //previous target is before viewport
+                  }else{
+                    return el ? el.getBoundingClientRect().bottom < 0 : true; //previous target is above viewport
+                  }
+                }
+              },
+              input:{
+                y: null,
+                x: null},
+              i: null,
+              time: null,
+              support:{
+                wheel: false
+              }
+            }).on("ps2id-scrollSection",function(e,dlt,i){
+              var sel=$(mPS2idExt.selector);
+              if(!$("html,body").is(":animated")){
+                if(!i) i=mPS2idExt.currentSelector.call(sel);
+                if(!(i===0 && dlt>0) && !(i===sel.length-1 && dlt<0)) sel.eq(i-dlt).trigger("click.mPS2id");
+              }
+            }).on("keydown",function(e){ //keyboard
+              var code=e.keyCode ? e.keyCode : e.which,
+                keys=$(this).data("mPS2id").layout==="horizontal" ? [37,39] : [38,40];
+              if(code===keys[0] || code===keys[1]){
+                if(!mPS2idExt.needScroll((code > 38 ? 1 : -1))){ //check if normal scrolling is needed to reach adjacent targets
+                  if($(mPS2idExt.selector).length) e.preventDefault();
+                  $(this).trigger("ps2id-scrollSection",(code===keys[0] ? 1 : -1));
+                }
+              }
+            })
+            .on("ps2id-wheel-init",function(){
+              //script initialization
+              mPS2idExt=$(this).data("mPS2idExtend");
+              $("._mPS2id-t").each(function(index){
+                $(this).attr("data-psid-wheel-section",index);
+              });
+              $("._mPS2id-h").each(function(index){
+                $(this).attr("data-psid-wheel-link",index);
+              });
+              //vanilla js mousewheel event (https://github.com/jquery/jquery/issues/2871)
+              document.addEventListener('wheel', wheel, {passive: false}, false);
+              document.addEventListener('mousewheel', wheel, {passive: false}, false);
+              document.addEventListener('DOMMouseScroll', wheel, {passive: false}, false);
+              function wheel(e){
+                if(e.type == "wheel"){
+                  mPS2idExt.support.wheel = true;
+                }else if(mPS2idExt.support.wheel){
+                  return;
+                }
+                if(!mPS2idExt.needScroll((mPS2idData.layout==="horizontal" ? e.deltaX : e.deltaY))){ //check if normal scrolling is needed to reach adjacent targets
+                  if($(mPS2idExt.selector).length) e.preventDefault();
+                  doc.trigger("ps2id-scrollSection",((e.detail<0 || e.wheelDelta>0 || e.deltaY < 0 || e.deltaX < 0) ? 1 : -1));
+                }
+              };
+            }).trigger("ps2id-wheel-init");
+          });
+          
+        })(jQuery);
+    </script>
 
 </body>
 </html>
