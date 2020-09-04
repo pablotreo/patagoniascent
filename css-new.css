@@ -88,6 +88,7 @@ p{
     text-align: left;
     padding: 0px 2px;
     margin:  0px 0px;
+    /*color: rgba(35,60,130);*/
 }
 .navbar-toggler {
 	border: 0px;
@@ -277,7 +278,7 @@ p{
 .carousel-indicators li {
 	height: 5px;
 }
-.footer-social-logos i{
+.footer-social-logos .fab{
 	font-size: 40px;
 	color:#FFFFFF;
 }
