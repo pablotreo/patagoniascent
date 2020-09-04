@@ -191,7 +191,15 @@ p{
   	background-repeat: no-repeat; /* Do not repeat the image */
  	background-size: cover; /* Resize the background image to cover the entire container */
 }
-
+.find-us{
+	/*height: 150px;*/
+  	min-height: 300px;
+  	padding-top: 50px;
+  	background-color: rgba(0,0,0,0.9);
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+ 	background-size: cover; /* Resize the background image to cover the entire container */
+}
 /*Sections*/
 .shape-shade-section {
 	position: relative;
@@ -238,6 +246,7 @@ p{
 	color: #FFFFFF;
 	font-size: 18px;
 	font-family: MuseoSans;
+	margin-bottom: 5px;
 }
 .texthome-courses{
 	width: 250px;
@@ -248,7 +257,13 @@ p{
 .carousel-indicators li {
 	height: 5px;
 }
-
+.footer-social-logos i{
+	font-size: 40px;
+	color:#FFFFFF;
+}
+.texthome a{
+	color: #FFFFFF;
+}
 
 /*/////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////*/
