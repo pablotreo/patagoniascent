@@ -89,6 +89,13 @@ p{
     padding: 0px 2px;
     margin:  0px 0px;
 }
+.navbar-toggler {
+	border: 0px;
+} 
+.custom-toggler-icon {
+	color: #ffffff;
+	font-size: 25px;
+} 
 /*carrusel*/
 #slide2.lazy{
 	 background-image: none;
@@ -194,7 +201,8 @@ p{
 .find-us{
 	/*height: 150px;*/
   	min-height: 300px;
-  	padding-top: 50px;
+  	padding-top: 40px;
+  	padding-bottom: 20px;
   	background-color: rgba(0,0,0,0.9);
   	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
@@ -210,6 +218,18 @@ p{
     margin-top: 97px; 
     text-align: left;
 }
+/*#talkbubble:before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 180px;
+    width: 0px;
+    height: 0px;
+    border-top: 94px solid transparent;
+    
+    border-left: 94px solid #00000080;
+    border-bottom: 66px solid transparent;
+    }*/
 
 .menu-section a {
 	font-family: MuseoSans100;
@@ -372,6 +392,15 @@ p{
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
 
+	.navbar {
+    	background-color: rgb(0,0,0,0.5)!important;
+    	margin-top: 0px;
+    	text-align: right;
+	}
+	.nav-link{
+		margin-top: 0px;
+		padding: 5px 5px;
+	}
 	.carousel-caption {
     	padding-top: 87px;
 	}

@@ -314,8 +314,11 @@ form .close{
 form .contactform .form-group {
     margin-bottom: 7px;
 }
+.contact-us a{
+    font-size: 20px;
+}
 .contact-us a:hover,a:focus,a:active{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*FOOTER*/
