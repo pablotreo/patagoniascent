@@ -234,12 +234,16 @@ p{
 
 .menu-section a {
 	font-family: MuseoSans100;
-    font-size: 24px;
-    padding: 0px 0px 0px 0px;
+    font-size: 26px;
+    padding: 3px;
     margin: 0px 0px;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     font-weight: normal;
     color: rgba(255,255,255);
+}
+.menu-section a:hover {
+	/*background-color: rgb(0,0,0,.6);*/
+	font-weight: bold;
 }
 .rounded-circle {
 	width: 100px;
