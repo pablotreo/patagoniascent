@@ -35,7 +35,7 @@
                   <h2><span>Roberto A. Treu</span></h2>
                     <p>
                         Roberto Treu “Indio” is originally from the province of San Juan where he found his passion for the mountains. He climbed many different peaks along the Andes, as well as in Bolivia, Brazil, Chile, France, Spain, Germany Italy, Austria and Switzerland. Since 2006 he has lived in Patagonia where he has climbed important climbs and new routes in both the Cerro Torre and Fitz Roy mountain ranges. <br>
-                        Some of the most important achievements have been the Standhardt - Herron - Egger traverse and the "Directa Huarpe" new route which he put up on the west face of Cerro Torre. Including this ascent, he has climbed Cerro Torre three times and has climbed Fitz Roy four times.<br>
+                        Some of the most important achievements have been the Standhardt - Herron - Egger traverse and the "Directa Huarpe" new route which he put up on the west face of Cerro Torre. Including this ascent, he has climb numerous times Cerro Torre and Fitz Roy.<br>
                         He is also an mountain guide courses Instructor and member for the technical committee or the AAGM (Asociación Argentina de Guías de Montaña).
                     </p>
                 </div>

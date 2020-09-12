@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <!-- Canonical url -->
-    <link rel=”canonical” href=”https://www.patagoniascent.com”>
+    <link rel=”canonical” href=”https://patagoniascent.com”>
 
 
     <title>Patagonia Ascent</title>
@@ -85,7 +85,8 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../es/index.html">
-                  <img src="img/es.jpg" alt="Spanish" title="Spanish">
+                  <!-- <img src="img/es.jpg" alt="Spanish" title="Spanish"> -->
+                  <i class="fas fa-globe" data-toggle="tooltip" data-placement="bottom" title="Spanish"></i>
                 </a>
             </li>
             <li class="nav-item d-none d-sm-none d-md-block">
@@ -106,7 +107,7 @@
 <!-- div del coso -->
 <div id="content"> 
 <header id="section1" class="section">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000" pause="false">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000" pause="false">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -119,7 +120,7 @@
         <div class="container">
           <div class="carousel-caption">
               <div class="shape-shade-slider">
-                <h1>Welcome to<br>Patagonia Ascent</h1>
+                <h1>Welcome to<br>Patagonia Ascent<br>2020–2021</h1>
                 <h2>We make your<br> dreams come true</h2>
                 <a class="link-slide" href="#section3">SEE MOUNTAINEERING ITINERARIES</a>
             </div>
@@ -340,13 +341,13 @@
 </div>
 
 
-     <!-- Google CDN jQuery -->
+    <!-- Google CDN jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 
     <!-- Bootstrap CDN -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -354,6 +355,12 @@
     <!-- Lazy load image -->
     <script type="text/javascript" src="js/lazyloadimage.js"></script> 
 
+    <!-- ToolTip -->
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
   
     <!-- Page Scroll to id plugin -->
     <script src="js/jquery.malihu.PageScroll2id.js"></script>
