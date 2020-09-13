@@ -51,6 +51,18 @@ q:before,q:after {
 abbr,acronym { 
 	border: 0;
 }
+@font-face {
+  font-family: Museo;
+  src: url('fonts/museo/Museo100-Regular.otf');
+}
+@font-face {
+  font-family: MuseoSlab;
+  src: url('fonts/museo/Museo_Slab_100.otf');
+}
+@font-face {
+  font-family: MuseoSans;
+  src: url('fonts/museo/MuseoSans-500.otf');
+}
 
 /* CSS de version 1.0
 * --------------------------------------- */
@@ -79,7 +91,7 @@ h2 {
 
 h3{
     /* text-transform: uppercase;*/
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Museo,sans-serif;
     font-weight: 300;
     letter-spacing: 1px; 
     font-size: 33px; 
@@ -107,7 +119,8 @@ a {
     font-weight: 400;
 }
 a:hover,
-a:focus {
+a:focus,
+a:active {
     text-decoration: none;
     color: #fff;
 }
@@ -115,11 +128,11 @@ a:focus {
 .navbar-custom {
     text-transform: uppercase;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: transparent;
+    background-color: rgba(0,0,0,.50);
     font-weight: lighter;
-    font-size: 14px;
-    padding-top: 40px;
-    letter-spacing: 1px;
+    font-size: 12px;
+    padding-top: 20px;
+    letter-spacing: 0px;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -137,19 +150,20 @@ a:focus {
     margin: 10px;
 }
 .nav-logos{
-    margin-left: 12px;
+    margin-left: 5px;
 }
 .nav-logos a{
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
-    padding: 0px 0px;
+    padding: 0px 2px;
     margin:  0px 0px;
 }
 .nav-logos a:focus,
-.nav-logos a:active{
-    font-size: 18px;
+.nav-logos a:active,
+.nav-logos a:hover{
+    font-size: 20px;
     text-align: left;
-    padding: 0px 0px;
+    padding: 0px 2px;
     margin:  0px 0px;
 }
 /*.navbar-collapse{
@@ -165,8 +179,9 @@ a:focus {
    margin: 0px;
 }
 .navbar-brand img {
-    margin-top: -22px;
+    margin-top: -10px;
     background-color: transparent;
+    width: 150px;
 }
 .navbar-custom .navbar-brand:focus {
     outline: 0;
@@ -237,9 +252,14 @@ a:focus {
 Class sections CSS 
 * ---------------------------------------
 background-color: rgba(18,37,35,0.4); */
+.shape-shade{
+    width: max-content;
+    height: max-content;
+    background-color: rgba(0,0,0,0.5);
+}
 /* Filtro gris para todoas las fotos del home*/
 .bg-shade {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.5);
     position: absolute;
     top: 0px;
     right: 0px;
@@ -355,35 +375,35 @@ Class slides CSS
 /*ID slides style
 * --------------------------------------- */
 #slide1{
-	background-image: url(https://patagoniascent.com/img/slide/portada2.jpg);
+	background-image: url(img/slide/portada2.jpg);
 	padding: 0% 0% 0% 2%; 
 }
 #slide2.lazy{
     background-image: none;
 }
 #slide2{
-	background-image: url(https://patagoniascent.com/img/slide/portada3.jpg);
+	background-image: url(img/slide/portada3.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #slide3.lazy{
     background-image: none;
 }
 #slide3{
-	background-image: url(https://patagoniascent.com/img/slide/portada7.jpg);
+	background-image: url(img/slide/portada7.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #slide4.lazy{
     background-image: none;
 }
 #slide4{
-    background-image: url(https://patagoniascent.com/img/slide/portada5.jpg);
+    background-image: url(img/slide/portada5.jpg);
     padding: 0% 0% 0% 2%;
 }
 #slide5.lazy{
     background-image: none;
 }
 #slide5{
-	background-image: url(https://patagoniascent.com/img/slide/portada6.jpg);
+	background-image: url(img/slide/portada6.jpg);
 	padding: 0% 0% 0% 2%;
 }
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
@@ -392,14 +412,13 @@ Class slides CSS
 
 /* ID sections style
 * --------------------------------------- */
+
 /*Section1-Nosotros*/
-#section{
-}
 #section1.lazy{
     background-image: none;
 }
 #section1{
-	background-image: url(img/secciones/nosotros.jpg);
+	background-image: url(img/secciones/aboutus.png);
 	padding: 2% 10% 2% 10%;
 }
 #section1 h1{
@@ -617,8 +636,8 @@ position: relative;
     font-size: 40px; 
     margin-bottom: 10px;
     margin-top: 2px;
-   /* background-color: rgba(35,60,130,.6);
-    width: max-content;*/
+    background-color: rgba(35,60,130,.6);
+    width: max-content;
     padding: 5px 10px;
     color: #fff;
     z-index: 5;
@@ -636,7 +655,6 @@ position: relative;
     border-radius: 0px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
-    /*background-color: transparent;*/
     border-color: transparent;
     font-size: 16px;
     float: left;
@@ -662,6 +680,10 @@ position: relative;
 }
 #section6 .contactform .form-group {
     margin-bottom: 7px;
+}
+#section6 .contacto{
+    z-index: 5;
+    position: relative;
 }
 /*#section6 .btn-primary a:hover{
     background-color: rgb(35,60,130,.5);

@@ -114,11 +114,11 @@ span{
     margin: 10px;
 }
 .nav-logos {
-    font-size: 18px;
-    padding: 0px 0px;
+    font-size: 20px;
+    padding: 0px 9px;
 }
-.nav-logos a:focus, a:active {
-    font-size: 18px;
+.nav-logos a:focus, a:active, a:hover {
+    font-size: 20px;
 }
 .navbar-collapse{
     box-shadow: none;
@@ -141,7 +141,7 @@ span{
    background-color: transparent;
 }      
 .navbar-custom .navbar-brand img {
-    margin-top: -35px;
+    margin-top: -25px;
 }
 .navbar-custom .navbar-brand:focus {
     outline: 0;
@@ -285,9 +285,44 @@ span{
     margin-top: 5px;
     font-size: 25px;
 }
+/*Contact Us*/
+.send {
+    border-radius: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    padding: 8px 10px;
+}
+form .form-control{
+    border-radius: 0px;
+}
+form .contactform {
+    width: 250px;
+    z-index: 5;
+    position: relative;
+}
+form .form-control{
+    border-radius: 0px;
+}
+form .close{
+    font-size: 20px;
+    padding: 0px;
+    font-weight: 600;
+}
+/*form .btn-primary {
+    background-color: rgb(35,60,130);
+}*/
+form .contactform .form-group {
+    margin-bottom: 7px;
+}
+.contact-us a{
+    font-size: 20px;
+}
+.contact-us a:hover,a:focus,a:active{
+    font-size: 20px;
+}
+
 /*FOOTER*/
 footer {
-	/*margin-top: 50px;*/
     background-color: #fff;  
     color: rgb(88,88,90);
 }
@@ -439,7 +474,7 @@ footer ul{
         margin-top: 10px;
     }  
     footer .container {
-    	margin-top: -20px;
+    	margin-top: 0px;
         padding-top: 0px;
     	padding-right: 20px;
     	padding-bottom: 10px;

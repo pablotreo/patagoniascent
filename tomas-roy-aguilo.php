@@ -36,15 +36,15 @@
                     <p>
                         Tomy was born in San Carlos de Bariloche, northern Patagonia, and is now an IFMGA/UIAGM Mountain Guide. At 5 years of age he began to ski and from there he developed his passion for the mountains. He moved to El Chalten in 2006. <br>
                         Tomy has worked as a guide in Nepal, France, Suitzerland, Italy, Argentina, Chile, Peru, and Bolivia. From technical climbing in Patagonia (guiding Fitz Roy, Cerro Torre, Poincenot), ski touring in remote places (Cordillera Sarmiento), Heliski in Zermatt (switzerland), and climbing in altitude (Mera Peak, Aconcagua, Alpamayo). <br>
-                        He has summited Fitz Roy 10 times and Cerro Torre 2 times, as well as numerous ascents of the other peaks in these ranges. 
+                        He has summited Fitz Roy 11 times and Cerro Torre 2 times, as well as numerous ascents of the other peaks in these ranges. 
 
                     </p>
                 </div>
             </div>
              <div class="class=col-lg-4 col-md-4 col-sm-4">   
                 <div>  
-                    <img src="img/nosotros/TomasAguilo.jpg" class="img-responsive" alt="Tomás Roy Aguiló">
-                    <a href="https://www.instagram.com/fitzroyguide/" id="insta-logo-nosotros" target="_blank"><i class="fa fa-instagram" ></i> fitzroyguide</a>          
+                    <img src="img/nosotros/TomasAguilo.jpg" class="img-responsive" alt="Tomás Roy Aguiló"><br>
+                    <a href="https://www.instagram.com/fitzroyguide/" id="insta-logo-nosotros" target="_blank"><i class="fab fa-instagram"></i> instagram - fitzroyguide</a>          
                 </div>
             </div> 
           </div>  

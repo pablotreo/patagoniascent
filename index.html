@@ -1,244 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Best experience in Patagonia: Mountaineering, Trekking, Climbing, Skiing, Courses and more.">
+    <meta name="author" content="PatagoniAscent">
+    <meta name="keywords" content="Patagonia,Chalten,Patagonia Climbing,Patagonia Ski,Patagonia Expedition,Patagonia Mountaineering">  
 
-<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a37b026769.js" crossorigin="anonymous"></script>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Best experience in Patagonia: Mountaineering, Trekking, Climbing, Skiing, Courses and more.">
-  <meta name="author" content="PatagoniAscent">
-	<meta name="keywords" content="Patagonia,Chalten,Patagonia Mountain Guides,Patagonia Climbing,Patagonia Ski,Patagonia Expedition,Patagonia Mountaineering,Patagonia Fitz Roy">
+    <!-- PatagoniAscent CSS -->
+    <link rel="stylesheet" type="text/css" href="css-new.css">
+    <!-- FavIcon  -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
-  <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="Patagonia Ascent">
-  <meta property="og:description" content="Best experience in Patagonia: Expeditions, Mountaineering, Trekking, Climbing, Skiing, Courses and more.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.patagoniascent.com/">
-  <meta property="og:image" content="https://www.patagoniascent.com/img/fotoopengrph.jpg">
-    
-  <title>Patagonia</title>
-
-  <!-- Canonical url -->
-  <link rel=”canonical” href=”https://www.patagoniascent.com”>
-  <!-- Bootstrap Core CSS -->
-  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
-  <!-- FullPage CSS -->
-  <link rel="stylesheet" type="text/css" href="fullpage/jquery.fullPage.css">
-  <!-- PatagoniAscent CSS -->
-  <link rel="stylesheet" type="text/css" href="patagoniascent.css">
-  <!-- FavIcon  -->
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-  <!-- Custom Fonts -->
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Canonical url -->
+    <link rel=”canonical” href=”https://patagoniascent.com”>
 
 
-  <!-- Global site tag (gtag.js) - Google Analytics  -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71908144-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <title>Patagonia Ascent</title>
 
-    gtag('config', 'UA-71908144-1');
-  </script>
- 
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Patagonia Ascent">
+    <meta property="og:description" content="Best experience in Patagonia: Expeditions, Mountaineering, Trekking, Climbing, Skiing, Courses and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.patagoniascent.com/">
+    <meta property="og:image" content="https://www.patagoniascent.com/img/fotoopengrph.jpg">
 
-</head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71908144-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-<body>
+      gtag('config', 'UA-71908144-1');
+    </script> 
 
-<!-- Navigation data-target="navbar-fixed-top"-->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header"><!-- <a class="navbar-brand" href="#">Patagonia Ascent</a> -->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                    <a class="navbar-brand" href="#home">
-                        <img class="img-responsive" alt="PatagoniAscent" src="img/logo.png"></img>
-                    </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse">
-                <ul id="menu" class="nav navbar-nav">
-                    <li data-menuanchor="aboutus">
-                        <a href="#aboutus">ABOUT US</a>
-                    </li>
-                    <li data-menuanchor="mountaineering">
-                        <a href="#mountaineering">MOUNTAINEERING</a>
-                    </li>
-                    <li data-menuanchor="climbing">
-                        <a href="#climbing">CLIMBING</a>
-                    </li>
-                    <li data-menuanchor="skiing">
-                        <a href="#skiing">SKIING</a>
-                    </li>
-                    <li data-menuanchor="courses">
-                        <a href="#courses">COURSES</a>
-                    </li>
-                    <li data-menuanchor="contactus">
-                        <a href="#contactus">CONTACT US</a>
-                        <ul class="nav-logos">
-                            <a href="https://www.tripadvisor.com.ar/Attraction_Review-g316035-d12941928-Reviews-Patagonia_Ascent-El_Chalten_Province_of_Santa_Cruz_Patagonia.html" target="_blank"><i class="fa fa-tripadvisor fa-fw"></i></a> 
-                            <a href="https://www.facebook.com/PatagoniAscent" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
-                            <a href="https://www.youtube.com/channel/UCMqFsAQ6I0cjByx82SaIQRg" target="_blank"><i class="fa fa-youtube fa-fw"></i></a>
-                            <a href="https://www.instagram.com/patagonia_ascent/" target="_blank"><i class="fa fa-instagram fa-fw"></i></a>
-
-                        </ul>
-                    </li>
-                    <li>
-                      <a href="../es/index.html">  
-                        <img src="img/es.jpg" class="flag img-responsive" alt="Spanish" data-toggle="tooltip" data-placement="right" title="Spanish">
-                      </a>
-                    </li>
-                    <li>
-                      <a href="http://www.aagm.com.ar" target="_blank">  
-                        <img src="img/aagm.png" alt="AAGM" class="img-responsive hidden-xs hidden-sm">
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://ifmga.info" target="_blank">
-                        <img src="img/uiagm.png" alt="UIAGM" class="img-responsive hidden-xs hidden-sm">
-                      </a>
-                    </li>
+  </head>
+  
+  <body>
+    <!-- Navigation -->
+    <nav id="navigation-menu" class="navbar fixed-top navbar-expand-xl navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#section1">
+          <img alt="PatagoniAscent" src="img/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="custom-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav p-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">MOUNTAINEERING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section4">CLIMBING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section5">SKIING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section6">COURSES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.php">CONTACT US</a>
+                <ul class="nav-logos">
+                  <a href="https://www.instagram.com/patagonia_ascent/" target="_blank">
+                    <i class="fab fa-instagram"></i></a>
+                  <a href="https://www.youtube.com/channel/UCMqFsAQ6I0cjByx82SaIQRg" target="_blank">
+                    <i class="fab fa-youtube"></i></a>
+                  <a href="https://www.facebook.com/PatagoniAscent" target="_blank">
+                    <i class="fab fa-facebook"></i></a>
+                  <a href="https://www.tripadvisor.com.ar/Attraction_Review-g316035-d12941928-Reviews-Patagonia_Ascent-El_Chalten_Province_of_Santa_Cruz_Patagonia.html" target="_blank">
+                    <i class="fab fa-tripadvisor"></i></a> 
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../es/index.html">
+                  <!-- <img src="img/es.jpg" alt="Spanish" title="Spanish"> -->
+                  <i class="fas fa-globe" data-toggle="tooltip" data-placement="bottom" title="Spanish"></i>
+                </a>
+            </li>
+            <li class="nav-item d-none d-sm-none d-md-block">
+                <a class="nav-link" href="http://www.aagm.com.ar" target="_blank">
+                  <img src="img/aagm.png" alt="AAGM" class="certificados">
+                </a>
+            </li>
+            <li class="nav-item d-none d-sm-none d-md-block">
+                <a class="nav-link" href="https://ifmga.info" target="_blank">
+                  <img src="img/uiagm.png" alt="UIAGM" class="certificados">
+                </a>
+            </li>
+          </ul>
         </div>
-        <!-- /.container -->
+      </div>
     </nav>
 
-
-<div id="fullpage">
-  
-  <div class="section" id="section7">
-
-    <div class="intro">
-      <!-- <div class="bg-shade"></div> -->
-        <img src="img/logoindex.png">
-        <h3 class="">The most experience guide staff in Chalten</h3>
-        <a href="#aboutus">ABOUT US</a><br>
-        <a href="#aboutus">ABOUT US</a>
-        <li>
-          <ul class="nav-logos">
-              <a href="https://www.tripadvisor.com.ar/Attraction_Review-g316035-d12941928-Reviews-Patagonia_Ascent-El_Chalten_Province_of_Santa_Cruz_Patagonia.html" target="_blank"><i class="fa fa-tripadvisor fa-fw"></i></a> 
-              <a href="https://www.facebook.com/PatagoniAscent" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
-              <a href="https://www.youtube.com/channel/UCMqFsAQ6I0cjByx82SaIQRg" target="_blank"><i class="fa fa-youtube fa-fw"></i></a>
-              <a href="https://www.instagram.com/patagonia_ascent/" target="_blank"><i class="fa fa-instagram fa-fw"></i></a>
-
-          </ul>
-        </li>
-
-        
-        <!-- <div class="container">
-          
-          <div class="col-md-12">
-             <h3 class="">The most experience guide staff in Chalten</h3>
+<!-- div del coso -->
+<div id="content"> 
+<header id="section1" class="section">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000" pause="false">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide 1 - Set the background image for this slide in the line below data-interval="false" -->
+      <div class="carousel-item active" style="background-image: url('img/slide/slide1.jpeg')">
+        <div class="container">
+          <div class="carousel-caption">
+              <div class="shape-shade-slider">
+                <h1>Welcome to<br>Patagonia Ascent<br>2020–2021</h1>
+                <h2>We make your<br> dreams come true</h2>
+                <a class="link-slide" href="#section3">SEE MOUNTAINEERING ITINERARIES</a>
+            </div>
           </div>
-        </div> -->
-           
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div id="slide2" class="lazy carousel-item">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="shape-shade-slider">
+              <h1>El Chalten<br>Patagonia Ascent</h1>
+              <h2>Climbing in one of the <br>best places in the World</h2>
+              <a class="link-slide" href="#section4">SEE CLIMBING ITINERARIES</a>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <!-- Slide 3 -->
+      <div id="slide3" class="lazy carousel-item">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="shape-shade-slider">
+              <h1>Ski season<br>2020-2021</h1>
+              <h2>Skiing in the heart<br>of Patagonia</h2>
+              <a class="link-slide" href="#section5">SEE SKI ITINERARIES</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 4 -->
+      <div id="slide4" class="lazy carousel-item">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="shape-shade-slider">
+              <h1>Enjoy Rock<br>Climbing</h1>
+              <h2>Sport Climbing and<br>Multi Pitch El Chalten</h2>
+              <a class="link-slide" href="sport-climbing.php">SEE SPORT CLIMBING</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="d-none d-sm-none d-md-block" aria-hidden="true"><i class="fas fa-angle-left"></i></span>
+      <span class="sr-only">Previous</span> 
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="d-none d-sm-none d-md-block" aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!-- d-none d-sm-none d-md-block -->
+  </div>
+</header>
+
+
+
+<section id="section2" class="lazy about-us">
+  <div class="container">
+    <div class="p-1">
+      <div class="shape-shade-section">
+      <h3>About Us</h3>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="card-body text-center">
+            <img src="https://www.patagoniascent.com/img/nosotros/JuanRaselliThumb.jpg" class="rounded-circle mx-auto" alt="Juan Raselli">
+            <div class="card">
+              <h4>Juan Raselli</h4>
+              <h5>IFMGA MOUNTAIN GUIDE</h5>
+              <a class="button" href="juan-raselli.php">MORE INFO HERE</a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="card-body text-center">
+            <img src="https://www.patagoniascent.com/img/nosotros/RobertoTreuThumb.jpg" class="rounded-circle mx-auto" alt="Roberto Treu">
+            <div class="card">
+              <h4>Roberto Treu</h4>
+              <h5>IFMGA MOUNTAIN GUIDE</h5>
+              <a class="button" href="roberto-treu.php">MORE INFO HERE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="card-body text-center">
+            <img src="https://www.patagoniascent.com/img/nosotros/TomasAguiloThumb.jpg" class="rounded-circle mx-auto" alt="Tomas Aguilo">
+            <div class="card">
+              <h4>Tomás Aguiló</h4>
+              <h5>IFMGA MOUNTAIN GUIDE</h5>
+              <a class="button" href="tomas-roy-aguilo.php">MORE INFO HERE</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="d-none d-sm-none d-md-block texthome"> 
+          <p class="texthome-aboutus text-center">We are three friends Mountain Guides IFMGA / UIAGM. We live in El Chalten most of the year where we practice our profession and develop our passion for Climbing and Skiing. Over the years we have gained a lot of experience in this region, which we would like to pass on by opening the doors to all those who want to live the Patagonian Experience, in a Safe and unforgettable way.</p>
+      </div> 
+      </div>
     </div>
   </div>
+</section>
 
-
-	<div class="section" id="section0">
-    
-		    <div class="slide" id="slide1">
-              <div class="bg-shade"> </div>
-                <h3 class="hidden-xs">We welcome you to</h3>
-                <h1>PATAGONIA ASCENT...</h1>
-                <h3>A YOUNG COMPANY WITH A LOT OF MOTIVATION<br> TO HELP YOU CONQUER YOUR DREAMS!!!</h3> 
-                <p class="link-slide">
-                    <a href="#aboutus">ABOUT US</a>
-                </p>   
-        </div>
-		    <div class="slide" id="slide2">
-              <!-- <div class="bg-shade"> </div> -->
-                <h3>This season your dreams become your reality...</h3>
-                <h1>PATAGONIA 2020 !!!</h1>
-                <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
-                <p class="link-slide">
-                    <a href="#mountaineering">SEE MOUNTAINEERING ITINERARIES</a>
-                </p>
-        </div>
-        <div class="slide" id="slide3">
-              <!-- <div class="bg-shade"> </div> -->
-                <h3>Climbing in the mecca of world mountaineering...</h3>
-                <h1>"EL CHALTEN"</h1>
-                <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
-                <p class="link-slide">
-                    <a href="#climbing">SEE CLIMBING ITINERARIES</a>
-                </p>
-        </div>
-        <div class="slide" id="slide4">
-              <!-- <div class="bg-shade"> </div> -->
-                <h3>Enjoy the best snow and landscapes...</h3>             
-                <h1>SKI EN PATAGONIA 2020!!!</h1>
-                <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
-                <p class="link-slide">
-                    <a href="#skiing">SEE SKIING ITINERARIES</a>
-                </p>
-        </div>
-        <div class="slide" id="slide5">
-              <!-- <div class="bg-shade"> </div> -->
-                <h3>Here you can see details of our latest expeditions on our.</h3>
-                <h1>SOCIAL MEDIA</h1>
-                <h3 class="hidden-xs">PATAGONIA ASCENT</h3>
-                <p class="link-slide">
-                    <a href="#contactus">FIND US</a>
-                </p>
-        </div>
-  </div>
-
-	<div class="section" id="section1">
-    <div class="bg-shade"> </div>
-        <h1>ABOUT US</h1>
-        <br>
-        <div class="row">
-          <div class="col-xs-10 col-md-4">
-          <div class="thumbnail">
-              <div class="caption">
-                  <h2>Juan Raselli</h2>
-                  <h3>IFMGA MOUNTAIN GUIDE</h3>
-                  <a class="button" href="juan-raselli.php">[ more info here ]</a>  
-              </div>
-              <img data-src="https://www.patagoniascent.com/img/nosotros/JuanRaselliThumb.jpg" alt="Juan Raselli" class="img-responsive img-thumbnail">
-          </div>
-          </div>
-
-          <div class="col-xs-10 col-md-4">
-          <div class="thumbnail">   
-              <div class="caption">
-                <h2>Roberto Treu</h2>
-                <h3>IFMGA MOUNTAIN GUIDE</h3>
-                <a class="button" href="roberto-treu.php">[ more info here ]</a>
-              </div>
-              <img data-src="https://www.patagoniascent.com/img/nosotros/RobertoTreuThumb.jpg" alt="Roberto Treu" class="img-responsive img-thumbnail">
-          </div>
-          </div>
-
-          <div class="col-xs-10 col-md-4">
-          <div class="thumbnail">
-              <div class="caption">
-                  <h2>Tomás Aguiló</h2>
-                  <h3>IFMGA MOUNTAIN GUIDE</h3>
-                  <a class="button" href="tomas-roy-aguilo.php">[ more info here ]</a>
-              </div>
-              <img data-src="https://www.patagoniascent.com/img/nosotros/TomasAguiloThumb.jpg" alt="Tomas Aguilo" class="img-responsive img-thumbnail">
-          </div>
-          </div> 
-        </div>
-        <div class="hidden-xs"> 
-          <p id="texthome">WE ARE THREE HIGH MOUNTAIN GUIDES EACH WITH <b>IFMGA (UIAGM / IFMGA) INTERNATIONAL CERTIFICATION</b>. WE ARE ALSO FRIENDS THAT LIVE IN EL CHALTEN MOST OF THE YEAR WHERE WE PRACTICE OUR PROFESSION AND DEVELOP <b>OUR PASSION FOR CLIMBING AND SKIING</b>. OVER THE YEARS WE HAVE GAINED A LOT OF EXPERIENCE IN THIS REGION WHICH WE WOULD LIKE TO PASS ON BY OPENING THE DOORS TO ALL THOSE WHO WANT TO LIVE THEIR <b>PATAGONIAN EXPERIENCE IN A SAFE AND UNFORGETTABLE WAY</b>.</p>
-        </div> 
-  </div>
-	
-	<div class="section" id="section2">
-      <div class="bg-shade"> </div>
-        <h1>MOUNTAINEERING</h1>
-        <ul class="nav menu-section">
-          <li><a href="expedition-ice-field.php" title="Expedition Patagonian Ice Field.">Expedition Patagonian Ice Field</a></li>
+<section id="section3" class="lazy mountaineering">
+  <div class="container">
+    <div class="p-1">
+      <div class="shape-shade-section" id="talkbubble">
+        <h3>Mountaineering<br> in Patagonia</h3>
+        <ul class="menu-section">
+          <li><a href="expedition-ice-field.php" title="Expedition Patagonian Ice Field.">Patagonian Ice Field</a></li>
           <li><a href="cerro-solo.php" title="Cerro Solo">Cerro Solo</a></li>
           <li><a href="cerro-electrico.php" title="Cerro Electrico">Cerro Electrico</a></li>
           <li><a href="cerro-gorra-blanca.php" title="Cerro Gorra Blanca">Cerro Gorra Blanca</a></li>
@@ -246,15 +237,20 @@
           <li><a href="cerro-mojon-rojo.php" title="Cerro Mojon Rojo">Cerro Mojon Rojo</a></li>
           <li><a href="cerro-vespignani.php" title="Cerro Vespignani">Cerro Vespignani</a></li>
           <li><a href="tres-valles-traverse.php" title="Tres Valles Traverse">Tres Valles Traverse</a></li>
-          <li><a href="paso-superior-traverse.php" title="Paso Superior - Paso Guillaumet Traverse">Paso Superior - Paso Guillaumet Traverse</a></li>
-          <li><a href="fitz-roy-cerro-torre-circuit.php" title="Fitz Roy - Cerro Torre Circuit">Fitz Roy - Cerro Torre Circuit</a></li>
+          <li><a href="paso-superior-traverse.php" title="Paso Superior - Paso Guillaumet Traverse">Paso Superior Traverse</a></li>
+          <li><a href="fitz-roy-cerro-torre-circuit.php" title="Fitz Roy - Cerro Torre Circuit">Fitz Roy Circuit</a></li>
         </ul>
-  </div>
+      </div>
+    </div>
+   </div>
+</section>
 
-	<div class="section" id="section3">
-    <div class="bg-shade"> </div>
-        <h1>CLIMBING</h1>
-        <ul class="nav menu-section">
+<section id="section4" class="lazy climbing">
+  <div class="container">
+    <div class="p-1">
+      <div class="shape-shade-section">
+       <h3>Climbing <br>in Patagonia</h3>
+        <ul class="menu-section">
           <li><a href="sport-climbing.php">Sport Climbing</a></li>
           <li><a href="aguja-guillaumet.php">Aguja Guillaumet</a></li>
           <li><a href="cerro-mocho.php">Cerro Mocho</a></li>
@@ -263,155 +259,246 @@
           <li><a href="cerro-fitz-roy.php">Cerro Fitz Roy</a></li>
           <li><a href="cerro-torre.php">Cerro Torre</a></li>
         </ul>
+      </div>
     </div>
+  </div>
+</section>
 
-    <div class="section" id="section4">
-      <div class="bg-shade"> </div>
-        <h1>SKI</h1>       
-        <ul class="nav menu-section">
+<section id="section5" class="lazy ski">
+  <div class="container">
+    <div class="p-1">
+      <div class="shape-shade-section">
+        <h3>Skiing in<br>Patagonia</h3>       
+        <ul class="menu-section">
             <li><a href="north-patagonia.php">North Patagonia</a></li>
             <li><a href="south-patagonia.php">South Patagonia</a></li>
-            <li><a href="volcanoes-patagonia.php">Volcanoes in Patagonia</a>
-            <li><a href="tour-patagonia.php">Ski Tour in Patagonia</a>
+            <li><a href="volcanoes-patagonia.php">Volcanoes in Patagonia</a></li>
+            <li><a href="tour-patagonia.php">Ski Tour in Patagonia</a></li>
         </ul>  
+      </div>
     </div>
+  </div>
+</section>
 
-    <div class="section" id="section5">
-      <div class="bg-shade"> </div>
-       <h1>COURSES</h1>
-        <p class="hidden-xs">WE ARE ALSO COMMITTED TO CARRYING OUT <b>MOUNTAIN TRAINING</b>. WE WILL GIVE YOU THE BASIC TOOLS TO MOVE <b>SAFELY AND SMOOTHLY</b> IN THE MOUNTAINS. WE OFFER <b>COURSES AND CLINICS</b> OF ALL LEVELS ACCORDING TO THE FIELD IN WHICH YOU WOULD LIKE TO TRAIN.</p>            
-        <ul class="nav menu-section">
+<section id="section6" class="lazy courses">
+  <div class="container">
+    <div class="p-1">
+      <div class="shape-shade-section">
+        <h3>Courses<br> Patagonia</h3>
+          
+        <ul class="menu-section">
             <li><a href="rock-climbing-course.php">Rock Climbing</a></li>
-            <li><a href="ice-climbing-course.php">Ice Climbing and Glacier Travel</a></li>
+            <li><a href="ice-climbing-course.php">Ice Climbing</a></li>
             <li><a href="ski-mountaineering-course.php">Ski Mountaineering</a></li>
         </ul> 
+        <p class="texthome texthome-courses">
+          We are also committed to carrying out mountain training. We will give you the basic tools to move safely and smoothly in the mountains. We offer courses and clinics of all levels according to the field in which you would like to train.</p> 
+      </div>
     </div>
+  </div>
+</section>
 
-    <div class="section" id="section6">
-      <div class="bg-shade"> </div>
-      
-      <h1>CONTACT US</h1>
-
-      <div class="row">
-
-          <div class="col-md-3">
-            <a href='https://www.facebook.com/PatagoniAscent' target="_blank"><h2>Facebook</h2></a>
-            <!-- Facebook widget 
-            <div class="contacto">
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPatagoniAscent&tabs=timeline&width=250&height=268&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="250" height="268" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> -->
+<section id="section7" class="find-us">
+  <div class="container">
+    <div class="p-1">
+       <!-- <div class="shape-shade-section"> -->
+        
+          <div class="row">
+            <div class="col-sm">
+              <h3 class="mb-1 mt-1">Find Us</h3>
+              <ul class="nav-logos">
+              <a href="https://www.instagram.com/patagonia_ascent/" target="_blank" class="footer-social-logos">
+              <i class="fab fa-instagram mr-2"></i></a>
+              <a href="https://www.youtube.com/channel/UCMqFsAQ6I0cjByx82SaIQRg" target="_blank" class="footer-social-logos"><i class="fab fa-youtube mr-2"></i></a>
+              <a href="https://www.facebook.com/PatagoniAscent" target="_blank" class="footer-social-logos">
+              <i class="fab fa-facebook mr-2"></i></a>
+              <a href="https://www.tripadvisor.com.ar/Attraction_Review-g316035-d12941928-Reviews-Patagonia_Ascent-El_Chalten_Province_of_Santa_Cruz_Patagonia.html" target="_blank" class="footer-social-logos">
+              <i class="fab fa-tripadvisor mr-2"></i></a> 
+            </ul>
             </div>
-          </div>
-          
-          <div class="col-md-3">
-            <a href='https://instagram.com/patagonia_ascent' target="_blank"><h2>Instagram</h2>
-            <img data-src="https://www.patagoniascent.com/img/instagram.png" class="img-responsive contacto" alt="instagram"> 
-            </a>
 
-            <!-- Instagram widget -->
-            <!-- <style>video.labnol, img.labnol {max-width:100%; width: 100% !important; height: auto !important;}</style> <video class='labnol' width='250' height='268' controls poster='https://scontent-bos3-1.cdninstagram.com/v/t51.2885-15/e35/83626956_811979085947896_6601592546332241805_n.jpg?_nc_ht=scontent-bos3-1.cdninstagram.com&_nc_cat=104&_nc_ohc=MPZzZC3_R1oAX_SjpvS&oh=f098981f9914999039554668e189f826&oe=5E78C597'><source src='https://scontent-bos3-1.cdninstagram.com/v/t50.2886-16/84506372_637427780427960_2505736149085142495_n.mp4?_nc_ht=scontent-bos3-1.cdninstagram.com&_nc_cat=100&_nc_ohc=oxBNy2h9EPkAX_A-NcB&oe=5E786197&oh=a9a23b72c9bce2e1244cd00b8f6af25c' type='video/mp4'></video>  -->
-              
-          </div>    
-          
-          <div class="col-md-3"> 
-            <a href='https://www.youtube.com/channel/UCMqFsAQ6I0cjByx82SaIQRg' target="_blank"><h2>Youtube</h2>
-            <!-- Youtube widget 
-            <div class="contacto">
-              <iframe width="250" height="268" src="https://www.youtube.com/embed/videoseries?list=UUMqFsAQ6I0cjByx82SaIQRg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+            <div class="col-sm">
+              <h3 class="mb-1 mt-1">Contact Us</h3>
+              <p class="mr-2 texthome"><i class="fa fa-phone-alt"></i><a href="tel:+542644449633"> +54 264 4449633</a></p>
+              <p class="mr-2 texthome"><i class="fa fa-envelope"></i><a href="mailto:patagoniascent@gmail.com">  patagoniascent@gmail.com</a></p>                
+              <p class="mr-2 texthome"><i class="fa fa-map-marked-alt"></i> Leonel Terray 324, Z9301 El Chalten, Santa Cruz, Argentina</p>
+              <!-- <p class="mr-2">@ <b>PATAGONIA</b>SCENT 2020</p> -->
             </div>
-            <!-- TripAdvisor widget 
-            <div id="TA_selfserveprop260" class="TA_selfserveprop"><ul id="IPxS1CXVA05" class="TA_links zltwXAul7"><li id="z9ITny5a" class="jQnKKp"><a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a></li></ul></div><script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=260&amp;locationId=12941928&amp;lang=en_US&amp;rating=true&amp;nreviews=1&amp;writereviewlink=true&amp;popIdx=false&amp;iswide=false&amp;border=true&amp;display_version=2" data-loadtrk onload="this.loadtrk=true"></script> -->
-          </div>
 
-          <div class="col-md-3">
-            <a href="mailto:patagoniascent@gmail.com"><h2>E-mail</h2></a>
-            <form action="mail/contact_me.php" method="POST" class="contactform" name="sentMessage"  id="contactForm" novalidate>
-              <div class="row">
-                  <div class="form-group col-xs-12">
-                      <input type="text" class="form-control" placeholder="Name:" name="name" id="name" required data-validation-required-message="Please enter your name.">
-                      <p class="help-block text-danger"></p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="form-group col-xs-12">
-                      <input type="email" class="form-control" placeholder="E-mail:" name="email" id="email"  type="email" required data-validation-required-message="Please enter your email address.">
-                      <p class="help-block text-danger"></p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="form-group col-xs-12">
-                      <textarea rows="5" class="form-control" placeholder="Message:" name="message" id="message" maxlength="400" required data-validation-required-message="Please enter a message."></textarea>
-                      <p class="help-block text-danger"></p>
-                  </div>
-              </div>
-              <div id="success"></div>
-              <div class="row">
-                  <div class="form-group col-xs-12">
-                    <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary btn-lg send">
-                  </div>
-              </div>
-            </form>
-          </div>
-
-          <div class="col-md-12">
-            <div class="row">
-              <div class="footer">
-                <h4 class="hidden-xs"><b>PATAGONIA</b>SCENT</h4>
-                <h4>Mail: <a href="mailto:patagoniascent@gmail.com">patagoniascent@gmail.com</a></h4>
-                <h4>Tel: +54 264 4449633</h4>
-              </div>
-            </div> 
-          </div>
+            <div class="col-sm">
+              <h3 class="mb-1 mt-1">Site Map</h3>
+              <p class="texthome"><a href="#section2">About Us</a> - <a href="#section3">Mountaineering</a> - <a href="#section4">Climbing</a> - <a href="#section5">Skiing</a> - <a href="#section6">Courses</a> - <a href="contact-us.php">Contact Us</a></p> 
+            </div>
           
-      </div>   
-
+          </div>
+      <!-- </div> -->
     </div>
+  </div>
 
-</div> <!-- cierra fullpage -->
+</section>
+
+<!-- div del coso -->
+</div>
+
+
+    <!-- Google CDN jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- Lazy load image -->
+    <script type="text/javascript" src="js/lazyloadimage.js"></script> 
+
+    <!-- ToolTip -->
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+  
+    <!-- Page Scroll to id plugin -->
+    <script src="js/jquery.malihu.PageScroll2id.js"></script>
+  
+    <script>
+      (function($){
+        $(window).on("load",function(){
+          
+          /* Page Scroll to id fn call */
+          $("#navigation-menu a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
+            highlightSelector:"#navigation-menu a"
+          });
+          
+          /* demo functions */
+          $("a[rel='next']").click(function(e){
+            e.preventDefault();
+            var to=$(this).parent().parent("section").next().attr("id");
+            $.mPageScroll2id("scrollTo",to);
+          });
+          
+        });
+      })(jQuery);
+    </script>
+    <script>
+        (function($){
+          $(window).on("load",function(){
       
-  <!-- Lazy load image 
-  <script type="text/javascript" src="js/lazyloadimage.js"></script> 
-  -->
-	<!-- jQuery JavaScript -->
-	<script src="jquery/dist/jquery.min.js"></script>
-	<!-- Bootstrap JavaScript -->
-  <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
-	<!-- FullPage JavaScript -->
-	<script type="text/javascript" src="fullpage/jquery.fullPage.min.js"></script>
-	<!-- BootstrapValidation -->
-  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-  <!-- Contact Form JavaScript -->
-  <script type="text/javascript" src="js/contact_me.js"></script> 
-
-  <!-- FullPage -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-                anchors: ['intro','home','aboutus','mountaineering','climbing','skiing','courses','contactus'],
-                menu: '#menu',
-                scrollingSpeed: 800,
-				        verticalCentered: true,
-                navigation: false,
-                slidesNavigation: true,
-                slidesNavPosition: 'bottom',
-                controlArrows: true,
-                //scrollBar: true,
-                //normalScrollElements: '#section6, .contactus',
-                //responsiveHeight: 500,
-                responsiveWidth: 900,
-                bigSectionsDestination: top,
-                //lazyLoading: true,
-                //autoScrolling: false,
-                //fitToSection: true,
-                //scrollOverflow: true,
-            afterRender: function(){
-                    setInterval(function(){
-                    $.fn.fullpage.moveSlideRight();
-                }, 14000);
+            var doc=$(document),
+              mPS2idData=doc.data("mPS2id"),
+              mPS2idExt;
+      
+            if(!mPS2idData){
+              console.log("Error: 'Page scroll to id' plugin not present or activated. Please run the code after plugin is loaded.");
+              return;
             }
-			});
-		});
-	</script>
 
+            if(!$("._mPS2id-t").length) return;
+      
+            doc.data("mPS2idExtend",{
+              selector: "._mPS2id-h",
+              currentSelector: function(){
+                return this.index($(".mPS2id-highlight-first").length ? $(".mPS2id-highlight-first") : $(".mPS2id-highlight").length ? $(".mPS2id-highlight") : $(".mPS2id-wheel-init"));
+              },
+              target: function(){
+                var curr=$(".mPS2id-target-first").length ? $(".mPS2id-target-first") : $(".mPS2id-target").length ? $(".mPS2id-target") : $(".mPS2id-clicked").length ? $("#"+$(".mPS2id-clicked").attr("href").split("#")[1]) : false;
+                if(!curr.length){
+                  //if no current target exists, get the next and previous closest sections
+                  var max=999999999,
+                    min=-999999999;
+                  $("._mPS2id-t").each(function(){
+                    var pos=mPS2idData.layout==="horizontal" ? this.getBoundingClientRect().left : this.getBoundingClientRect().top;
+                    if(pos < 0 && pos > min){
+                      min=pos; 
+                      curr=$("._mPS2id-t[data-psid-wheel-section='"+($(this).data("psid-wheel-section")+1)+"']");
+                    }else if(pos > 0 && pos < max){
+                      max=pos; 
+                      curr=$("._mPS2id-t[data-psid-wheel-section='"+($(this).data("psid-wheel-section")-1)+"']");
+                    }
+                  });
+                  $("._mPS2id-h[data-psid-wheel-link='"+curr.data("psid-wheel-section")+"']").addClass("mPS2id-wheel-init");
+                }
+                return [
+                  $("._mPS2id-t[data-psid-wheel-section='"+(curr.data("psid-wheel-section")-1)+"']"), //previous target
+                  curr, //current target
+                  $("._mPS2id-t[data-psid-wheel-section='"+(curr.data("psid-wheel-section")+1)+"']"), //next target
+                ];
+              },
+              needScroll: function(dir){
+                if($("html,body").is(":animated")) return;
+                if(dir > 0){ //scrolled fw
+                  var el=mPS2idExt.target.call()[2][0]; //next adjacent target
+                  if(mPS2idData.layout==="horizontal"){
+                    return el ? el.getBoundingClientRect().left > (window.innerWidth || document.documentElement.clientWidth) : true; //next target is after viewport
+                  }else{
+                    return el ? el.getBoundingClientRect().top > (window.innerHeight || document.documentElement.clientHeight) : true; //next target is below viewport
+                  }
+                }else if(dir < 0){ //scrolled bw
+                  var el=mPS2idExt.target.call()[0][0]; //previous adjacent target
+                  if(mPS2idData.layout==="horizontal"){
+                    return el ? el.getBoundingClientRect().right < 0 : true; //previous target is before viewport
+                  }else{
+                    return el ? el.getBoundingClientRect().bottom < 0 : true; //previous target is above viewport
+                  }
+                }
+              },
+              input:{
+                y: null,
+                x: null},
+              i: null,
+              time: null,
+              support:{
+                wheel: false
+              }
+            }).on("ps2id-scrollSection",function(e,dlt,i){
+              var sel=$(mPS2idExt.selector);
+              if(!$("html,body").is(":animated")){
+                if(!i) i=mPS2idExt.currentSelector.call(sel);
+                if(!(i===0 && dlt>0) && !(i===sel.length-1 && dlt<0)) sel.eq(i-dlt).trigger("click.mPS2id");
+              }
+            }).on("keydown",function(e){ //keyboard
+              var code=e.keyCode ? e.keyCode : e.which,
+                keys=$(this).data("mPS2id").layout==="horizontal" ? [37,39] : [38,40];
+              if(code===keys[0] || code===keys[1]){
+                if(!mPS2idExt.needScroll((code > 38 ? 1 : -1))){ //check if normal scrolling is needed to reach adjacent targets
+                  if($(mPS2idExt.selector).length) e.preventDefault();
+                  $(this).trigger("ps2id-scrollSection",(code===keys[0] ? 1 : -1));
+                }
+              }
+            })
+            .on("ps2id-wheel-init",function(){
+              //script initialization
+              mPS2idExt=$(this).data("mPS2idExtend");
+              $("._mPS2id-t").each(function(index){
+                $(this).attr("data-psid-wheel-section",index);
+              });
+              $("._mPS2id-h").each(function(index){
+                $(this).attr("data-psid-wheel-link",index);
+              });
+              //vanilla js mousewheel event (https://github.com/jquery/jquery/issues/2871)
+              document.addEventListener('wheel', wheel, {passive: false}, false);
+              document.addEventListener('mousewheel', wheel, {passive: false}, false);
+              document.addEventListener('DOMMouseScroll', wheel, {passive: false}, false);
+              function wheel(e){
+                if(e.type == "wheel"){
+                  mPS2idExt.support.wheel = true;
+                }else if(mPS2idExt.support.wheel){
+                  return;
+                }
+                if(!mPS2idExt.needScroll((mPS2idData.layout==="horizontal" ? e.deltaX : e.deltaY))){ //check if normal scrolling is needed to reach adjacent targets
+                  if($(mPS2idExt.selector).length) e.preventDefault();
+                  doc.trigger("ps2id-scrollSection",((e.detail<0 || e.wheelDelta>0 || e.deltaY < 0 || e.deltaX < 0) ? 1 : -1));
+                }
+              };
+            }).trigger("ps2id-wheel-init");
+          });
+          
+        })(jQuery);
+    </script>
 
 </body>
 </html>
